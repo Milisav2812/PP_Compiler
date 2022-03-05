@@ -1,0 +1,77 @@
+INFO  10:54:14,187 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  10:54:14,242 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+           y
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_NoStatements(
+          ) [StatementList_NoStatements]
+          Statement_LabelSingleStatement(
+            Label(
+             label
+            ) [Label]
+          ) [Statement_LabelSingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_GotoLabel(
+            Label(
+             label
+            ) [Label]
+          ) [SingleStatement_GotoLabel]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  10:54:14,243 - ===================================
+INFO  10:54:14,247 - Promenljiva y dodata u Tabelu Simbola! na liniji 2
+INFO  10:54:14,247 - Obradjuje se funkcija main na liniji 4
+INFO  10:54:14,247 - Niz z dodat u Tabelu Simbola! na liniji 4
+INFO  10:54:14,247 - Labela label uspesno dodata! na liniji 6
+INFO  10:54:14,247 - Labela: rs.ac.bg.etf.pp1.MyStruct@17a7cec2 na liniji 8
+ERROR 10:54:14,247 - Labela label se ne nalazi unutar trenutnog Scope-a! na liniji 8
+INFO  10:54:14,247 - Zavrseno obradjivanje funkcije main
+INFO  10:54:14,247 - ===================================

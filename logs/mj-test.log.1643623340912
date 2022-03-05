@@ -1,0 +1,14 @@
+INFO  10:49:25,974 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  10:49:26,005 - ===================================
+INFO  10:49:26,007 - 
+ INFO: Deklarisan LOKALNI niz y na liniji 2
+
+INFO  10:49:26,007 - 
+ INFO: Deklarisana LOKALNA promenljiva x na liniji 3
+
+INFO  10:49:26,008 - 
+ INFO: Deklarisana LOKALNA promenljiva z na liniji 5
+
+ERROR 10:49:26,008 - ERROR: Varijabla g ima nedozvoljen broj dimenzija! na liniji 5
+INFO  10:49:26,009 - ===================================
+ERROR 10:49:26,009 - Parsiranje NIJE uspesno zavrseno!

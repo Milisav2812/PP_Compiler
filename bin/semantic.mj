@@ -1,0 +1,39 @@
+program MJProgram
+	randomType a; // Semanticka greska - randomType nije tip!
+	const int x = 1;
+{
+	void main() 
+	int x1; char x1; // Semanticka greska - x1 vec postoji u tabeli simbola
+	
+	int number; 
+	char character; 
+	bool boolean;
+	
+	int niz[], niz1[];
+	{
+		// Semanticka greska - Nisu korektni tipovi sa desne strane jednakosti
+		number = 'a'; 
+		number = true;
+		character = 1;
+		character = true;
+		boolean = 1;
+		boolean = 'a';
+		
+		// Semanticka greska - Ne moze da se dodeli vrednost konstanti
+		x = 2;
+		
+		// Semanticka greska - tip za inkrement i dekrement moze biti jedino int
+		character++;
+		boolean--;
+		
+		// Semanticka greska - tip mora da bude int
+		character = -'a';
+		
+		// Semanticka greska - tip za alociranje niza moze biti jedino int
+		niz = new int['a'];
+
+		number = number + 'a'; // Semanticka greska - clanovi izraza nisu tipa int i nisu kompatibilni
+		number = number * 'a'; // Semanticka greska - clanovi izraza nisu tipa int
+	
+	}
+}

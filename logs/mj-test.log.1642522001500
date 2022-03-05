@@ -1,0 +1,89 @@
+INFO  17:02:19,989 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  17:02:20,046 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Array(
+           y
+          ) [VarDeclaration_Array]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Assignop(
+              Designator_Var(
+               y
+              ) [Designator_Var]
+              Assignop(
+              ) [Assignop]
+              Assignment_Expr(
+                Expr_Term(
+                  Term_Factor(
+                    Factor_NewExpr(
+                      Type(
+                       int
+                      ) [Type]
+                      Expr_Term(
+                        Term_Factor(
+                          Factor_Number(
+                           5
+                          ) [Factor_Number]
+                        ) [Term_Factor]
+                      ) [Expr_Term]
+                    ) [Factor_NewExpr]
+                  ) [Term_Factor]
+                ) [Expr_Term]
+              ) [Assignment_Expr]
+            ) [DesignatorStatement_Assignop]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  17:02:20,046 - ===================================
+INFO  17:02:20,050 - INFO: Niz y dodat u Tabelu Simbola! na liniji 2
+INFO  17:02:20,051 - INFO: Niz z dodat u Tabelu Simbola! na liniji 4
+ERROR 17:02:20,051 - ERROR: Semanticka greska: Nekompatibilni tipovi! na liniji 6
+INFO  17:02:20,051 - INFO: Zavrseno obradjivanje funkcije main
+INFO  17:02:20,051 - ===================================

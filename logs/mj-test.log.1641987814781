@@ -1,0 +1,92 @@
+INFO  12:39:00,869 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  12:39:00,890 - #31 MJProgram
+INFO  12:39:00,890 - #31 int
+INFO  12:39:00,891 - #31 x
+INFO  12:39:00,892 - #31 z
+INFO  12:39:00,892 - #31 y
+INFO  12:39:00,892 - #31 int
+INFO  12:39:00,892 - #31 g
+INFO  12:39:00,892 - #31 int
+INFO  12:39:00,893 - #31 main
+INFO  12:39:00,893 - #31 g
+INFO  12:39:00,894 - #30 5
+INFO  12:39:00,896 - Program(
+  ProgramName(
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_VarDecl(
+        VarDeclarations(
+          Type(
+          ) [Type]
+          MultipleVarDeclaration(
+            MultipleVarDeclaration(
+              SingleVarDeclaration(
+                VarDeclaration_Variable(
+                ) [VarDeclaration_Variable]
+              ) [SingleVarDeclaration]
+              VarDeclaration_Variable(
+              ) [VarDeclaration_Variable]
+            ) [MultipleVarDeclaration]
+            VarDeclaration_Variable(
+            ) [VarDeclaration_Variable]
+          ) [MultipleVarDeclaration]
+        ) [VarDeclarations]
+      ) [DeclarationItem_VarDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Assignop(
+              Designator_Ident(
+              ) [Designator_Ident]
+              Assignop(
+              ) [Assignop]
+              Expr_TermList(
+                TermList_SingleTerm(
+                  Term(
+                    FactorList_SingleFactor(
+                      Factor_Number(
+                      ) [Factor_Number]
+                    ) [FactorList_SingleFactor]
+                  ) [Term]
+                ) [TermList_SingleTerm]
+              ) [Expr_TermList]
+            ) [DesignatorStatement_Assignop]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  12:39:00,896 - ===================================
+INFO  12:39:00,898 -  Print count calls = 0
+INFO  12:39:00,898 -  Deklarisanih const promenljivih ima = 0
+INFO  12:39:00,898 - ===================================

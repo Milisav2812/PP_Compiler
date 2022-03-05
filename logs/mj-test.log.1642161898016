@@ -1,0 +1,74 @@
+INFO  13:01:36,525 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  13:01:36,560 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclaration(
+          Type(
+           Bool
+          ) [Type]
+          SingleConstDeclaration(
+            ConstBool(
+             x
+              BoolConst(
+               null
+              ) [BoolConst]
+            ) [ConstBool]
+          ) [SingleConstDeclaration]
+        ) [ConstDeclaration]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+           y
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_NoStatements(
+      ) [StatementList_NoStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  13:01:36,566 - ===================================
+ERROR 13:01:36,571 - Vrednost konstante x nije tipa Boolean! na liniji 2
+INFO  13:01:36,571 - Promenljiva y dodata u Tabelu Simbola! na liniji 3
+INFO  13:01:36,572 - Niz z dodat u Tabelu Simbola! na liniji 6
+INFO  13:01:36,572 - ===================================

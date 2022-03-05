@@ -1,0 +1,129 @@
+INFO  19:08:59,220 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  19:08:59,259 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_VarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             y
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [DeclarationItem_VarDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+           x
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_NoStatements(
+          ) [StatementList_NoStatements]
+          Statement_SingleStatement(
+            SingleStatement_DesignatorStatement(
+              DesignatorStatement_Assignop(
+                Designator_Var(
+                 y
+                ) [Designator_Var]
+                Assignop(
+                ) [Assignop]
+                Assignment_Expr(
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_NewExpr(
+                        Type(
+                         int
+                        ) [Type]
+                        Expr_Term(
+                          Term_Factor(
+                            Factor_Number(
+                             5
+                            ) [Factor_Number]
+                          ) [Term_Factor]
+                        ) [Expr_Term]
+                      ) [Factor_NewExpr]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                ) [Assignment_Expr]
+              ) [DesignatorStatement_Assignop]
+            ) [SingleStatement_DesignatorStatement]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Assignop(
+              Designator_Array(
+               y
+                Expr_Term(
+                  Term_Factor(
+                    Factor_Number(
+                     2
+                    ) [Factor_Number]
+                  ) [Term_Factor]
+                ) [Expr_Term]
+              ) [Designator_Array]
+              Assignop(
+              ) [Assignop]
+              Assignment_Expr(
+                Expr_Term(
+                  Term_Factor(
+                    Factor_Number(
+                     3
+                    ) [Factor_Number]
+                  ) [Term_Factor]
+                ) [Expr_Term]
+              ) [Assignment_Expr]
+            ) [DesignatorStatement_Assignop]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  19:08:59,260 - ===================================
+INFO  19:08:59,263 - INFO: Promenljiva x dodata u Tabelu Simbola! na liniji 3
+INFO  19:08:59,263 - INFO: Uspesno dodeljena vrednost promenljivoj y

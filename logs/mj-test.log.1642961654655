@@ -1,0 +1,186 @@
+INFO  19:12:22,290 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  19:12:22,327 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+           y
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      VoidMethReturnType(
+       main
+      ) [VoidMethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          MultipleVarDeclaration(
+            SingleVarDeclaration(
+              VarDeclaration_Variable(
+               x
+              ) [VarDeclaration_Variable]
+            ) [SingleVarDeclaration]
+            VarDeclaration_Variable(
+             z
+            ) [VarDeclaration_Variable]
+          ) [MultipleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_MultipleStatements(
+            StatementList_MultipleStatements(
+              StatementList_MultipleStatements(
+                StatementList_MultipleStatements(
+                  StatementList_MultipleStatements(
+                    StatementList_NoStatements(
+                    ) [StatementList_NoStatements]
+                    Statement_SingleStatement(
+                      SingleStatement_DesignatorStatement(
+                        DesignatorStatement_Assignop(
+                          Designator_Var(
+                           y
+                          ) [Designator_Var]
+                          Assignop(
+                          ) [Assignop]
+                          Assignment_Expr(
+                            Expr_Term(
+                              Term_Factor(
+                                Factor_Number(
+                                 1
+                                ) [Factor_Number]
+                              ) [Term_Factor]
+                            ) [Expr_Term]
+                          ) [Assignment_Expr]
+                        ) [DesignatorStatement_Assignop]
+                      ) [SingleStatement_DesignatorStatement]
+                    ) [Statement_SingleStatement]
+                  ) [StatementList_MultipleStatements]
+                  Statement_SingleStatement(
+                    SingleStatement_GotoLabel(
+                      Label(
+                       label1
+                      ) [Label]
+                    ) [SingleStatement_GotoLabel]
+                  ) [Statement_SingleStatement]
+                ) [StatementList_MultipleStatements]
+                Statement_SingleStatement(
+                  SingleStatement_DesignatorStatement(
+                    DesignatorStatement_Inc(
+                      Designator_Var(
+                       y
+                      ) [Designator_Var]
+                    ) [DesignatorStatement_Inc]
+                  ) [SingleStatement_DesignatorStatement]
+                ) [Statement_SingleStatement]
+              ) [StatementList_MultipleStatements]
+              Statement_SingleStatement(
+                SingleStatement_DesignatorStatement(
+                  DesignatorStatement_Inc(
+                    Designator_Var(
+                     y
+                    ) [Designator_Var]
+                  ) [DesignatorStatement_Inc]
+                ) [SingleStatement_DesignatorStatement]
+              ) [Statement_SingleStatement]
+            ) [StatementList_MultipleStatements]
+            Statement_SingleStatement(
+              SingleStatement_DesignatorStatement(
+                DesignatorStatement_Inc(
+                  Designator_Var(
+                   y
+                  ) [Designator_Var]
+                ) [DesignatorStatement_Inc]
+              ) [SingleStatement_DesignatorStatement]
+            ) [Statement_SingleStatement]
+          ) [StatementList_MultipleStatements]
+          Statement_LabelSingleStatement(
+            Label(
+             label1
+            ) [Label]
+            SingleStatement_DesignatorStatement(
+              DesignatorStatement_Inc(
+                Designator_Var(
+                 y
+                ) [Designator_Var]
+              ) [DesignatorStatement_Inc]
+            ) [SingleStatement_DesignatorStatement]
+          ) [Statement_LabelSingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_PrintExpr(
+            Expr_Term(
+              Term_Factor(
+                Factor_Designator(
+                  Designator_Var(
+                   y
+                  ) [Designator_Var]
+                ) [Factor_Designator]
+              ) [Term_Factor]
+            ) [Expr_Term]
+          ) [SingleStatement_PrintExpr]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  19:12:22,334 - ===================================
+INFO  19:12:22,337 - 
+ INFO: Pristupa se Globalnoj promenljivoj y: 
+Designator_Var(
+ y
+) [Designator_Var] na liniji 6
+
+INFO  19:12:22,337 - 
+ INFO: Pristupa se Globalnoj promenljivoj y: 
+Designator_Var(
+ y
+) [Designator_Var] na liniji 8
+
+INFO  19:12:22,337 - 
+ INFO: Pristupa se Globalnoj promenljivoj y: 
+Designator_Var(
+ y
+) [Designator_Var] na liniji 9
+
+INFO  19:12:22,337 - 
+ INFO: Pristupa se Globalnoj promenljivoj y: 
+Designator_Var(
+ y
+) [Designator_Var] na liniji 10
+
+INFO  19:12:22,337 - 
+ INFO: Pristupa se Globalnoj promenljivoj y: 
+Designator_Var(
+ y
+) [Designator_Var] na liniji 12
+
+INFO  19:12:22,337 - 
+ INFO: Pristupa se Globalnoj promenljivoj y: 
+Designator_Var(
+ y
+) [Designator_Var] na liniji 14
+
+INFO  19:12:22,337 - ===================================
+INFO  19:12:22,345 - Parsiranje uspesno zavrseno!

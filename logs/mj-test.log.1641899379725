@@ -1,0 +1,177 @@
+INFO  12:06:04,484 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  12:06:04,504 - #31 MJProgram
+INFO  12:06:04,504 - #31 int
+INFO  12:06:04,504 - #31 x
+ERROR 12:06:04,505 - 
+Sintaksna greska na liniji 2
+INFO  12:06:04,505 - #31 y
+INFO  12:06:04,505 - #30 10
+INFO  12:06:04,505 - #31 int
+INFO  12:06:04,505 - #31 z
+INFO  12:06:04,505 - #31 bool
+ERROR 12:06:04,506 - Greska: neispravno definisana globalna promenljiva na liniji 2. Izvrsen oporavak do narednog ,
+INFO  12:06:04,507 - #31 k
+INFO  12:06:04,507 - #31 int
+INFO  12:06:04,507 - #31 x
+INFO  12:06:04,507 - #31 int
+INFO  12:06:04,507 - #31 y
+INFO  12:06:04,508 - #31 int
+INFO  12:06:04,508 - #31 v
+INFO  12:06:04,509 - #31 g
+INFO  12:06:04,510 - #31 int
+INFO  12:06:04,511 - #31 main
+INFO  12:06:04,511 - #31 char
+INFO  12:06:04,511 - #31 s
+INFO  12:06:04,512 - #31 labela
+INFO  12:06:04,512 - #31 s
+INFO  12:06:04,512 - #32 g
+INFO  12:06:04,513 - #31 s
+INFO  12:06:04,514 - #30 5
+INFO  12:06:04,514 - #30 4
+INFO  12:06:04,514 - #30 5
+INFO  12:06:04,515 - Program(
+  ProgramName(
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_ConstDecl(
+      ConstDeclaration(
+        Type(
+        ) [Type]
+        SingleConstDeclaration(
+          ConstDeclarationItem_ErrorStatement(
+          ) [ConstDeclarationItem_ErrorStatement]
+        ) [SingleConstDeclaration]
+      ) [ConstDeclaration]
+    ) [DeclarationItem_ConstDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    MultipleMethod(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclaration(
+        MethReturnType(
+          Type(
+          ) [Type]
+        ) [MethReturnType]
+        FormParams(
+          MultipleFormParameter(
+            SingleFormParameter(
+              FormParam_Array(
+                Type(
+                ) [Type]
+              ) [FormParam_Array]
+            ) [SingleFormParameter]
+            FormParam_Variable(
+              Type(
+              ) [Type]
+            ) [FormParam_Variable]
+          ) [MultipleFormParameter]
+        ) [FormParams]
+        MultipleLocalParam(
+          NoLocalParam(
+          ) [NoLocalParam]
+          VarDeclaration(
+            Type(
+            ) [Type]
+            MultipleVarDeclaration(
+              SingleVarDeclaration(
+                VarDeclaration_Variable(
+                ) [VarDeclaration_Variable]
+              ) [SingleVarDeclaration]
+              VarDeclaration_Variable(
+              ) [VarDeclaration_Variable]
+            ) [MultipleVarDeclaration]
+          ) [VarDeclaration]
+        ) [MultipleLocalParam]
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+      ) [MethodDeclaration]
+    ) [MultipleMethod]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclaration(
+          Type(
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Variable(
+            ) [VarDeclaration_Variable]
+          ) [SingleVarDeclaration]
+        ) [VarDeclaration]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_MultipleStatements(
+            StatementList_NoStatements(
+            ) [StatementList_NoStatements]
+            Statement_LabelSingleStatement(
+              Label(
+              ) [Label]
+              SingleStatement_DesignatorStatement(
+                DesignatorStatement_Assignop(
+                  Designator_Ident(
+                  ) [Designator_Ident]
+                  Assignop(
+                  ) [Assignop]
+                  Expr_TermList(
+                    TermList_SingleTerm(
+                      Term(
+                        FactorList_SingleFactor(
+                          Factor_CharConst(
+                          ) [Factor_CharConst]
+                        ) [FactorList_SingleFactor]
+                      ) [Term]
+                    ) [TermList_SingleTerm]
+                  ) [Expr_TermList]
+                ) [DesignatorStatement_Assignop]
+              ) [SingleStatement_DesignatorStatement]
+            ) [Statement_LabelSingleStatement]
+          ) [StatementList_MultipleStatements]
+          Statement_SingleStatement(
+            SingleStatement_ReadStatement(
+              Designator_Ident(
+              ) [Designator_Ident]
+            ) [SingleStatement_ReadStatement]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_PrintExprNumber(
+            Expr_TermList(
+              TermList_MultipleTerm(
+                TermList_SingleTerm(
+                  Term(
+                    FactorList_SingleFactor(
+                      Factor_Number(
+                      ) [Factor_Number]
+                    ) [FactorList_SingleFactor]
+                  ) [Term]
+                ) [TermList_SingleTerm]
+                Addop_Plus(
+                ) [Addop_Plus]
+                Term(
+                  FactorList_SingleFactor(
+                    Factor_Number(
+                    ) [Factor_Number]
+                  ) [FactorList_SingleFactor]
+                ) [Term]
+              ) [TermList_MultipleTerm]
+            ) [Expr_TermList]
+          ) [SingleStatement_PrintExprNumber]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  12:06:04,516 - ===================================
+INFO  12:06:04,517 -  Print count calls = 0
+INFO  12:06:04,518 -  Deklarisanih promenljivih ima = 0
+INFO  12:06:04,518 - ===================================

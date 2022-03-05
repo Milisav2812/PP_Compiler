@@ -1,0 +1,73 @@
+INFO  17:09:02,287 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  17:09:02,322 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclaration(
+          Type(
+           Bool
+          ) [Type]
+          SingleConstDeclaration(
+            ConstBool(
+             x
+             1
+            ) [ConstBool]
+          ) [SingleConstDeclaration]
+        ) [ConstDeclaration]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+           y
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_NoStatements(
+      ) [StatementList_NoStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  17:09:02,322 - ===================================
+ERROR 17:09:02,323 - Greska: Tip Bool nije pronadjen u tabeli simbola!
+ERROR 17:09:02,324 - Tip konstante x nije Boolean! na liniji 2
+INFO  17:09:02,324 - Promenljiva y dodata u Tabelu Simbola! na liniji 3
+INFO  17:09:02,324 - Niz z dodat u Tabelu Simbola! na liniji 6
+INFO  17:09:02,324 - ===================================

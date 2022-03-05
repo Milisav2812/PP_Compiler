@@ -1,0 +1,68 @@
+INFO  11:54:13,038 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:54:13,064 - #31 MJProgram
+INFO  11:54:13,064 - #31 int
+INFO  11:54:13,064 - #31 x
+ERROR 11:54:13,065 - 
+Sintaksna greska na liniji 2
+INFO  11:54:13,065 - #30 17
+INFO  11:54:13,065 - #31 z
+INFO  11:54:13,065 - #31 y
+ERROR 11:54:13,065 - Greska: Globalna Promenljiva na liniji 2. Neispravna definicija jedne od promenljivih. Izvrsen oporavak do narednog COMMA
+INFO  11:54:13,066 - #31 int
+INFO  11:54:13,066 - #31 k
+INFO  11:54:13,066 - #31 int
+INFO  11:54:13,066 - #31 main
+INFO  11:54:13,069 - Program(
+  ProgramName(
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_VarDecl(
+        VarDeclarations(
+          Type(
+          ) [Type]
+          MultipleVarDeclaration(
+            VarDeclaration_CommaError(
+              VarDeclaration_Variable(
+              ) [VarDeclaration_Variable]
+            ) [VarDeclaration_CommaError]
+            VarDeclaration_Variable(
+            ) [VarDeclaration_Variable]
+          ) [MultipleVarDeclaration]
+        ) [VarDeclarations]
+      ) [DeclarationItem_VarDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_NoStatements(
+      ) [StatementList_NoStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:54:13,074 - ===================================
+INFO  11:54:13,076 -  Print count calls = 0
+INFO  11:54:13,076 -  Deklarisanih const promenljivih ima = 0
+INFO  11:54:13,076 - ===================================

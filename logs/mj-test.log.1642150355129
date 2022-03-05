@@ -1,0 +1,148 @@
+INFO  09:52:18,720 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  09:52:18,743 - #31 MJProgram
+INFO  09:52:18,743 - #31 int
+INFO  09:52:18,743 - #31 main
+INFO  09:52:18,744 - #31 int
+INFO  09:52:18,744 - #31 x
+INFO  09:52:18,745 - #31 x
+INFO  09:52:18,746 - #31 int
+INFO  09:52:18,746 - #30 10
+INFO  09:52:18,748 - #31 x
+INFO  09:52:18,748 - #30 5
+INFO  09:52:18,748 - #30 1
+INFO  09:52:18,748 - #31 x
+INFO  09:52:18,748 - #30 1
+INFO  09:52:18,748 - #30 2
+INFO  09:52:18,749 - Program(
+  ProgramName(
+  ) [ProgramName]
+  NoDeclarationList(
+  ) [NoDeclarationList]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_MultipleStatements(
+            StatementList_NoStatements(
+            ) [StatementList_NoStatements]
+            Statement_SingleStatement(
+              SingleStatement_DesignatorStatement(
+                DesignatorStatement_Assignop(
+                  Designator_Var(
+                  ) [Designator_Var]
+                  Assignop(
+                  ) [Assignop]
+                  Expr_TermList(
+                    TermList_SingleTerm(
+                      Term(
+                        FactorList_SingleFactor(
+                          Factor_NewExpr(
+                            Type(
+                            ) [Type]
+                            Expr_TermList(
+                              TermList_SingleTerm(
+                                Term(
+                                  FactorList_SingleFactor(
+                                    Factor_Number(
+                                    ) [Factor_Number]
+                                  ) [FactorList_SingleFactor]
+                                ) [Term]
+                              ) [TermList_SingleTerm]
+                            ) [Expr_TermList]
+                          ) [Factor_NewExpr]
+                        ) [FactorList_SingleFactor]
+                      ) [Term]
+                    ) [TermList_SingleTerm]
+                  ) [Expr_TermList]
+                ) [DesignatorStatement_Assignop]
+              ) [SingleStatement_DesignatorStatement]
+            ) [Statement_SingleStatement]
+          ) [StatementList_MultipleStatements]
+          Statement_SingleStatement(
+            SingleStatement_DesignatorStatement(
+              DesignatorStatement_Assignop(
+                Designator_Array(
+                  Expr_TermList(
+                    TermList_SingleTerm(
+                      Term(
+                        FactorList_SingleFactor(
+                          Factor_Number(
+                          ) [Factor_Number]
+                        ) [FactorList_SingleFactor]
+                      ) [Term]
+                    ) [TermList_SingleTerm]
+                  ) [Expr_TermList]
+                ) [Designator_Array]
+                Assignop(
+                ) [Assignop]
+                Expr_TermList(
+                  TermList_SingleTerm(
+                    Term(
+                      FactorList_SingleFactor(
+                        Factor_Number(
+                        ) [Factor_Number]
+                      ) [FactorList_SingleFactor]
+                    ) [Term]
+                  ) [TermList_SingleTerm]
+                ) [Expr_TermList]
+              ) [DesignatorStatement_Assignop]
+            ) [SingleStatement_DesignatorStatement]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Assignop(
+              Designator_Array(
+                Expr_TermList(
+                  TermList_SingleTerm(
+                    Term(
+                      FactorList_SingleFactor(
+                        Factor_Number(
+                        ) [Factor_Number]
+                      ) [FactorList_SingleFactor]
+                    ) [Term]
+                  ) [TermList_SingleTerm]
+                ) [Expr_TermList]
+              ) [Designator_Array]
+              Assignop(
+              ) [Assignop]
+              Expr_TermList(
+                TermList_SingleTerm(
+                  Term(
+                    FactorList_SingleFactor(
+                      Factor_Number(
+                      ) [Factor_Number]
+                    ) [FactorList_SingleFactor]
+                  ) [Term]
+                ) [TermList_SingleTerm]
+              ) [Expr_TermList]
+            ) [DesignatorStatement_Assignop]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  09:52:18,756 - ===================================
+INFO  09:52:18,758 - Number of array elem access: 2
+INFO  09:52:18,758 - ===================================

@@ -1,0 +1,75 @@
+INFO  15:30:39,166 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  15:30:39,197 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclaration(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstNumber(
+             x
+             100
+            ) [ConstNumber]
+          ) [SingleConstDeclaration]
+        ) [ConstDeclaration]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_ConstDecl(
+      ConstDeclaration(
+        Type(
+         bool
+        ) [Type]
+        SingleConstDeclaration(
+          ConstBool(
+           y
+           0
+          ) [ConstBool]
+        ) [SingleConstDeclaration]
+      ) [ConstDeclaration]
+    ) [DeclarationItem_ConstDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      VoidMethReturnType(
+       main
+      ) [VoidMethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          SingleStatement_PrintExpr(
+            Expr_Term(
+              Term_Factor(
+                Factor_Designator(
+                  Designator_Var(
+                   y
+                  ) [Designator_Var]
+                ) [Factor_Designator]
+              ) [Term_Factor]
+            ) [Expr_Term]
+          ) [SingleStatement_PrintExpr]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  15:30:39,197 - ===================================
+ERROR 15:30:39,200 - ERROR: Greska: Tip bool nije pronadjen u tabeli simbola!
+ERROR 15:30:39,200 - ERROR: Tip konstante y nije Boolean! na liniji 3
+ERROR 15:30:39,200 - ERROR: Semanticka greska: Objekat pod imenom y nije pronadjen u tabeli simbola! na liniji 7
+ERROR 15:30:39,200 - ERROR: PrintStmt: Expr nije odgovarajuceg tipa! na liniji 7
+INFO  15:30:39,200 - ===================================
+ERROR 15:30:39,201 - Parsiranje NIJE uspesno zavrseno!

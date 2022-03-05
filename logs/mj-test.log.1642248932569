@@ -1,0 +1,52 @@
+INFO  13:13:50,570 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+ERROR 13:13:50,594 - 
+Sintaksna greska na liniji 2
+ERROR 13:13:50,595 - Greska: Globalna Promenljiva na liniji 2. Nije definisan tip. Izvrsen oporavak do narednog SEMI
+INFO  13:13:50,600 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_VarDecl(
+      VarDeclarations_Error(
+      ) [VarDeclarations_Error]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_NoStatements(
+      ) [StatementList_NoStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  13:13:50,600 - ===================================
+INFO  13:13:50,603 - Obradjuje se funkcija main na liniji 4
+INFO  13:13:50,603 - Niz z dodat u Tabelu Simbola! na liniji 4
+INFO  13:13:50,603 - Zavrseno obradjivanje funkcije main
+INFO  13:13:50,603 - ===================================

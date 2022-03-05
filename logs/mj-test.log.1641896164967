@@ -1,0 +1,51 @@
+INFO  11:15:32,558 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:15:32,580 - #31 MJProgram
+INFO  11:15:32,581 - #31 int
+INFO  11:15:32,581 - #31 x
+INFO  11:15:32,582 - #30 5
+INFO  11:15:32,582 - #31 y
+INFO  11:15:32,582 - #30 10
+INFO  11:15:32,583 - #31 int
+INFO  11:15:32,583 - #31 main
+INFO  11:15:32,586 - Program(
+  ProgramName(
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_ConstDecl(
+      ConstDeclaration(
+        Type(
+        ) [Type]
+        MultipleConstDeclaration(
+          SingleConstDeclaration(
+            ConstNumber(
+            ) [ConstNumber]
+          ) [SingleConstDeclaration]
+          ConstNumber(
+          ) [ConstNumber]
+        ) [MultipleConstDeclaration]
+      ) [ConstDeclaration]
+    ) [DeclarationItem_ConstDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_NoStatements(
+      ) [StatementList_NoStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:15:32,586 - ===================================
+INFO  11:15:32,588 -  Print count calls = 0
+INFO  11:15:32,588 -  Deklarisanih promenljivih ima = 0
+INFO  11:15:32,588 - ===================================

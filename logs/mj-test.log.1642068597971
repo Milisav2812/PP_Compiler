@@ -1,0 +1,39 @@
+INFO  11:08:06,193 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:08:06,212 - #31 MJProgram
+INFO  11:08:06,212 - #31 int
+INFO  11:08:06,213 - #31 main
+ERROR 11:08:06,214 - 
+Sintaksna greska na liniji 6
+ERROR 11:08:06,215 - Oporavak od greske: Iskaz dodele. Izvrsen oporavak do narednog ;
+INFO  11:08:06,215 - Program(
+  ProgramName(
+  ) [ProgramName]
+  NoDeclarationList(
+  ) [NoDeclarationList]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          DesignatorStatement_AssignError(
+          ) [DesignatorStatement_AssignError]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:08:06,222 - ===================================
+INFO  11:08:06,223 -  Print count calls = 0
+INFO  11:08:06,223 -  Deklarisanih const promenljivih ima = 0
+INFO  11:08:06,223 - ===================================

@@ -1,0 +1,90 @@
+INFO  10:04:06,772 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  10:04:06,807 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+           y
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      VoidMethReturnType(
+       main
+      ) [VoidMethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_NoStatements(
+          ) [StatementList_NoStatements]
+          Statement_SingleStatement(
+            SingleStatement_DesignatorStatement(
+              DesignatorStatement_Assignop(
+                Designator_Var(
+                 y
+                ) [Designator_Var]
+                Assignop(
+                ) [Assignop]
+                Assignment_Expr(
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_CharConst(
+                       c
+                      ) [Factor_CharConst]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                ) [Assignment_Expr]
+              ) [DesignatorStatement_Assignop]
+            ) [SingleStatement_DesignatorStatement]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_PrintExpr(
+            Expr_Term(
+              Term_Factor(
+                Factor_Designator(
+                  Designator_Var(
+                   y
+                  ) [Designator_Var]
+                ) [Factor_Designator]
+              ) [Term_Factor]
+            ) [Expr_Term]
+          ) [SingleStatement_PrintExpr]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  10:04:06,813 - ===================================
+INFO  10:04:06,816 - 
+ INFO: Pristupa se Globalnoj promenljivoj y: 
+Designator_Var(
+ y
+) [Designator_Var] na liniji 6
+
+ERROR 10:04:06,817 - ERROR: Nekompatibilni tipovi! na liniji 6
+INFO  10:04:06,817 - 
+ INFO: Pristupa se Globalnoj promenljivoj y: 
+Designator_Var(
+ y
+) [Designator_Var] na liniji 8
+
+INFO  10:04:06,817 - ===================================
+ERROR 10:04:06,817 - Parsiranje NIJE uspesno zavrseno!

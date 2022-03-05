@@ -1,0 +1,116 @@
+INFO  11:50:36,343 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:50:36,372 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclaration(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstNumber(
+             x
+             100
+            ) [ConstNumber]
+          ) [SingleConstDeclaration]
+        ) [ConstDeclaration]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+           y
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_NoStatements(
+          ) [StatementList_NoStatements]
+          Statement_SingleStatement(
+            SingleStatement_ReadStatement(
+              Designator_Var(
+               y
+              ) [Designator_Var]
+            ) [SingleStatement_ReadStatement]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_PrintExprNumber(
+            Expr_AddopTerm(
+              Expr_AddopTerm(
+                Expr_Term(
+                  Term_Factor(
+                    Factor_Number(
+                     2
+                    ) [Factor_Number]
+                  ) [Term_Factor]
+                ) [Expr_Term]
+                Addop_Plus(
+                ) [Addop_Plus]
+                Term_Factor(
+                  Factor_Number(
+                   4
+                  ) [Factor_Number]
+                ) [Term_Factor]
+              ) [Expr_AddopTerm]
+              Addop_Plus(
+              ) [Addop_Plus]
+              Term_Factor(
+                Factor_Number(
+                 5
+                ) [Factor_Number]
+              ) [Term_Factor]
+            ) [Expr_AddopTerm]
+           10
+          ) [SingleStatement_PrintExprNumber]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:50:36,379 - ===================================
+INFO  11:50:36,380 - Konstanta x dodata u Tabelu Simbola! na liniji 2
+INFO  11:50:36,380 - Promenljiva y dodata u Tabelu Simbola! na liniji 3
+INFO  11:50:36,381 - Obradjuje se funkcija main na liniji 5
+INFO  11:50:36,381 - Niz z dodat u Tabelu Simbola! na liniji 5
+INFO  11:50:36,381 - Read Statement uspesno obradjen! na liniji 6
+INFO  11:50:36,381 - Zavrseno obradjivanje funkcije main
+INFO  11:50:36,381 - ===================================

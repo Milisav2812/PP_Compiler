@@ -1,0 +1,31 @@
+INFO  20:09:42,551 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  20:09:42,591 - ===================================
+INFO  20:09:42,595 - 
+ INFO: NIZ y je tipa 1 na liniji 2
+
+INFO  20:09:42,595 - 
+ INFO: Assignment: 3 na liniji 7
+
+INFO  20:09:42,596 - 
+ INFO: Left Side: 3 na liniji 7
+
+INFO  20:09:42,596 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 7
+
+INFO  20:09:42,596 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 7
+
+INFO  20:09:42,596 - 
+ INFO: Assignment: 1 na liniji 9
+
+INFO  20:09:42,596 - 
+ INFO: Left Side: 3 na liniji 9
+
+INFO  20:09:42,596 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 9
+
+INFO  20:09:42,596 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 9
+
+INFO  20:09:42,596 - ===================================
+INFO  20:09:42,597 - Parsiranje uspesno zavrseno!

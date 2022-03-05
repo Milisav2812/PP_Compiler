@@ -1,0 +1,30 @@
+INFO  11:25:17,607 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:25:17,631 - #31 MJProgram
+INFO  11:25:17,632 - #31 int
+INFO  11:25:17,632 - #31 x
+INFO  11:25:17,633 - #30 5
+INFO  11:25:17,633 - #31 y
+INFO  11:25:17,633 - #30 10
+INFO  11:25:17,633 - #31 int
+INFO  11:25:17,635 - #31 z
+INFO  11:25:17,635 - #31 g
+INFO  11:25:17,636 - #31 bool
+INFO  11:25:17,636 - #31 k
+INFO  11:25:17,636 - #31 int
+INFO  11:25:17,636 - #31 x
+INFO  11:25:17,636 - #31 int
+INFO  11:25:17,636 - #31 y
+INFO  11:25:17,637 - #31 int
+INFO  11:25:17,637 - #31 v
+INFO  11:25:17,638 - #31 g
+INFO  11:25:17,638 - #31 int
+INFO  11:25:17,638 - #31 main
+INFO  11:25:17,639 - #31 char
+INFO  11:25:17,639 - #31 s
+INFO  11:25:17,645 - #31 labela
+INFO  11:25:17,646 - #31 s
+INFO  11:25:17,646 - #32 h
+INFO  11:25:17,647 - ===================================
+INFO  11:25:17,648 -  Print count calls = 0
+INFO  11:25:17,648 -  Deklarisanih promenljivih ima = 0
+INFO  11:25:17,648 - ===================================

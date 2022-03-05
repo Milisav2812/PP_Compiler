@@ -1,0 +1,464 @@
+INFO  10:18:22,761 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\test301_A.mj
+INFO  10:18:22,799 - ===================================
+INFO  10:18:22,803 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 16
+
+INFO  10:18:22,803 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 17
+
+INFO  10:18:22,803 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 18
+
+INFO  10:18:22,803 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 18
+
+INFO  10:18:22,803 - 
+ INFO: Pristupa se Globalnoj konstanti jedan: Designator_Var(
+ jedan
+) [Designator_Var] na liniji 18
+
+INFO  10:18:22,810 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 19
+
+INFO  10:18:22,810 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 19
+
+INFO  10:18:22,810 - 
+ INFO: Pristupa se Globalnoj konstanti pet: Designator_Var(
+ pet
+) [Designator_Var] na liniji 19
+
+INFO  10:18:22,810 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 20
+
+INFO  10:18:22,811 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 21
+
+INFO  10:18:22,811 - 
+ INFO: Pristupa se Globalnoj promenljivoj niz: 
+Designator_Var(
+ niz
+) [Designator_Var] na liniji 24
+
+INFO  10:18:22,811 - 
+ INFO: Pristupa se Globalnoj konstanti nula: Designator_Var(
+ nula
+) [Designator_Var] na liniji 25
+
+INFO  10:18:22,811 - 
+ INFO: Pristupa se elementu niza Globalne promenljive niz: 
+Designator_Array(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Designator(
+        Designator_Var(
+         nula
+        ) [Designator_Var]
+      ) [Factor_Designator]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 25
+
+INFO  10:18:22,811 - 
+ INFO: Pristupa se Globalnoj konstanti jedan: Designator_Var(
+ jedan
+) [Designator_Var] na liniji 25
+
+INFO  10:18:22,811 - 
+ INFO: Pristupa se elementu niza Globalne promenljive niz: 
+Designator_Array(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Number(
+       1
+      ) [Factor_Number]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 26
+
+INFO  10:18:22,811 - 
+ INFO: Pristupa se Globalnoj konstanti jedan: Designator_Var(
+ jedan
+) [Designator_Var] na liniji 27
+
+INFO  10:18:22,812 - 
+ INFO: Pristupa se elementu niza Globalne promenljive niz: 
+Designator_Array(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Designator(
+        Designator_Var(
+         jedan
+        ) [Designator_Var]
+      ) [Factor_Designator]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 27
+
+INFO  10:18:22,812 - 
+ INFO: Pristupa se elementu niza Globalne promenljive niz: 
+Designator_Array(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Designator(
+        Designator_Array(
+          DesignatorName(
+           niz
+          ) [DesignatorName]
+          Expr_Term(
+            Term_Factor(
+              Factor_Designator(
+                Designator_Var(
+                 jedan
+                ) [Designator_Var]
+              ) [Factor_Designator]
+            ) [Term_Factor]
+          ) [Expr_Term]
+        ) [Designator_Array]
+      ) [Factor_Designator]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 27
+
+INFO  10:18:22,812 - 
+ INFO: Pristupa se elementu niza Globalne promenljive niz: 
+Designator_Array(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Number(
+       0
+      ) [Factor_Number]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 27
+
+INFO  10:18:22,813 - 
+ INFO: Pristupa se elementu niza Globalne promenljive niz: 
+Designator_Array(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Designator(
+        Designator_Array(
+          DesignatorName(
+           niz
+          ) [DesignatorName]
+          Expr_Term(
+            Term_Factor(
+              Factor_Number(
+               0
+              ) [Factor_Number]
+            ) [Term_Factor]
+          ) [Expr_Term]
+        ) [Designator_Array]
+      ) [Factor_Designator]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 27
+
+INFO  10:18:22,813 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 28
+
+INFO  10:18:22,813 - 
+ INFO: Pristupa se elementu niza Globalne promenljive niz: 
+Designator_Array(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Number(
+       2
+      ) [Factor_Number]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 28
+
+INFO  10:18:22,813 - 
+ INFO: Pristupa se elementu niza Globalne promenljive niz: 
+Designator_Array(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Number(
+       0
+      ) [Factor_Number]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 28
+
+INFO  10:18:22,813 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 29
+
+INFO  10:18:22,813 - 
+ INFO: Pristupa se elementu niza Globalne promenljive niz: 
+Designator_Array(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Number(
+       2
+      ) [Factor_Number]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 30
+
+INFO  10:18:22,813 - 
+ INFO: Pristupa se Globalnoj promenljivoj nizch: 
+Designator_Var(
+ nizch
+) [Designator_Var] na liniji 33
+
+INFO  10:18:22,814 - 
+ INFO: Pristupa se elementu niza Globalne promenljive nizch: 
+Designator_Array(
+  DesignatorName(
+   nizch
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Number(
+       0
+      ) [Factor_Number]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 34
+
+INFO  10:18:22,814 - 
+ INFO: Pristupa se Globalnoj konstanti jedan: Designator_Var(
+ jedan
+) [Designator_Var] na liniji 35
+
+INFO  10:18:22,814 - 
+ INFO: Pristupa se elementu niza Globalne promenljive nizch: 
+Designator_Array(
+  DesignatorName(
+   nizch
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Designator(
+        Designator_Var(
+         jedan
+        ) [Designator_Var]
+      ) [Factor_Designator]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 35
+
+INFO  10:18:22,815 - 
+ INFO: Pristupa se Globalnoj konstanti pet: Designator_Var(
+ pet
+) [Designator_Var] na liniji 36
+
+INFO  10:18:22,815 - 
+ INFO: Pristupa se elementu niza Globalne promenljive nizch: 
+Designator_Array(
+  DesignatorName(
+   nizch
+  ) [DesignatorName]
+  Expr_AddopTerm(
+    Expr_Term(
+      Term_Factor(
+        Factor_Designator(
+          Designator_Var(
+           pet
+          ) [Designator_Var]
+        ) [Factor_Designator]
+      ) [Term_Factor]
+    ) [Expr_Term]
+    Addop_Minus(
+    ) [Addop_Minus]
+    Term_Factor(
+      Factor_Number(
+       3
+      ) [Factor_Number]
+    ) [Term_Factor]
+  ) [Expr_AddopTerm]
+) [Designator_Array] na liniji 36
+
+INFO  10:18:22,815 - 
+ INFO: Pristupa se elementu niza Globalne promenljive nizch: 
+Designator_Array(
+  DesignatorName(
+   nizch
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Number(
+       1
+      ) [Factor_Number]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 37
+
+INFO  10:18:22,816 - 
+ INFO: Pristupa se Globalnoj konstanti jedan: Designator_Var(
+ jedan
+) [Designator_Var] na liniji 38
+
+INFO  10:18:22,816 - 
+ INFO: Pristupa se elementu niza Globalne promenljive nizch: 
+Designator_Array(
+  DesignatorName(
+   nizch
+  ) [DesignatorName]
+  Expr_Term(
+    Term_MulopFactor(
+      Term_Factor(
+        Factor_Designator(
+          Designator_Var(
+           jedan
+          ) [Designator_Var]
+        ) [Factor_Designator]
+      ) [Term_Factor]
+      Mulop_Mul(
+      ) [Mulop_Mul]
+      Factor_Number(
+       2
+      ) [Factor_Number]
+    ) [Term_MulopFactor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 38
+
+INFO  10:18:22,816 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 41
+
+INFO  10:18:22,817 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 41
+
+INFO  10:18:22,817 - 
+ INFO: Pristupa se Globalnoj konstanti pet: Designator_Var(
+ pet
+) [Designator_Var] na liniji 41
+
+INFO  10:18:22,817 - 
+ INFO: Pristupa se Globalnoj konstanti jedan: Designator_Var(
+ jedan
+) [Designator_Var] na liniji 41
+
+INFO  10:18:22,817 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 41
+
+INFO  10:18:22,817 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 42
+
+INFO  10:18:22,817 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 44
+
+INFO  10:18:22,817 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 45
+
+INFO  10:18:22,817 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 47
+
+INFO  10:18:22,818 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 49
+
+INFO  10:18:22,818 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 49
+
+INFO  10:18:22,818 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 50
+
+INFO  10:18:22,818 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 52
+
+INFO  10:18:22,818 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 52
+
+INFO  10:18:22,818 - 
+ INFO: Pristupa se Lokalnoj promenljivoj bodovi: 
+Designator_Var(
+ bodovi
+) [Designator_Var] na liniji 53
+
+INFO  10:18:22,818 - ===================================
+INFO  10:18:22,824 - Parsiranje uspesno zavrseno!

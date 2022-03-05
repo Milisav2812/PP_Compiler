@@ -1,0 +1,30 @@
+INFO  12:10:04,885 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  12:10:04,906 - #31 MJProgram
+INFO  12:10:04,907 - #31 int
+INFO  12:10:04,907 - #31 y
+INFO  12:10:04,907 - #30 10
+INFO  12:10:04,908 - #31 int
+INFO  12:10:04,908 - #31 z
+ERROR 12:10:04,909 - 
+Sintaksna greska na liniji 3
+INFO  12:10:04,909 - #31 bool
+INFO  12:10:04,909 - #31 k
+INFO  12:10:04,910 - #31 int
+INFO  12:10:04,910 - #31 x
+INFO  12:10:04,910 - #31 int
+INFO  12:10:04,910 - #31 y
+INFO  12:10:04,910 - #31 int
+INFO  12:10:04,910 - #31 v
+INFO  12:10:04,910 - #31 g
+INFO  12:10:04,910 - #31 int
+INFO  12:10:04,910 - #31 main
+INFO  12:10:04,910 - #31 char
+INFO  12:10:04,910 - #31 s
+INFO  12:10:04,910 - #31 labela
+INFO  12:10:04,911 - #31 s
+INFO  12:10:04,911 - #32 g
+INFO  12:10:04,911 - #31 s
+INFO  12:10:04,911 - #30 5
+INFO  12:10:04,911 - #30 4
+INFO  12:10:04,911 - #30 5
+ERROR 12:10:04,911 - Fatalna greska, parsiranje ne moze da se nastavi na liniji 19

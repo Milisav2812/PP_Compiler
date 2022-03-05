@@ -1,0 +1,16 @@
+INFO  10:29:55,078 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  10:29:55,119 - ===================================
+INFO  10:29:55,122 - 
+ INFO: Pristupa se Globalnoj promenljivoj y: 
+Designator_Var(
+ y
+) [Designator_Var] na liniji 8
+
+INFO  10:29:55,122 - 
+ INFO: Pristupa se Globalnoj promenljivoj y: 
+Designator_Var(
+ y
+) [Designator_Var] na liniji 13
+
+INFO  10:29:55,122 - ===================================
+INFO  10:29:55,130 - Parsiranje uspesno zavrseno!

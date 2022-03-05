@@ -1,0 +1,68 @@
+INFO  11:53:57,629 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:53:57,653 - #31 MJProgram
+INFO  11:53:57,653 - #31 int
+INFO  11:53:57,654 - #31 x
+INFO  11:53:57,655 - #31 z
+INFO  11:53:57,655 - #31 y
+INFO  11:53:57,655 - #31 int
+INFO  11:53:57,655 - #31 k
+INFO  11:53:57,655 - #31 int
+INFO  11:53:57,655 - #31 main
+INFO  11:53:57,658 - Program(
+  ProgramName(
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_VarDecl(
+        VarDeclarations(
+          Type(
+          ) [Type]
+          MultipleVarDeclaration(
+            MultipleVarDeclaration(
+              SingleVarDeclaration(
+                VarDeclaration_Variable(
+                ) [VarDeclaration_Variable]
+              ) [SingleVarDeclaration]
+              VarDeclaration_Variable(
+              ) [VarDeclaration_Variable]
+            ) [MultipleVarDeclaration]
+            VarDeclaration_Variable(
+            ) [VarDeclaration_Variable]
+          ) [MultipleVarDeclaration]
+        ) [VarDeclarations]
+      ) [DeclarationItem_VarDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_NoStatements(
+      ) [StatementList_NoStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:53:57,664 - ===================================
+INFO  11:53:57,666 -  Print count calls = 0
+INFO  11:53:57,666 -  Deklarisanih const promenljivih ima = 0
+INFO  11:53:57,666 - ===================================

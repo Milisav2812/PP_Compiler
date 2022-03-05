@@ -1,0 +1,99 @@
+INFO  12:53:09,980 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  12:53:10,019 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclaration(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstNumber(
+             x
+             100
+            ) [ConstNumber]
+          ) [SingleConstDeclaration]
+        ) [ConstDeclaration]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+           y
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    MultipleMethod(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclaration(
+        VoidMethReturnType(
+         fun
+        ) [VoidMethReturnType]
+        FormParams(
+          MultipleFormParameter(
+            SingleFormParameter(
+              FormParam_Variable(
+                Type(
+                 int
+                ) [Type]
+               a1
+              ) [FormParam_Variable]
+            ) [SingleFormParameter]
+            FormParam_Variable(
+              Type(
+               char
+              ) [Type]
+             a2
+            ) [FormParam_Variable]
+          ) [MultipleFormParameter]
+        ) [FormParams]
+        NoLocalParam(
+        ) [NoLocalParam]
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+      ) [MethodDeclaration]
+    ) [MultipleMethod]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_NoStatements(
+      ) [StatementList_NoStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  12:53:10,020 - ===================================
+INFO  12:53:10,022 - Konstanta x dodata u Tabelu Simbola! na liniji 2
+INFO  12:53:10,022 - Promenljiva y dodata u Tabelu Simbola! na liniji 3

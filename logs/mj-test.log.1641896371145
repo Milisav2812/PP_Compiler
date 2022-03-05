@@ -1,0 +1,119 @@
+INFO  11:18:34,202 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:18:34,229 - #31 MJProgram
+INFO  11:18:34,230 - #31 int
+INFO  11:18:34,230 - #31 x
+INFO  11:18:34,231 - #30 5
+INFO  11:18:34,231 - #31 y
+INFO  11:18:34,231 - #30 10
+INFO  11:18:34,231 - #31 int
+INFO  11:18:34,232 - #31 z
+INFO  11:18:34,232 - #31 g
+INFO  11:18:34,233 - #31 int
+INFO  11:18:34,233 - #31 main
+INFO  11:18:34,234 - #31 bool
+INFO  11:18:34,235 - #31 k
+INFO  11:18:34,235 - #31 int
+INFO  11:18:34,235 - #31 x
+INFO  11:18:34,236 - #31 int
+INFO  11:18:34,236 - #31 y
+INFO  11:18:34,236 - #31 int
+INFO  11:18:34,236 - #31 v
+INFO  11:18:34,236 - #31 g
+INFO  11:18:34,237 - Program(
+  ProgramName(
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclaration(
+          Type(
+          ) [Type]
+          MultipleConstDeclaration(
+            SingleConstDeclaration(
+              ConstNumber(
+              ) [ConstNumber]
+            ) [SingleConstDeclaration]
+            ConstNumber(
+            ) [ConstNumber]
+          ) [MultipleConstDeclaration]
+        ) [ConstDeclaration]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclaration(
+        Type(
+        ) [Type]
+        MultipleVarDeclaration(
+          SingleVarDeclaration(
+            VarDeclaration_Variable(
+            ) [VarDeclaration_Variable]
+          ) [SingleVarDeclaration]
+          VarDeclaration_Variable(
+          ) [VarDeclaration_Variable]
+        ) [MultipleVarDeclaration]
+      ) [VarDeclaration]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    MultipleMethod(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclaration(
+        MethReturnType(
+          Type(
+          ) [Type]
+        ) [MethReturnType]
+        NoFormParams(
+        ) [NoFormParams]
+        NoLocalParam(
+        ) [NoLocalParam]
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+      ) [MethodDeclaration]
+    ) [MultipleMethod]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      FormParams(
+        MultipleFormParameter(
+          SingleFormParameter(
+            FormParam_Variable(
+              Type(
+              ) [Type]
+            ) [FormParam_Variable]
+          ) [SingleFormParameter]
+          FormParam_Variable(
+            Type(
+            ) [Type]
+          ) [FormParam_Variable]
+        ) [MultipleFormParameter]
+      ) [FormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclaration(
+          Type(
+          ) [Type]
+          MultipleVarDeclaration(
+            SingleVarDeclaration(
+              VarDeclaration_Variable(
+              ) [VarDeclaration_Variable]
+            ) [SingleVarDeclaration]
+            VarDeclaration_Variable(
+            ) [VarDeclaration_Variable]
+          ) [MultipleVarDeclaration]
+        ) [VarDeclaration]
+      ) [MultipleLocalParam]
+      StatementList_NoStatements(
+      ) [StatementList_NoStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:18:34,238 - ===================================
+INFO  11:18:34,240 -  Print count calls = 0
+INFO  11:18:34,240 -  Deklarisanih promenljivih ima = 0
+INFO  11:18:34,240 - ===================================

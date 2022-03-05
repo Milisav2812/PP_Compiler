@@ -1,0 +1,62 @@
+INFO  11:45:44,261 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:45:44,286 - #31 MJProgram
+INFO  11:45:44,286 - #31 int
+INFO  11:45:44,286 - #31 x
+INFO  11:45:44,287 - #30 5
+INFO  11:45:44,287 - #31 z
+ERROR 11:45:44,287 - 
+Sintaksna greska na liniji 2
+INFO  11:45:44,287 - #31 y
+INFO  11:45:44,287 - #30 5
+ERROR 11:45:44,287 - Greska: neispravno definisana globalna promenljiva na liniji 2. Neispravna definicija jedne od konstanti. Izvrsen oporavak do narednog COMMA
+INFO  11:45:44,288 - #31 k
+ERROR 11:45:44,288 - 
+Sintaksna greska na liniji 3
+INFO  11:45:44,288 - #30 100
+INFO  11:45:44,288 - #31 int
+INFO  11:45:44,288 - #31 main
+ERROR 11:45:44,289 - Greska: neispravno definisana globalna promenljiva na liniji 3. Nije definisan tip. Izvrsen oporavak do narednog SEMI
+INFO  11:45:44,298 - Program(
+  ProgramName(
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclarations(
+          Type(
+          ) [Type]
+          ConstDeclaration_CommaError(
+            ConstNumber(
+            ) [ConstNumber]
+          ) [ConstDeclaration_CommaError]
+        ) [ConstDeclarations]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_ConstDecl(
+      ConstDeclarations_ConstError(
+      ) [ConstDeclarations_ConstError]
+    ) [DeclarationItem_ConstDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_NoStatements(
+      ) [StatementList_NoStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:45:44,298 - ===================================
+INFO  11:45:44,299 -  Print count calls = 0
+INFO  11:45:44,299 -  Deklarisanih const promenljivih ima = 0
+INFO  11:45:44,299 - ===================================

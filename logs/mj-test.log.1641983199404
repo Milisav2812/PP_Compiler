@@ -1,0 +1,51 @@
+INFO  11:26:07,099 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:26:07,123 - #31 MJProgram
+INFO  11:26:07,124 - #31 int
+INFO  11:26:07,124 - #31 x
+INFO  11:26:07,125 - #30 5
+INFO  11:26:07,125 - #31 y
+ERROR 11:26:07,125 - 
+Sintaksna greska na liniji 2
+INFO  11:26:07,125 - #31 z
+INFO  11:26:07,125 - #30 10
+ERROR 11:26:07,126 - Greska: neispravno definisana globalna promenljiva na liniji 2. PRVA Izvrsen oporavak do narednog COMMA
+INFO  11:26:07,126 - #31 int
+INFO  11:26:07,126 - #31 main
+INFO  11:26:07,128 - Program(
+  ProgramName(
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_ConstDecl(
+      ConstDeclarationS(
+        Type(
+        ) [Type]
+        Const_ErrorStatement_Comma(
+          ConstNumber(
+          ) [ConstNumber]
+        ) [Const_ErrorStatement_Comma]
+      ) [ConstDeclarationS]
+    ) [DeclarationItem_ConstDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_NoStatements(
+      ) [StatementList_NoStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:26:07,134 - ===================================
+INFO  11:26:07,137 -  Print count calls = 0
+INFO  11:26:07,137 -  Deklarisanih const promenljivih ima = 0
+INFO  11:26:07,137 - ===================================

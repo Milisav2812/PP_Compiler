@@ -1,0 +1,61 @@
+INFO  14:55:56,169 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  14:55:56,199 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_ConstDecl(
+      ConstDeclaration(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclaration(
+          ConstNumber(
+           x
+           100
+          ) [ConstNumber]
+        ) [SingleConstDeclaration]
+      ) [ConstDeclaration]
+    ) [DeclarationItem_ConstDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      VoidMethReturnType(
+       main
+      ) [VoidMethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          SingleStatement_PrintExpr(
+            Expr_Term(
+              Term_Factor(
+                Factor_Designator(
+                  Designator_Var(
+                   x
+                  ) [Designator_Var]
+                ) [Factor_Designator]
+              ) [Term_Factor]
+            ) [Expr_Term]
+          ) [SingleStatement_PrintExpr]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  14:55:56,199 - ===================================
+INFO  14:55:56,201 - 
+ INFO: Pristupa se Globalnoj konstanti x: Designator_Var(
+ x
+) [Designator_Var] na liniji 6
+
+INFO  14:55:56,202 - ===================================
+INFO  14:55:56,207 - Parsiranje uspesno zavrseno!

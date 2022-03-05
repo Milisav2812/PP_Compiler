@@ -1,0 +1,71 @@
+INFO  20:40:34,747 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  20:40:34,822 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  NoDeclarationList(
+  ) [NoDeclarationList]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           char
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             m
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Assignop(
+              Designator_Var(
+               m
+              ) [Designator_Var]
+              Assignop(
+              ) [Assignop]
+              Assignment_Expr(
+                Expr_Term(
+                  Term_Factor(
+                    Factor_NewExpr(
+                      Type(
+                       int
+                      ) [Type]
+                      Expr_Term(
+                        Term_Factor(
+                          Factor_Number(
+                           4
+                          ) [Factor_Number]
+                        ) [Term_Factor]
+                      ) [Expr_Term]
+                    ) [Factor_NewExpr]
+                  ) [Term_Factor]
+                ) [Expr_Term]
+              ) [Assignment_Expr]
+            ) [DesignatorStatement_Assignop]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  20:40:34,823 - ===================================
+INFO  20:40:34,828 - ===================================

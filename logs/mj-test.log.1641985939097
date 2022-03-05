@@ -1,0 +1,17 @@
+INFO  12:08:07,102 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  12:08:07,130 - #31 MJProgram
+INFO  12:08:07,130 - #31 int
+INFO  12:08:07,130 - #31 x
+ERROR 12:08:07,131 - 
+Sintaksna greska na liniji 2
+INFO  12:08:07,131 - #30 17
+INFO  12:08:07,131 - #31 z
+INFO  12:08:07,132 - #31 y
+ERROR 12:08:07,132 - Greska: Globalna Promenljiva na liniji 2. Neispravna definicija jedne od promenljivih. Izvrsen oporavak do narednog COMMA
+INFO  12:08:07,133 - #31 int
+INFO  12:08:07,133 - #31 g
+INFO  12:08:07,133 - #31 int
+INFO  12:08:07,134 - #31 main
+INFO  12:08:07,134 - #31 g
+ERROR 12:08:07,135 - 
+Sintaksna greska na liniji 8

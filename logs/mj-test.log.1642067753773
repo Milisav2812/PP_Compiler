@@ -1,0 +1,14 @@
+INFO  10:52:13,513 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  10:52:13,539 - #31 MJProgram
+INFO  10:52:13,539 - #31 int
+INFO  10:52:13,540 - #31 x
+INFO  10:52:13,541 - #31 z
+INFO  10:52:13,541 - #31 y
+INFO  10:52:13,541 - #31 int
+INFO  10:52:13,541 - #31 g
+INFO  10:52:13,541 - #31 int
+INFO  10:52:13,542 - #31 main
+INFO  10:52:13,543 - #31 r
+ERROR 10:52:13,543 - 
+Sintaksna greska na liniji 8
+ERROR 10:52:13,544 - Fatalna greska, parsiranje ne moze da se nastavi na liniji 12

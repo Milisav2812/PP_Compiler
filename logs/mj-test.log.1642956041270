@@ -1,0 +1,333 @@
+INFO  17:38:49,166 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  17:38:49,197 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclaration(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstNumber(
+             x
+             100
+            ) [ConstNumber]
+          ) [SingleConstDeclaration]
+        ) [ConstDeclaration]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Array(
+           y
+          ) [VarDeclaration_Array]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      VoidMethReturnType(
+       main
+      ) [VoidMethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        MultipleLocalParam(
+          NoLocalParam(
+          ) [NoLocalParam]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            SingleVarDeclaration(
+              VarDeclaration_Array(
+               z
+              ) [VarDeclaration_Array]
+            ) [SingleVarDeclaration]
+          ) [VarDeclarations]
+        ) [MultipleLocalParam]
+        VarDeclarations(
+          Type(
+           char
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Variable(
+             g
+            ) [VarDeclaration_Variable]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_MultipleStatements(
+            StatementList_MultipleStatements(
+              StatementList_MultipleStatements(
+                StatementList_MultipleStatements(
+                  StatementList_NoStatements(
+                  ) [StatementList_NoStatements]
+                  Statement_LabelSingleStatement(
+                    Label(
+                     labela1
+                    ) [Label]
+                    SingleStatement_DesignatorStatement(
+                      DesignatorStatement_Assignop(
+                        Designator_Var(
+                         y
+                        ) [Designator_Var]
+                        Assignop(
+                        ) [Assignop]
+                        Assignment_Expr(
+                          Expr_Term(
+                            Term_Factor(
+                              Factor_NewExpr(
+                                Type(
+                                 int
+                                ) [Type]
+                                Expr_Term(
+                                  Term_Factor(
+                                    Factor_Number(
+                                     4
+                                    ) [Factor_Number]
+                                  ) [Term_Factor]
+                                ) [Expr_Term]
+                              ) [Factor_NewExpr]
+                            ) [Term_Factor]
+                          ) [Expr_Term]
+                        ) [Assignment_Expr]
+                      ) [DesignatorStatement_Assignop]
+                    ) [SingleStatement_DesignatorStatement]
+                  ) [Statement_LabelSingleStatement]
+                ) [StatementList_MultipleStatements]
+                Statement_SingleStatement(
+                  SingleStatement_DesignatorStatement(
+                    DesignatorStatement_Assignop(
+                      Designator_Array(
+                        DesignatorName(
+                         y
+                        ) [DesignatorName]
+                        Expr_Term(
+                          Term_Factor(
+                            Factor_Number(
+                             3
+                            ) [Factor_Number]
+                          ) [Term_Factor]
+                        ) [Expr_Term]
+                      ) [Designator_Array]
+                      Assignop(
+                      ) [Assignop]
+                      Assignment_Expr(
+                        Expr_Term(
+                          Term_Factor(
+                            Factor_Number(
+                             1
+                            ) [Factor_Number]
+                          ) [Term_Factor]
+                        ) [Expr_Term]
+                      ) [Assignment_Expr]
+                    ) [DesignatorStatement_Assignop]
+                  ) [SingleStatement_DesignatorStatement]
+                ) [Statement_SingleStatement]
+              ) [StatementList_MultipleStatements]
+              Statement_SingleStatement(
+                SingleStatement_DesignatorStatement(
+                  DesignatorStatement_Assignop(
+                    Designator_Var(
+                     z
+                    ) [Designator_Var]
+                    Assignop(
+                    ) [Assignop]
+                    Assignment_Expr(
+                      Expr_Term(
+                        Term_Factor(
+                          Factor_NewExpr(
+                            Type(
+                             int
+                            ) [Type]
+                            Expr_Term(
+                              Term_Factor(
+                                Factor_Number(
+                                 2
+                                ) [Factor_Number]
+                              ) [Term_Factor]
+                            ) [Expr_Term]
+                          ) [Factor_NewExpr]
+                        ) [Term_Factor]
+                      ) [Expr_Term]
+                    ) [Assignment_Expr]
+                  ) [DesignatorStatement_Assignop]
+                ) [SingleStatement_DesignatorStatement]
+              ) [Statement_SingleStatement]
+            ) [StatementList_MultipleStatements]
+            Statement_SingleStatement(
+              SingleStatement_DesignatorStatement(
+                DesignatorStatement_Assignop(
+                  Designator_Array(
+                    DesignatorName(
+                     z
+                    ) [DesignatorName]
+                    Expr_Term(
+                      Term_Factor(
+                        Factor_Designator(
+                          Designator_Array(
+                            DesignatorName(
+                             y
+                            ) [DesignatorName]
+                            Expr_Term(
+                              Term_Factor(
+                                Factor_Number(
+                                 3
+                                ) [Factor_Number]
+                              ) [Term_Factor]
+                            ) [Expr_Term]
+                          ) [Designator_Array]
+                        ) [Factor_Designator]
+                      ) [Term_Factor]
+                    ) [Expr_Term]
+                  ) [Designator_Array]
+                  Assignop(
+                  ) [Assignop]
+                  Assignment_Expr(
+                    Expr_Term(
+                      Term_Factor(
+                        Factor_Number(
+                         5
+                        ) [Factor_Number]
+                      ) [Term_Factor]
+                    ) [Expr_Term]
+                  ) [Assignment_Expr]
+                ) [DesignatorStatement_Assignop]
+              ) [SingleStatement_DesignatorStatement]
+            ) [Statement_SingleStatement]
+          ) [StatementList_MultipleStatements]
+          Statement_SingleStatement(
+            SingleStatement_GotoLabel(
+              Label(
+               labela1
+              ) [Label]
+            ) [SingleStatement_GotoLabel]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_PrintExpr(
+            Expr_Term(
+              Term_Factor(
+                Factor_Designator(
+                  Designator_Array(
+                    DesignatorName(
+                     z
+                    ) [DesignatorName]
+                    Expr_Term(
+                      Term_Factor(
+                        Factor_Number(
+                         1
+                        ) [Factor_Number]
+                      ) [Term_Factor]
+                    ) [Expr_Term]
+                  ) [Designator_Array]
+                ) [Factor_Designator]
+              ) [Term_Factor]
+            ) [Expr_Term]
+          ) [SingleStatement_PrintExpr]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  17:38:49,205 - ===================================
+INFO  17:38:49,207 - 
+ INFO: Pristupa se Globalnoj promenljivoj y: 
+Designator_Var(
+ y
+) [Designator_Var] na liniji 8
+
+INFO  17:38:49,208 - 
+ INFO: Pristupa se elementu niza Globalne promenljive y: 
+Designator_Array(
+  DesignatorName(
+   y
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Number(
+       3
+      ) [Factor_Number]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 9
+
+INFO  17:38:49,208 - 
+ INFO: Pristupa se Lokalnoj promenljivoj z: 
+Designator_Var(
+ z
+) [Designator_Var] na liniji 10
+
+INFO  17:38:49,208 - 
+ INFO: Pristupa se elementu niza Globalne promenljive y: 
+Designator_Array(
+  DesignatorName(
+   y
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Number(
+       3
+      ) [Factor_Number]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 11
+
+INFO  17:38:49,208 - 
+ INFO: Pristupa se elementu niza Lokalne promenljive z: 
+Designator_Array(
+  DesignatorName(
+   z
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Designator(
+        Designator_Array(
+          DesignatorName(
+           y
+          ) [DesignatorName]
+          Expr_Term(
+            Term_Factor(
+              Factor_Number(
+               3
+              ) [Factor_Number]
+            ) [Term_Factor]
+          ) [Expr_Term]
+        ) [Designator_Array]
+      ) [Factor_Designator]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 11
+
+INFO  17:38:49,208 - 
+ INFO: Pristupa se elementu niza Lokalne promenljive z: 
+Designator_Array(
+  DesignatorName(
+   z
+  ) [DesignatorName]
+  Expr_Term(
+    Term_Factor(
+      Factor_Number(
+       1
+      ) [Factor_Number]
+    ) [Term_Factor]
+  ) [Expr_Term]
+) [Designator_Array] na liniji 13
+
+INFO  17:38:49,208 - ===================================
+INFO  17:38:49,215 - Parsiranje uspesno zavrseno!

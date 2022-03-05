@@ -1,0 +1,132 @@
+INFO  10:24:23,973 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\syntax.mj
+ERROR 10:24:24,028 - 
+Sintaksna greska na liniji 2
+ERROR 10:24:24,029 - Greska: Globalna Promenljiva na liniji 2. Nije definisan tip. Izvrsen oporavak do narednog SEMI
+ERROR 10:24:24,030 - 
+Sintaksna greska na liniji 8
+ERROR 10:24:24,031 - Greska: Globalna Promenljiva na liniji 8. Nije definisan tip. Izvrsen oporavak do narednog SEMI
+ERROR 10:24:24,034 - 
+Sintaksna greska na liniji 13
+ERROR 10:24:24,034 - Oporavak od greske: Iskaz za dodelu. Izvrsen oporavak do narednog SEMI
+INFO  10:24:24,043 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      MultipleDeclaration(
+        MultipleDeclaration(
+          MultipleDeclaration(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            DeclarationItem_VarDecl(
+              VarDeclarations_Error(
+              ) [VarDeclarations_Error]
+            ) [DeclarationItem_VarDecl]
+          ) [MultipleDeclaration]
+          DeclarationItem_VarDecl(
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              SingleVarDeclaration(
+                VarDeclaration_Variable(
+                 a
+                ) [VarDeclaration_Variable]
+              ) [SingleVarDeclaration]
+            ) [VarDeclarations]
+          ) [DeclarationItem_VarDecl]
+        ) [MultipleDeclaration]
+        DeclarationItem_VarDecl(
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            MultipleVarDeclaration(
+              SingleVarDeclaration(
+                VarDeclaration_Variable(
+                 a
+                ) [VarDeclaration_Variable]
+              ) [SingleVarDeclaration]
+              VarDeclaration_Variable(
+               b
+              ) [VarDeclaration_Variable]
+            ) [MultipleVarDeclaration]
+          ) [VarDeclarations]
+        ) [DeclarationItem_VarDecl]
+      ) [MultipleDeclaration]
+      DeclarationItem_VarDecl(
+        VarDeclarations(
+          Type(
+           abc
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Variable(
+             b
+            ) [VarDeclaration_Variable]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [DeclarationItem_VarDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations_Error(
+      ) [VarDeclarations_Error]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      VoidMethReturnType(
+       main
+      ) [VoidMethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Variable(
+             a
+            ) [VarDeclaration_Variable]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Assignop(
+              Designator_Var(
+               a
+              ) [Designator_Var]
+              Assignop(
+              ) [Assignop]
+              Assignment_Error(
+              ) [Assignment_Error]
+            ) [DesignatorStatement_Assignop]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  10:24:24,045 - ===================================
+ERROR 10:24:24,049 - ERROR: Vec postoji promenljiva sa imenom a na liniji 5
+ERROR 10:24:24,049 - ERROR: Greska: Tip abc nije pronadjen u tabeli simbola!
+ERROR 10:24:24,049 - ERROR: Vec postoji promenljiva sa imenom b na liniji 6
+ERROR 10:24:24,050 - ERROR: Vec postoji promenljiva sa imenom a na liniji 11
+INFO  10:24:24,051 - 
+ INFO: Pristupa se Globalnoj promenljivoj a: 
+Designator_Var(
+ a
+) [Designator_Var] na liniji 13
+
+ERROR 10:24:24,051 - ERROR: Vrednost sa desne strane iskaza nije korektna! na liniji 13
+INFO  10:24:24,051 - ===================================
+ERROR 10:24:24,053 - Parsiranje NIJE uspesno zavrseno!

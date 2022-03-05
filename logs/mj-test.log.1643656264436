@@ -1,0 +1,5 @@
+INFO  20:10:53,702 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  20:10:53,734 - ===================================
+ERROR 20:10:53,737 - ERROR: Nekompatibilni tipovi! na liniji 9
+INFO  20:10:53,737 - ===================================
+ERROR 20:10:53,737 - Parsiranje NIJE uspesno zavrseno!

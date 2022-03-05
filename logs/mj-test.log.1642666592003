@@ -1,0 +1,155 @@
+INFO  09:16:02,245 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  09:16:02,309 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Array(
+           y
+          ) [VarDeclaration_Array]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           char
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             m
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_MultipleStatements(
+            StatementList_NoStatements(
+            ) [StatementList_NoStatements]
+            Statement_SingleStatement(
+              SingleStatement_DesignatorStatement(
+                DesignatorStatement_Assignop(
+                  Designator_Var(
+                   y
+                  ) [Designator_Var]
+                  Assignop(
+                  ) [Assignop]
+                  Assignment_Expr(
+                    Expr_Term(
+                      Term_Factor(
+                        Factor_NewExpr(
+                          Type(
+                           int
+                          ) [Type]
+                          Expr_Term(
+                            Term_Factor(
+                              Factor_Number(
+                               10
+                              ) [Factor_Number]
+                            ) [Term_Factor]
+                          ) [Expr_Term]
+                        ) [Factor_NewExpr]
+                      ) [Term_Factor]
+                    ) [Expr_Term]
+                  ) [Assignment_Expr]
+                ) [DesignatorStatement_Assignop]
+              ) [SingleStatement_DesignatorStatement]
+            ) [Statement_SingleStatement]
+          ) [StatementList_MultipleStatements]
+          Statement_SingleStatement(
+            SingleStatement_DesignatorStatement(
+              DesignatorStatement_Assignop(
+                Designator_Var(
+                 m
+                ) [Designator_Var]
+                Assignop(
+                ) [Assignop]
+                Assignment_Expr(
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_NewExpr(
+                        Type(
+                         char
+                        ) [Type]
+                        Expr_Term(
+                          Term_Factor(
+                            Factor_Number(
+                             4
+                            ) [Factor_Number]
+                          ) [Term_Factor]
+                        ) [Expr_Term]
+                      ) [Factor_NewExpr]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                ) [Assignment_Expr]
+              ) [DesignatorStatement_Assignop]
+            ) [SingleStatement_DesignatorStatement]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Assignop(
+              Designator_Array(
+               y
+                Expr_Term(
+                  Term_Factor(
+                    Factor_Number(
+                     2
+                    ) [Factor_Number]
+                  ) [Term_Factor]
+                ) [Expr_Term]
+              ) [Designator_Array]
+              Assignop(
+              ) [Assignop]
+              Assignment_Expr(
+                Expr_Term(
+                  Term_Factor(
+                    Factor_Designator(
+                      Designator_Array(
+                       m
+                        Expr_Term(
+                          Term_Factor(
+                            Factor_Number(
+                             3
+                            ) [Factor_Number]
+                          ) [Term_Factor]
+                        ) [Expr_Term]
+                      ) [Designator_Array]
+                    ) [Factor_Designator]
+                  ) [Term_Factor]
+                ) [Expr_Term]
+              ) [Assignment_Expr]
+            ) [DesignatorStatement_Assignop]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  09:16:02,310 - ===================================
+INFO  09:16:02,313 - INFO: Pristupa se Globalnoj promenljivoj y: rs.etf.pp1.symboltable.concepts.Obj@17a7cec2 na liniji 6
+INFO  09:16:02,313 - INFO: Pristupa se Lokalnoj promenljivoj m: rs.etf.pp1.symboltable.concepts.Obj@65b3120a na liniji 7

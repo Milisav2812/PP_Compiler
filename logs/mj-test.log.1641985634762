@@ -1,0 +1,92 @@
+INFO  12:03:50,108 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  12:03:50,138 - #31 MJProgram
+INFO  12:03:50,138 - #31 int
+INFO  12:03:50,139 - #31 x
+ERROR 12:03:50,139 - 
+Sintaksna greska na liniji 2
+INFO  12:03:50,139 - #30 17
+INFO  12:03:50,140 - #31 z
+INFO  12:03:50,140 - #31 y
+ERROR 12:03:50,140 - Greska: Globalna Promenljiva na liniji 2. Neispravna definicija jedne od promenljivih. Izvrsen oporavak do narednog COMMA
+INFO  12:03:50,141 - #31 int
+INFO  12:03:50,141 - #31 g
+INFO  12:03:50,141 - #31 int
+INFO  12:03:50,142 - #31 main
+INFO  12:03:50,142 - #31 g
+INFO  12:03:50,143 - #30 18
+INFO  12:03:50,146 - Program(
+  ProgramName(
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_VarDecl(
+        VarDeclarations(
+          Type(
+          ) [Type]
+          MultipleVarDeclaration(
+            VarDeclaration_CommaError(
+              VarDeclaration_Variable(
+              ) [VarDeclaration_Variable]
+            ) [VarDeclaration_CommaError]
+            VarDeclaration_Variable(
+            ) [VarDeclaration_Variable]
+          ) [MultipleVarDeclaration]
+        ) [VarDeclarations]
+      ) [DeclarationItem_VarDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Assignop(
+              Designator_Ident(
+              ) [Designator_Ident]
+              Assignop(
+              ) [Assignop]
+              Expr_TermList(
+                TermList_SingleTerm(
+                  Term(
+                    FactorList_SingleFactor(
+                      Factor_Number(
+                      ) [Factor_Number]
+                    ) [FactorList_SingleFactor]
+                  ) [Term]
+                ) [TermList_SingleTerm]
+              ) [Expr_TermList]
+            ) [DesignatorStatement_Assignop]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  12:03:50,151 - ===================================
+INFO  12:03:50,153 -  Print count calls = 0
+INFO  12:03:50,153 -  Deklarisanih const promenljivih ima = 0
+INFO  12:03:50,153 - ===================================

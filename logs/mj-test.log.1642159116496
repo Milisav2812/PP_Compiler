@@ -1,0 +1,65 @@
+INFO  12:18:17,273 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+ERROR 12:18:17,298 - 
+Sintaksna greska na liniji 2
+ERROR 12:18:17,299 - Greska: Globalna Promenljiva na liniji 2. Nije definisan tip. Izvrsen oporavak do narednog SEMI
+INFO  12:18:17,305 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_VarDecl(
+        VarDeclarations_Error(
+        ) [VarDeclarations_Error]
+      ) [DeclarationItem_VarDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+           y
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_NoStatements(
+      ) [StatementList_NoStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  12:18:17,312 - ===================================
+INFO  12:18:17,313 - Promenljiva y dodata u Tabelu Simbola! na liniji 3
+INFO  12:18:17,313 - Niz z dodat u Tabelu Simbola! na liniji 6
+INFO  12:18:17,313 - ===================================

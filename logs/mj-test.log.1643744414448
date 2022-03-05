@@ -1,0 +1,5 @@
+INFO  20:39:23,478 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  20:39:23,516 - ===================================
+ERROR 20:39:23,519 - ERROR: Designator x nije Varijabla ni Element niza! na liniji 9
+INFO  20:39:23,520 - ===================================
+ERROR 20:39:23,521 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,6 @@
+INFO  10:24:14,584 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\test301_A.mj
+INFO  10:24:14,621 - ===================================
+ERROR 10:24:14,624 - ERROR: Nekompatibilni tipovi! na liniji 35
+ERROR 10:24:14,624 - ERROR: Nekompatibilni tipovi! na liniji 36
+INFO  10:24:14,624 - ===================================
+ERROR 10:24:14,625 - Parsiranje NIJE uspesno zavrseno!

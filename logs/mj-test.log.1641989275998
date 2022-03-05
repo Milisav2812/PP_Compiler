@@ -1,0 +1,12 @@
+INFO  13:07:14,357 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  13:07:14,378 - #31 MJProgram
+INFO  13:07:14,378 - #31 int
+INFO  13:07:14,379 - #31 x
+INFO  13:07:14,379 - #31 z
+INFO  13:07:14,379 - #31 y
+INFO  13:07:14,380 - #31 int
+INFO  13:07:14,380 - #31 g
+ERROR 13:07:14,380 - 
+Sintaksna greska na liniji 4
+INFO  13:07:14,380 - #31 int
+INFO  13:07:14,380 - #31 main

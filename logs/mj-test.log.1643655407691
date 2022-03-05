@@ -1,0 +1,16 @@
+INFO  19:55:46,419 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  19:55:46,455 - ===================================
+ERROR 19:55:46,459 - ERROR: Designator y je niz! na liniji 7
+INFO  19:55:46,459 - 
+ INFO: Assignment: 3 na liniji 7
+
+INFO  19:55:46,459 - 
+ INFO: Left Side: 3 na liniji 7
+
+INFO  19:55:46,460 - 
+ INFO: Assignment2: null na liniji 7
+
+INFO  19:55:46,460 - 
+ INFO: Left Side2: null na liniji 7
+
+INFO  19:55:46,460 - ===================================

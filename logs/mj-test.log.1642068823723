@@ -1,0 +1,39 @@
+INFO  11:13:36,105 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:13:36,126 - #31 MJProgram
+INFO  11:13:36,126 - #31 int
+INFO  11:13:36,126 - #31 main
+ERROR 11:13:36,127 - 
+Sintaksna greska na liniji 6
+ERROR 11:13:36,128 - Oporavak od greske: Read Statement. Izvrsen oporavak do narednog ;
+INFO  11:13:36,129 - Program(
+  ProgramName(
+  ) [ProgramName]
+  NoDeclarationList(
+  ) [NoDeclarationList]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          ReadStatement_Error(
+          ) [ReadStatement_Error]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:13:36,135 - ===================================
+INFO  11:13:36,139 -  Print count calls = 0
+INFO  11:13:36,139 -  Deklarisanih const promenljivih ima = 0
+INFO  11:13:36,139 - ===================================

@@ -1,0 +1,21 @@
+program MJProgram
+	int ; // Oporavak od greske
+	
+	int a[];
+	
+	int a +; // Oporavak od greske
+	
+	int x, y; 
+	
+	randomType b;
+	
+	bool b = true; // Sintaksna greska
+	
+	noType 99; // Prodje sintaksa - Ali ne upise u stablo(Semantika)
+{
+	void main() 
+	int a;
+	{
+		a = 5 + 8 -; // greska u konstrukciji iskaza dodele			
+	}
+}

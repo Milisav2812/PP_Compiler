@@ -1,0 +1,191 @@
+INFO  19:57:26,858 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  19:57:26,928 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Array(
+           y
+          ) [VarDeclaration_Array]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    MultipleMethod(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclaration(
+        VoidMethReturnType(
+         p
+        ) [VoidMethReturnType]
+        FormParams(
+          SingleFormParameter(
+            FormParam_Variable(
+              Type(
+               int
+              ) [Type]
+             a1
+            ) [FormParam_Variable]
+          ) [SingleFormParameter]
+        ) [FormParams]
+        MultipleLocalParam(
+          NoLocalParam(
+          ) [NoLocalParam]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            SingleVarDeclaration(
+              VarDeclaration_Variable(
+               a2
+              ) [VarDeclaration_Variable]
+            ) [SingleVarDeclaration]
+          ) [VarDeclarations]
+        ) [MultipleLocalParam]
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+      ) [MethodDeclaration]
+    ) [MultipleMethod]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_MultipleStatements(
+            StatementList_NoStatements(
+            ) [StatementList_NoStatements]
+            Statement_SingleStatement(
+              SingleStatement_DesignatorStatement(
+                DesignatorStatement_Assignop(
+                  Designator_Array(
+                   y
+                    Expr_Term(
+                      Term_Factor(
+                        Factor_Number(
+                         2
+                        ) [Factor_Number]
+                      ) [Term_Factor]
+                    ) [Expr_Term]
+                  ) [Designator_Array]
+                  Assignop(
+                  ) [Assignop]
+                  Assignment_Expr(
+                    Expr_Term(
+                      Term_Factor(
+                        Factor_Number(
+                         3
+                        ) [Factor_Number]
+                      ) [Term_Factor]
+                    ) [Expr_Term]
+                  ) [Assignment_Expr]
+                ) [DesignatorStatement_Assignop]
+              ) [SingleStatement_DesignatorStatement]
+            ) [Statement_SingleStatement]
+          ) [StatementList_MultipleStatements]
+          Statement_SingleStatement(
+            SingleStatement_DesignatorStatement(
+              DesignatorStatement_Assignop(
+                Designator_Array(
+                 y
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_Number(
+                       3
+                      ) [Factor_Number]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                ) [Designator_Array]
+                Assignop(
+                ) [Assignop]
+                Assignment_Expr(
+                  Expr_AddopTerm(
+                    Expr_Term(
+                      Term_Factor(
+                        Factor_Designator(
+                          Designator_Array(
+                           y
+                            Expr_Term(
+                              Term_Factor(
+                                Factor_Number(
+                                 2
+                                ) [Factor_Number]
+                              ) [Term_Factor]
+                            ) [Expr_Term]
+                          ) [Designator_Array]
+                        ) [Factor_Designator]
+                      ) [Term_Factor]
+                    ) [Expr_Term]
+                    Addop_Plus(
+                    ) [Addop_Plus]
+                    Term_Factor(
+                      Factor_Number(
+                       1
+                      ) [Factor_Number]
+                    ) [Term_Factor]
+                  ) [Expr_AddopTerm]
+                ) [Assignment_Expr]
+              ) [DesignatorStatement_Assignop]
+            ) [SingleStatement_DesignatorStatement]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_ActPars(
+              CalledFunctionName(
+                Designator_Var(
+                 p
+                ) [Designator_Var]
+              ) [CalledFunctionName]
+              ActPars_List(
+                ExprList_SingleExpr(
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_Number(
+                       3
+                      ) [Factor_Number]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                ) [ExprList_SingleExpr]
+              ) [ActPars_List]
+            ) [DesignatorStatement_ActPars]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  19:57:26,931 - ===================================
+INFO  19:57:26,935 - INFO: Niz y dodat u Tabelu Simbola! Tipa: rs.etf.pp1.symboltable.concepts.Struct@17a7cec2 na liniji 2
+INFO  19:57:26,936 - INFO: Zavrseno obradjivanje funkcije p
+INFO  19:57:26,936 - INFO: Kind 3 na liniji 7
+INFO  19:57:26,937 - INFO: Uspesna dodela niza na liniji 7
+INFO  19:57:26,937 - INFO: Kind 3 na liniji 8
+INFO  19:57:26,937 - INFO: Uspesna dodela niza na liniji 8
+INFO  19:57:26,937 - INFO: Kind 3 na liniji 8
+INFO  19:57:26,937 - INFO: Uspesna dodela niza na liniji 8
+INFO  19:57:26,937 - INFO: Expr kind 3 na liniji 8
+INFO  19:57:26,937 - INFO: Term kind 1 na liniji 8
+INFO  19:57:26,937 - INFO: Expr elemType rs.etf.pp1.symboltable.concepts.Struct@65b3120a na liniji 8
+INFO  19:57:26,937 - INFO: Term elemType rs.etf.pp1.symboltable.concepts.Struct@17a7cec2 na liniji 8
+INFO  19:57:26,938 - INFO: Method name: p
+INFO  19:57:26,938 - INFO: Pronadjen poziv funkcije p na liniji 10
+INFO  19:57:26,938 - INFO: Uspesan poziv funkcije p na liniji 10
+INFO  19:57:26,938 - INFO: Zavrseno obradjivanje funkcije main
+INFO  19:57:26,938 - ===================================

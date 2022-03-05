@@ -1,0 +1,163 @@
+INFO  11:34:59,789 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\syntax.mj
+ERROR 11:34:59,814 - 
+Sintaksna greska na liniji 2
+ERROR 11:34:59,815 - Greska: Globalna Promenljiva na liniji 2. Neispravna definicija. Izvrsen oporavak do narednog SEMI
+ERROR 11:34:59,816 - 
+Sintaksna greska na liniji 6
+ERROR 11:34:59,816 - Greska: Globalna Promenljiva. Neispravna definicija. Izvrsen oporavak do narednog COMMA
+ERROR 11:34:59,816 - 
+Sintaksna greska na liniji 12
+ERROR 11:34:59,817 - Greska: Globalna Promenljiva. Neispravna definicija. Izvrsen oporavak do narednog COMMA
+ERROR 11:34:59,819 - 
+Sintaksna greska na liniji 19
+ERROR 11:34:59,819 - Oporavak od greske: Iskaz za dodelu. Izvrsen oporavak do narednog SEMI
+INFO  11:34:59,824 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      MultipleDeclaration(
+        MultipleDeclaration(
+          MultipleDeclaration(
+            MultipleDeclaration(
+              NoDeclarationList(
+              ) [NoDeclarationList]
+              DeclarationItem_VarDecl(
+                VarDeclarations_Error(
+                ) [VarDeclarations_Error]
+              ) [DeclarationItem_VarDecl]
+            ) [MultipleDeclaration]
+            DeclarationItem_VarDecl(
+              VarDeclarations(
+                Type(
+                 int
+                ) [Type]
+                SingleVarDeclaration(
+                  VarDeclaration_Item(
+                    VarDeclaration_Array(
+                     a
+                    ) [VarDeclaration_Array]
+                  ) [VarDeclaration_Item]
+                ) [SingleVarDeclaration]
+              ) [VarDeclarations]
+            ) [DeclarationItem_VarDecl]
+          ) [MultipleDeclaration]
+          DeclarationItem_VarDecl(
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              SingleVarDeclaration(
+                VarDeclaration_CommaError(
+                ) [VarDeclaration_CommaError]
+              ) [SingleVarDeclaration]
+            ) [VarDeclarations]
+          ) [DeclarationItem_VarDecl]
+        ) [MultipleDeclaration]
+        DeclarationItem_VarDecl(
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            MultipleVarDeclaration(
+              SingleVarDeclaration(
+                VarDeclaration_Item(
+                  VarDeclaration_Variable(
+                   x
+                  ) [VarDeclaration_Variable]
+                ) [VarDeclaration_Item]
+              ) [SingleVarDeclaration]
+              VarDeclaration_Item(
+                VarDeclaration_Variable(
+                 y
+                ) [VarDeclaration_Variable]
+              ) [VarDeclaration_Item]
+            ) [MultipleVarDeclaration]
+          ) [VarDeclarations]
+        ) [DeclarationItem_VarDecl]
+      ) [MultipleDeclaration]
+      DeclarationItem_VarDecl(
+        VarDeclarations(
+          Type(
+           randomType
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Item(
+              VarDeclaration_Variable(
+               b
+              ) [VarDeclaration_Variable]
+            ) [VarDeclaration_Item]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [DeclarationItem_VarDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         bool
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_CommaError(
+          ) [VarDeclaration_CommaError]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      VoidMethReturnType(
+       main
+      ) [VoidMethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Item(
+              VarDeclaration_Variable(
+               a
+              ) [VarDeclaration_Variable]
+            ) [VarDeclaration_Item]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Assignop(
+              Designator_Var(
+               a
+              ) [Designator_Var]
+              Assignop(
+              ) [Assignop]
+              Assignment_Error(
+              ) [Assignment_Error]
+            ) [DesignatorStatement_Assignop]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:34:59,825 - ===================================
+ERROR 11:34:59,828 - ERROR: Greska: Tip randomType nije pronadjen u tabeli simbola!
+ERROR 11:34:59,828 - ERROR: Vec postoji promenljiva sa imenom a na liniji 17
+INFO  11:34:59,828 - 
+ INFO: Pristupa se Globalnoj promenljivoj a: 
+Designator_Var(
+ a
+) [Designator_Var] na liniji 19
+
+ERROR 11:34:59,828 - ERROR: Vrednost sa desne strane iskaza nije korektna! na liniji 19
+INFO  11:34:59,828 - ===================================
+ERROR 11:34:59,829 - Parsiranje NIJE uspesno zavrseno!

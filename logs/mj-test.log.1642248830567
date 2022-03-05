@@ -1,0 +1,163 @@
+INFO  13:08:36,156 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  13:08:36,186 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclaration(
+          Type(
+           bool
+          ) [Type]
+          SingleConstDeclaration(
+            ConstBool(
+             x
+             1
+            ) [ConstBool]
+          ) [SingleConstDeclaration]
+        ) [ConstDeclaration]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        MultipleVarDeclaration(
+          MultipleVarDeclaration(
+            SingleVarDeclaration(
+              VarDeclaration_Variable(
+               y
+              ) [VarDeclaration_Variable]
+            ) [SingleVarDeclaration]
+            VarDeclaration_Variable(
+             x
+            ) [VarDeclaration_Variable]
+          ) [MultipleVarDeclaration]
+          VarDeclaration_Variable(
+           c
+          ) [VarDeclaration_Variable]
+        ) [MultipleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    MultipleMethod(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclaration(
+        MethReturnType(
+          Type(
+           int
+          ) [Type]
+         fun
+        ) [MethReturnType]
+        NoFormParams(
+        ) [NoFormParams]
+        NoLocalParam(
+        ) [NoLocalParam]
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+      ) [MethodDeclaration]
+    ) [MultipleMethod]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_MultipleStatements(
+            StatementList_MultipleStatements(
+              StatementList_NoStatements(
+              ) [StatementList_NoStatements]
+              Statement_SingleStatement(
+                SingleStatement_DesignatorStatement(
+                  DesignatorStatement_ActPars(
+                    Designator_Var(
+                     fun
+                    ) [Designator_Var]
+                    ActPars_NoPars(
+                    ) [ActPars_NoPars]
+                  ) [DesignatorStatement_ActPars]
+                ) [SingleStatement_DesignatorStatement]
+              ) [Statement_SingleStatement]
+            ) [StatementList_MultipleStatements]
+            Statement_SingleStatement(
+              SingleStatement_DesignatorStatement(
+                DesignatorStatement_Assignop(
+                  Designator_Var(
+                   y
+                  ) [Designator_Var]
+                  Assignop(
+                  ) [Assignop]
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_Number(
+                       3
+                      ) [Factor_Number]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                ) [DesignatorStatement_Assignop]
+              ) [SingleStatement_DesignatorStatement]
+            ) [Statement_SingleStatement]
+          ) [StatementList_MultipleStatements]
+          Statement_SingleStatement(
+            SingleStatement_DesignatorStatement(
+              DesignatorStatement_Inc(
+                Designator_Var(
+                 y
+                ) [Designator_Var]
+              ) [DesignatorStatement_Inc]
+            ) [SingleStatement_DesignatorStatement]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Dec(
+              Designator_Var(
+               y
+              ) [Designator_Var]
+            ) [DesignatorStatement_Dec]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  13:08:36,194 - ===================================
+INFO  13:08:36,199 - Konstanta x dodata u Tabelu Simbola! na liniji 2
+INFO  13:08:36,199 - Promenljiva y dodata u Tabelu Simbola! na liniji 3
+INFO  13:08:36,199 - Promenljiva x dodata u Tabelu Simbola! na liniji 3
+INFO  13:08:36,199 - Promenljiva c dodata u Tabelu Simbola! na liniji 3
+INFO  13:08:36,200 - Obradjuje se funkcija fun na liniji 5
+INFO  13:08:36,200 - Zavrseno obradjivanje funkcije fun
+INFO  13:08:36,200 - Obradjuje se funkcija main na liniji 7
+INFO  13:08:36,200 - Niz z dodat u Tabelu Simbola! na liniji 7
+INFO  13:08:36,200 - Pronadjen poziv funkcije fun na liniji 9
+INFO  13:08:36,200 - Uspesno dodeljena vrednost promenljivoj y
+INFO  13:08:36,201 - Uspesno inkrementirana vrednost promenljivoj y
+INFO  13:08:36,201 - Uspesno dekrementirana vrednost promenljivoj y
+INFO  13:08:36,201 - Zavrseno obradjivanje funkcije main
+INFO  13:08:36,201 - ===================================

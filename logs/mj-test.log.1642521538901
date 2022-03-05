@@ -1,0 +1,158 @@
+INFO  16:58:29,887 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+ERROR 16:58:29,944 - 
+Sintaksna greska na liniji 10
+ERROR 16:58:29,945 - Oporavak od greske: Iskaz za dodelu. Izvrsen oporavak do narednog SEMI
+INFO  16:58:29,955 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclaration(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstNumber(
+             x
+             100
+            ) [ConstNumber]
+          ) [SingleConstDeclaration]
+        ) [ConstDeclaration]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Array(
+           y
+          ) [VarDeclaration_Array]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    MultipleMethod(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclaration(
+        VoidMethReturnType(
+         fun
+        ) [VoidMethReturnType]
+        FormParams(
+          MultipleFormParameter(
+            SingleFormParameter(
+              FormParam_Variable(
+                Type(
+                 int
+                ) [Type]
+               a1
+              ) [FormParam_Variable]
+            ) [SingleFormParameter]
+            FormParam_Variable(
+              Type(
+               int
+              ) [Type]
+             a3
+            ) [FormParam_Variable]
+          ) [MultipleFormParameter]
+        ) [FormParams]
+        NoLocalParam(
+        ) [NoLocalParam]
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+      ) [MethodDeclaration]
+    ) [MultipleMethod]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_NoStatements(
+          ) [StatementList_NoStatements]
+          Statement_SingleStatement(
+            SingleStatement_DesignatorStatement(
+              DesignatorStatement_Assignop(
+                Designator_Var(
+                 y
+                ) [Designator_Var]
+                Assignop(
+                ) [Assignop]
+                Assignment_Error(
+                ) [Assignment_Error]
+              ) [DesignatorStatement_Assignop]
+            ) [SingleStatement_DesignatorStatement]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_ActPars(
+              CalledFunctionName(
+                Designator_Var(
+                 fun
+                ) [Designator_Var]
+              ) [CalledFunctionName]
+              ActPars_List(
+                ExprList_MultipleExpr(
+                  ExprList_SingleExpr(
+                    Expr_Term(
+                      Term_Factor(
+                        Factor_Number(
+                         4
+                        ) [Factor_Number]
+                      ) [Term_Factor]
+                    ) [Expr_Term]
+                  ) [ExprList_SingleExpr]
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_Number(
+                       6
+                      ) [Factor_Number]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                ) [ExprList_MultipleExpr]
+              ) [ActPars_List]
+            ) [DesignatorStatement_ActPars]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  16:58:29,962 - ===================================
+INFO  16:58:29,966 - INFO: Konstanta x dodata u Tabelu Simbola! na liniji 2
+INFO  16:58:29,966 - INFO: Niz y dodat u Tabelu Simbola! na liniji 3
+INFO  16:58:29,967 - INFO: Zavrseno obradjivanje funkcije fun
+INFO  16:58:29,967 - INFO: Niz z dodat u Tabelu Simbola! na liniji 8
+ERROR 16:58:29,968 - ERROR: Semanticka greska: Vrednost sa desne strane iskaza nije korektna! na liniji 10
+INFO  16:58:29,968 - INFO: Method name: fun
+INFO  16:58:29,968 - INFO: Pronadjen poziv funkcije fun na liniji 11
+INFO  16:58:29,968 - INFO: Uspesan poziv funkcije fun na liniji 11
+INFO  16:58:29,968 - INFO: Zavrseno obradjivanje funkcije main
+INFO  16:58:29,969 - ===================================

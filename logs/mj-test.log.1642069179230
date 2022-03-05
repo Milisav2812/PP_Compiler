@@ -1,0 +1,43 @@
+INFO  11:19:30,963 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:19:30,984 - #31 MJProgram
+INFO  11:19:30,984 - #31 int
+INFO  11:19:30,984 - #31 main
+INFO  11:19:30,986 - #31 asd
+INFO  11:19:30,987 - Program(
+  ProgramName(
+  ) [ProgramName]
+  NoDeclarationList(
+  ) [NoDeclarationList]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_ActPars(
+              Designator_Ident(
+              ) [Designator_Ident]
+              ActPars_NoPars(
+              ) [ActPars_NoPars]
+            ) [DesignatorStatement_ActPars]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:19:30,993 - ===================================
+INFO  11:19:30,994 -  Print count calls = 0
+INFO  11:19:30,994 -  Deklarisanih const promenljivih ima = 0
+INFO  11:19:30,994 - ===================================

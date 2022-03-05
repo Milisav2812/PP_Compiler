@@ -1,0 +1,79 @@
+INFO  13:06:21,126 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  13:06:21,146 - #31 MJProgram
+INFO  13:06:21,147 - #31 int
+INFO  13:06:21,147 - #31 x
+INFO  13:06:21,148 - #31 z
+INFO  13:06:21,148 - #31 y
+INFO  13:06:21,148 - #31 int
+INFO  13:06:21,148 - #31 g
+INFO  13:06:21,148 - #31 int
+INFO  13:06:21,149 - #31 main
+ERROR 13:06:21,150 - 
+Sintaksna greska na liniji 8
+ERROR 13:06:21,150 - Oporavak od greske: Iskaz dodele. Izvrsen oporavak do narednog SEMI
+INFO  13:06:21,152 - Program(
+  ProgramName(
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_VarDecl(
+        VarDeclarations(
+          Type(
+          ) [Type]
+          MultipleVarDeclaration(
+            MultipleVarDeclaration(
+              SingleVarDeclaration(
+                VarDeclaration_Variable(
+                ) [VarDeclaration_Variable]
+              ) [SingleVarDeclaration]
+              VarDeclaration_Variable(
+              ) [VarDeclaration_Variable]
+            ) [MultipleVarDeclaration]
+            VarDeclaration_Variable(
+            ) [VarDeclaration_Variable]
+          ) [MultipleVarDeclaration]
+        ) [VarDeclarations]
+      ) [DeclarationItem_VarDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_AssignError(
+            ) [DesignatorStatement_AssignError]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  13:06:21,152 - ===================================
+INFO  13:06:21,153 -  Print count calls = 0
+INFO  13:06:21,153 -  Deklarisanih const promenljivih ima = 0
+INFO  13:06:21,153 - ===================================

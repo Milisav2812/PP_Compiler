@@ -1,0 +1,11 @@
+INFO  20:08:21,749 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  20:08:21,780 - ===================================
+INFO  20:08:21,782 - 
+ INFO: NIZ y je tipa 1 na liniji 2
+
+INFO  20:08:21,783 - 
+ INFO: TIP: 1 na liniji 7
+
+ERROR 20:08:21,783 - ERROR: Vrednost sa desne strane iskaza nije korektna! na liniji 7
+INFO  20:08:21,783 - ===================================
+ERROR 20:08:21,784 - Parsiranje NIJE uspesno zavrseno!

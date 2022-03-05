@@ -1,0 +1,144 @@
+INFO  15:32:51,337 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  15:32:51,376 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclaration(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstNumber(
+             x
+             100
+            ) [ConstNumber]
+          ) [SingleConstDeclaration]
+        ) [ConstDeclaration]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+           y
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    MultipleMethod(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclaration(
+        VoidMethReturnType(
+         fun
+        ) [VoidMethReturnType]
+        FormParams(
+          MultipleFormParameter(
+            SingleFormParameter(
+              FormParam_Variable(
+                Type(
+                 int
+                ) [Type]
+               a1
+              ) [FormParam_Variable]
+            ) [SingleFormParameter]
+            FormParam_Variable(
+              Type(
+               int
+              ) [Type]
+             a3
+            ) [FormParam_Variable]
+          ) [MultipleFormParameter]
+        ) [FormParams]
+        NoLocalParam(
+        ) [NoLocalParam]
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+      ) [MethodDeclaration]
+    ) [MultipleMethod]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_ActPars(
+              CalledFunctionName(
+                Designator_Var(
+                 fun1
+                ) [Designator_Var]
+              ) [CalledFunctionName]
+              ActPars_List(
+                ExprList_MultipleExpr(
+                  ExprList_MultipleExpr(
+                    ExprList_SingleExpr(
+                      Expr_Term(
+                        Term_Factor(
+                          Factor_Number(
+                           4
+                          ) [Factor_Number]
+                        ) [Term_Factor]
+                      ) [Expr_Term]
+                    ) [ExprList_SingleExpr]
+                    Expr_Term(
+                      Term_Factor(
+                        Factor_CharConst(
+                         j
+                        ) [Factor_CharConst]
+                      ) [Term_Factor]
+                    ) [Expr_Term]
+                  ) [ExprList_MultipleExpr]
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_Number(
+                       12
+                      ) [Factor_Number]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                ) [ExprList_MultipleExpr]
+              ) [ActPars_List]
+            ) [DesignatorStatement_ActPars]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  15:32:51,377 - ===================================
+INFO  15:32:51,380 - INFO: Konstanta x dodata u Tabelu Simbola! na liniji 2
+INFO  15:32:51,380 - INFO: Promenljiva y dodata u Tabelu Simbola! na liniji 3
+INFO  15:32:51,380 - INFO: Zavrseno obradjivanje funkcije fun
+INFO  15:32:51,380 - INFO: Niz z dodat u Tabelu Simbola! na liniji 8
+ERROR 15:32:51,380 - ERROR: Designator noObj nije tipa Method! na liniji 11

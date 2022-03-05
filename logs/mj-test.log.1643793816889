@@ -1,0 +1,12 @@
+INFO  10:22:02,464 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\test301_A.mj
+INFO  10:22:02,506 - ===================================
+ERROR 10:22:02,508 - ERROR: Designator nula nije niz! na liniji 25
+ERROR 10:22:02,508 - ERROR: Designator jedan nije niz! na liniji 27
+ERROR 10:22:02,509 - ERROR: Designator jedan nije niz! na liniji 27
+ERROR 10:22:02,509 - ERROR: Designator jedan nije niz! na liniji 35
+ERROR 10:22:02,509 - ERROR: Nekompatibilni tipovi! na liniji 35
+ERROR 10:22:02,509 - ERROR: Designator pet nije niz! na liniji 36
+ERROR 10:22:02,509 - ERROR: Nekompatibilni tipovi! na liniji 36
+ERROR 10:22:02,509 - ERROR: Designator jedan nije niz! na liniji 38
+INFO  10:22:02,509 - ===================================
+ERROR 10:22:02,510 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,8 @@
+INFO  11:17:00,801 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:17:00,825 - #31 MJProgram
+INFO  11:17:00,826 - #31 int
+INFO  11:17:00,826 - #31 main
+INFO  11:17:00,827 - #31 asd
+ERROR 11:17:00,828 - 
+Sintaksna greska na liniji 6
+ERROR 11:17:00,829 - Fatalna greska, parsiranje ne moze da se nastavi na liniji 10

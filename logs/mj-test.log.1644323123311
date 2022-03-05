@@ -1,0 +1,1391 @@
+INFO  10:36:28,405 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\test301_A.mj
+INFO  10:36:28,463 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      MultipleDeclaration(
+        MultipleDeclaration(
+          MultipleDeclaration(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            DeclarationItem_ConstDecl(
+              ConstDeclaration(
+                Type(
+                 int
+                ) [Type]
+                SingleConstDeclaration(
+                  ConstNumber(
+                   nula
+                   0
+                  ) [ConstNumber]
+                ) [SingleConstDeclaration]
+              ) [ConstDeclaration]
+            ) [DeclarationItem_ConstDecl]
+          ) [MultipleDeclaration]
+          DeclarationItem_ConstDecl(
+            ConstDeclaration(
+              Type(
+               int
+              ) [Type]
+              SingleConstDeclaration(
+                ConstNumber(
+                 jedan
+                 1
+                ) [ConstNumber]
+              ) [SingleConstDeclaration]
+            ) [ConstDeclaration]
+          ) [DeclarationItem_ConstDecl]
+        ) [MultipleDeclaration]
+        DeclarationItem_ConstDecl(
+          ConstDeclaration(
+            Type(
+             int
+            ) [Type]
+            SingleConstDeclaration(
+              ConstNumber(
+               pet
+               5
+              ) [ConstNumber]
+            ) [SingleConstDeclaration]
+          ) [ConstDeclaration]
+        ) [DeclarationItem_ConstDecl]
+      ) [MultipleDeclaration]
+      DeclarationItem_VarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Item(
+              VarDeclaration_Array(
+                VarDeclaration_Variable(
+                 niz
+                ) [VarDeclaration_Variable]
+              ) [VarDeclaration_Array]
+            ) [VarDeclaration_Item]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [DeclarationItem_VarDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         char
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Item(
+            VarDeclaration_Array(
+              VarDeclaration_Variable(
+               nizch
+              ) [VarDeclaration_Variable]
+            ) [VarDeclaration_Array]
+          ) [VarDeclaration_Item]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      VoidMethReturnType(
+       main
+      ) [VoidMethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Item(
+              VarDeclaration_Variable(
+               bodovi
+              ) [VarDeclaration_Variable]
+            ) [VarDeclaration_Item]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_MultipleStatements(
+            StatementList_MultipleStatements(
+              StatementList_MultipleStatements(
+                StatementList_MultipleStatements(
+                  StatementList_MultipleStatements(
+                    StatementList_MultipleStatements(
+                      StatementList_MultipleStatements(
+                        StatementList_MultipleStatements(
+                          StatementList_MultipleStatements(
+                            StatementList_MultipleStatements(
+                              StatementList_MultipleStatements(
+                                StatementList_MultipleStatements(
+                                  StatementList_MultipleStatements(
+                                    StatementList_MultipleStatements(
+                                      StatementList_MultipleStatements(
+                                        StatementList_MultipleStatements(
+                                          StatementList_MultipleStatements(
+                                            StatementList_MultipleStatements(
+                                              StatementList_MultipleStatements(
+                                                StatementList_MultipleStatements(
+                                                  StatementList_MultipleStatements(
+                                                    StatementList_MultipleStatements(
+                                                      StatementList_MultipleStatements(
+                                                        StatementList_MultipleStatements(
+                                                          StatementList_MultipleStatements(
+                                                            StatementList_MultipleStatements(
+                                                              StatementList_MultipleStatements(
+                                                                StatementList_MultipleStatements(
+                                                                  StatementList_MultipleStatements(
+                                                                    StatementList_MultipleStatements(
+                                                                      StatementList_NoStatements(
+                                                                      ) [StatementList_NoStatements]
+                                                                      Statement_SingleStatement(
+                                                                        SingleStatement_DesignatorStatement(
+                                                                          DesignatorStatement_Assignop(
+                                                                            DesignatorTemp(
+                                                                              Designator_Var(
+                                                                                DesignatorName(
+                                                                                 bodovi
+                                                                                ) [DesignatorName]
+                                                                              ) [Designator_Var]
+                                                                            ) [DesignatorTemp]
+                                                                            Assignop(
+                                                                            ) [Assignop]
+                                                                            Assignment_Expr(
+                                                                              Expr_Term(
+                                                                                Term_Factor(
+                                                                                  Factor_Number(
+                                                                                   0
+                                                                                  ) [Factor_Number]
+                                                                                ) [Term_Factor]
+                                                                              ) [Expr_Term]
+                                                                            ) [Assignment_Expr]
+                                                                          ) [DesignatorStatement_Assignop]
+                                                                        ) [SingleStatement_DesignatorStatement]
+                                                                      ) [Statement_SingleStatement]
+                                                                    ) [StatementList_MultipleStatements]
+                                                                    Statement_SingleStatement(
+                                                                      SingleStatement_DesignatorStatement(
+                                                                        DesignatorStatement_Inc(
+                                                                          DesignatorTemp(
+                                                                            Designator_Var(
+                                                                              DesignatorName(
+                                                                               bodovi
+                                                                              ) [DesignatorName]
+                                                                            ) [Designator_Var]
+                                                                          ) [DesignatorTemp]
+                                                                        ) [DesignatorStatement_Inc]
+                                                                      ) [SingleStatement_DesignatorStatement]
+                                                                    ) [Statement_SingleStatement]
+                                                                  ) [StatementList_MultipleStatements]
+                                                                  Statement_SingleStatement(
+                                                                    SingleStatement_DesignatorStatement(
+                                                                      DesignatorStatement_Assignop(
+                                                                        DesignatorTemp(
+                                                                          Designator_Var(
+                                                                            DesignatorName(
+                                                                             bodovi
+                                                                            ) [DesignatorName]
+                                                                          ) [Designator_Var]
+                                                                        ) [DesignatorTemp]
+                                                                        Assignop(
+                                                                        ) [Assignop]
+                                                                        Assignment_Expr(
+                                                                          Expr_AddopTerm(
+                                                                            Expr_Term(
+                                                                              Term_Factor(
+                                                                                Factor_Designator(
+                                                                                  DesignatorTemp(
+                                                                                    Designator_Var(
+                                                                                      DesignatorName(
+                                                                                       bodovi
+                                                                                      ) [DesignatorName]
+                                                                                    ) [Designator_Var]
+                                                                                  ) [DesignatorTemp]
+                                                                                ) [Factor_Designator]
+                                                                              ) [Term_Factor]
+                                                                            ) [Expr_Term]
+                                                                            Addop_Plus(
+                                                                            ) [Addop_Plus]
+                                                                            Term_Factor(
+                                                                              Factor_Designator(
+                                                                                DesignatorTemp(
+                                                                                  Designator_Var(
+                                                                                    DesignatorName(
+                                                                                     jedan
+                                                                                    ) [DesignatorName]
+                                                                                  ) [Designator_Var]
+                                                                                ) [DesignatorTemp]
+                                                                              ) [Factor_Designator]
+                                                                            ) [Term_Factor]
+                                                                          ) [Expr_AddopTerm]
+                                                                        ) [Assignment_Expr]
+                                                                      ) [DesignatorStatement_Assignop]
+                                                                    ) [SingleStatement_DesignatorStatement]
+                                                                  ) [Statement_SingleStatement]
+                                                                ) [StatementList_MultipleStatements]
+                                                                Statement_SingleStatement(
+                                                                  SingleStatement_DesignatorStatement(
+                                                                    DesignatorStatement_Assignop(
+                                                                      DesignatorTemp(
+                                                                        Designator_Var(
+                                                                          DesignatorName(
+                                                                           bodovi
+                                                                          ) [DesignatorName]
+                                                                        ) [Designator_Var]
+                                                                      ) [DesignatorTemp]
+                                                                      Assignop(
+                                                                      ) [Assignop]
+                                                                      Assignment_Expr(
+                                                                        Expr_Term(
+                                                                          Term_MulopFactor(
+                                                                            Term_Factor(
+                                                                              Factor_Designator(
+                                                                                DesignatorTemp(
+                                                                                  Designator_Var(
+                                                                                    DesignatorName(
+                                                                                     bodovi
+                                                                                    ) [DesignatorName]
+                                                                                  ) [Designator_Var]
+                                                                                ) [DesignatorTemp]
+                                                                              ) [Factor_Designator]
+                                                                            ) [Term_Factor]
+                                                                            Mulop_Mul(
+                                                                            ) [Mulop_Mul]
+                                                                            Factor_Designator(
+                                                                              DesignatorTemp(
+                                                                                Designator_Var(
+                                                                                  DesignatorName(
+                                                                                   pet
+                                                                                  ) [DesignatorName]
+                                                                                ) [Designator_Var]
+                                                                              ) [DesignatorTemp]
+                                                                            ) [Factor_Designator]
+                                                                          ) [Term_MulopFactor]
+                                                                        ) [Expr_Term]
+                                                                      ) [Assignment_Expr]
+                                                                    ) [DesignatorStatement_Assignop]
+                                                                  ) [SingleStatement_DesignatorStatement]
+                                                                ) [Statement_SingleStatement]
+                                                              ) [StatementList_MultipleStatements]
+                                                              Statement_SingleStatement(
+                                                                SingleStatement_DesignatorStatement(
+                                                                  DesignatorStatement_Dec(
+                                                                    DesignatorTemp(
+                                                                      Designator_Var(
+                                                                        DesignatorName(
+                                                                         bodovi
+                                                                        ) [DesignatorName]
+                                                                      ) [Designator_Var]
+                                                                    ) [DesignatorTemp]
+                                                                  ) [DesignatorStatement_Dec]
+                                                                ) [SingleStatement_DesignatorStatement]
+                                                              ) [Statement_SingleStatement]
+                                                            ) [StatementList_MultipleStatements]
+                                                            Statement_SingleStatement(
+                                                              SingleStatement_PrintExpr(
+                                                                Expr_Term(
+                                                                  Term_Factor(
+                                                                    Factor_Designator(
+                                                                      DesignatorTemp(
+                                                                        Designator_Var(
+                                                                          DesignatorName(
+                                                                           bodovi
+                                                                          ) [DesignatorName]
+                                                                        ) [Designator_Var]
+                                                                      ) [DesignatorTemp]
+                                                                    ) [Factor_Designator]
+                                                                  ) [Term_Factor]
+                                                                ) [Expr_Term]
+                                                              ) [SingleStatement_PrintExpr]
+                                                            ) [Statement_SingleStatement]
+                                                          ) [StatementList_MultipleStatements]
+                                                          Statement_SingleStatement(
+                                                            SingleStatement_DesignatorStatement(
+                                                              DesignatorStatement_Assignop(
+                                                                DesignatorTemp(
+                                                                  Designator_Var(
+                                                                    DesignatorName(
+                                                                     niz
+                                                                    ) [DesignatorName]
+                                                                  ) [Designator_Var]
+                                                                ) [DesignatorTemp]
+                                                                Assignop(
+                                                                ) [Assignop]
+                                                                Assignment_Expr(
+                                                                  Expr_Term(
+                                                                    Term_Factor(
+                                                                      Factor_NewExpr(
+                                                                        FactorArray_Dimension(
+                                                                          FactorArray_New(
+                                                                            Type(
+                                                                             int
+                                                                            ) [Type]
+                                                                          ) [FactorArray_New]
+                                                                          Expr_Term(
+                                                                            Term_Factor(
+                                                                              Factor_Number(
+                                                                               3
+                                                                              ) [Factor_Number]
+                                                                            ) [Term_Factor]
+                                                                          ) [Expr_Term]
+                                                                        ) [FactorArray_Dimension]
+                                                                      ) [Factor_NewExpr]
+                                                                    ) [Term_Factor]
+                                                                  ) [Expr_Term]
+                                                                ) [Assignment_Expr]
+                                                              ) [DesignatorStatement_Assignop]
+                                                            ) [SingleStatement_DesignatorStatement]
+                                                          ) [Statement_SingleStatement]
+                                                        ) [StatementList_MultipleStatements]
+                                                        Statement_SingleStatement(
+                                                          SingleStatement_DesignatorStatement(
+                                                            DesignatorStatement_Assignop(
+                                                              DesignatorTemp(
+                                                                Designator_Array(
+                                                                  Designator_Var(
+                                                                    DesignatorName(
+                                                                     niz
+                                                                    ) [DesignatorName]
+                                                                  ) [Designator_Var]
+                                                                  Expr_Term(
+                                                                    Term_Factor(
+                                                                      Factor_Designator(
+                                                                        DesignatorTemp(
+                                                                          Designator_Var(
+                                                                            DesignatorName(
+                                                                             nula
+                                                                            ) [DesignatorName]
+                                                                          ) [Designator_Var]
+                                                                        ) [DesignatorTemp]
+                                                                      ) [Factor_Designator]
+                                                                    ) [Term_Factor]
+                                                                  ) [Expr_Term]
+                                                                ) [Designator_Array]
+                                                              ) [DesignatorTemp]
+                                                              Assignop(
+                                                              ) [Assignop]
+                                                              Assignment_Expr(
+                                                                Expr_Term(
+                                                                  Term_Factor(
+                                                                    Factor_Designator(
+                                                                      DesignatorTemp(
+                                                                        Designator_Var(
+                                                                          DesignatorName(
+                                                                           jedan
+                                                                          ) [DesignatorName]
+                                                                        ) [Designator_Var]
+                                                                      ) [DesignatorTemp]
+                                                                    ) [Factor_Designator]
+                                                                  ) [Term_Factor]
+                                                                ) [Expr_Term]
+                                                              ) [Assignment_Expr]
+                                                            ) [DesignatorStatement_Assignop]
+                                                          ) [SingleStatement_DesignatorStatement]
+                                                        ) [Statement_SingleStatement]
+                                                      ) [StatementList_MultipleStatements]
+                                                      Statement_SingleStatement(
+                                                        SingleStatement_DesignatorStatement(
+                                                          DesignatorStatement_Assignop(
+                                                            DesignatorTemp(
+                                                              Designator_Array(
+                                                                Designator_Var(
+                                                                  DesignatorName(
+                                                                   niz
+                                                                  ) [DesignatorName]
+                                                                ) [Designator_Var]
+                                                                Expr_Term(
+                                                                  Term_Factor(
+                                                                    Factor_Number(
+                                                                     1
+                                                                    ) [Factor_Number]
+                                                                  ) [Term_Factor]
+                                                                ) [Expr_Term]
+                                                              ) [Designator_Array]
+                                                            ) [DesignatorTemp]
+                                                            Assignop(
+                                                            ) [Assignop]
+                                                            Assignment_Expr(
+                                                              Expr_Term(
+                                                                Term_Factor(
+                                                                  Factor_Number(
+                                                                   2
+                                                                  ) [Factor_Number]
+                                                                ) [Term_Factor]
+                                                              ) [Expr_Term]
+                                                            ) [Assignment_Expr]
+                                                          ) [DesignatorStatement_Assignop]
+                                                        ) [SingleStatement_DesignatorStatement]
+                                                      ) [Statement_SingleStatement]
+                                                    ) [StatementList_MultipleStatements]
+                                                    Statement_SingleStatement(
+                                                      SingleStatement_DesignatorStatement(
+                                                        DesignatorStatement_Assignop(
+                                                          DesignatorTemp(
+                                                            Designator_Array(
+                                                              Designator_Var(
+                                                                DesignatorName(
+                                                                 niz
+                                                                ) [DesignatorName]
+                                                              ) [Designator_Var]
+                                                              Expr_Term(
+                                                                Term_Factor(
+                                                                  Factor_Designator(
+                                                                    DesignatorTemp(
+                                                                      Designator_Array(
+                                                                        Designator_Var(
+                                                                          DesignatorName(
+                                                                           niz
+                                                                          ) [DesignatorName]
+                                                                        ) [Designator_Var]
+                                                                        Expr_Term(
+                                                                          Term_Factor(
+                                                                            Factor_Designator(
+                                                                              DesignatorTemp(
+                                                                                Designator_Var(
+                                                                                  DesignatorName(
+                                                                                   jedan
+                                                                                  ) [DesignatorName]
+                                                                                ) [Designator_Var]
+                                                                              ) [DesignatorTemp]
+                                                                            ) [Factor_Designator]
+                                                                          ) [Term_Factor]
+                                                                        ) [Expr_Term]
+                                                                      ) [Designator_Array]
+                                                                    ) [DesignatorTemp]
+                                                                  ) [Factor_Designator]
+                                                                ) [Term_Factor]
+                                                              ) [Expr_Term]
+                                                            ) [Designator_Array]
+                                                          ) [DesignatorTemp]
+                                                          Assignop(
+                                                          ) [Assignop]
+                                                          Assignment_Expr(
+                                                            Expr_Term(
+                                                              Term_MulopFactor(
+                                                                Term_Factor(
+                                                                  Factor_Designator(
+                                                                    DesignatorTemp(
+                                                                      Designator_Array(
+                                                                        Designator_Var(
+                                                                          DesignatorName(
+                                                                           niz
+                                                                          ) [DesignatorName]
+                                                                        ) [Designator_Var]
+                                                                        Expr_Term(
+                                                                          Term_Factor(
+                                                                            Factor_Designator(
+                                                                              DesignatorTemp(
+                                                                                Designator_Array(
+                                                                                  Designator_Var(
+                                                                                    DesignatorName(
+                                                                                     niz
+                                                                                    ) [DesignatorName]
+                                                                                  ) [Designator_Var]
+                                                                                  Expr_Term(
+                                                                                    Term_Factor(
+                                                                                      Factor_Number(
+                                                                                       0
+                                                                                      ) [Factor_Number]
+                                                                                    ) [Term_Factor]
+                                                                                  ) [Expr_Term]
+                                                                                ) [Designator_Array]
+                                                                              ) [DesignatorTemp]
+                                                                            ) [Factor_Designator]
+                                                                          ) [Term_Factor]
+                                                                        ) [Expr_Term]
+                                                                      ) [Designator_Array]
+                                                                    ) [DesignatorTemp]
+                                                                  ) [Factor_Designator]
+                                                                ) [Term_Factor]
+                                                                Mulop_Mul(
+                                                                ) [Mulop_Mul]
+                                                                Factor_Number(
+                                                                 3
+                                                                ) [Factor_Number]
+                                                              ) [Term_MulopFactor]
+                                                            ) [Expr_Term]
+                                                          ) [Assignment_Expr]
+                                                        ) [DesignatorStatement_Assignop]
+                                                      ) [SingleStatement_DesignatorStatement]
+                                                    ) [Statement_SingleStatement]
+                                                  ) [StatementList_MultipleStatements]
+                                                  Statement_SingleStatement(
+                                                    SingleStatement_DesignatorStatement(
+                                                      DesignatorStatement_Assignop(
+                                                        DesignatorTemp(
+                                                          Designator_Var(
+                                                            DesignatorName(
+                                                             bodovi
+                                                            ) [DesignatorName]
+                                                          ) [Designator_Var]
+                                                        ) [DesignatorTemp]
+                                                        Assignop(
+                                                        ) [Assignop]
+                                                        Assignment_Expr(
+                                                          Expr_Term(
+                                                            Term_MulopFactor(
+                                                              Term_Factor(
+                                                                Factor_Designator(
+                                                                  DesignatorTemp(
+                                                                    Designator_Array(
+                                                                      Designator_Var(
+                                                                        DesignatorName(
+                                                                         niz
+                                                                        ) [DesignatorName]
+                                                                      ) [Designator_Var]
+                                                                      Expr_Term(
+                                                                        Term_Factor(
+                                                                          Factor_Number(
+                                                                           2
+                                                                          ) [Factor_Number]
+                                                                        ) [Term_Factor]
+                                                                      ) [Expr_Term]
+                                                                    ) [Designator_Array]
+                                                                  ) [DesignatorTemp]
+                                                                ) [Factor_Designator]
+                                                              ) [Term_Factor]
+                                                              Mulop_Div(
+                                                              ) [Mulop_Div]
+                                                              Factor_Designator(
+                                                                DesignatorTemp(
+                                                                  Designator_Array(
+                                                                    Designator_Var(
+                                                                      DesignatorName(
+                                                                       niz
+                                                                      ) [DesignatorName]
+                                                                    ) [Designator_Var]
+                                                                    Expr_Term(
+                                                                      Term_Factor(
+                                                                        Factor_Number(
+                                                                         0
+                                                                        ) [Factor_Number]
+                                                                      ) [Term_Factor]
+                                                                    ) [Expr_Term]
+                                                                  ) [Designator_Array]
+                                                                ) [DesignatorTemp]
+                                                              ) [Factor_Designator]
+                                                            ) [Term_MulopFactor]
+                                                          ) [Expr_Term]
+                                                        ) [Assignment_Expr]
+                                                      ) [DesignatorStatement_Assignop]
+                                                    ) [SingleStatement_DesignatorStatement]
+                                                  ) [Statement_SingleStatement]
+                                                ) [StatementList_MultipleStatements]
+                                                Statement_SingleStatement(
+                                                  SingleStatement_PrintExpr(
+                                                    Expr_Term(
+                                                      Term_Factor(
+                                                        Factor_Designator(
+                                                          DesignatorTemp(
+                                                            Designator_Var(
+                                                              DesignatorName(
+                                                               bodovi
+                                                              ) [DesignatorName]
+                                                            ) [Designator_Var]
+                                                          ) [DesignatorTemp]
+                                                        ) [Factor_Designator]
+                                                      ) [Term_Factor]
+                                                    ) [Expr_Term]
+                                                  ) [SingleStatement_PrintExpr]
+                                                ) [Statement_SingleStatement]
+                                              ) [StatementList_MultipleStatements]
+                                              Statement_SingleStatement(
+                                                SingleStatement_PrintExpr(
+                                                  Expr_Term(
+                                                    Term_Factor(
+                                                      Factor_Designator(
+                                                        DesignatorTemp(
+                                                          Designator_Array(
+                                                            Designator_Var(
+                                                              DesignatorName(
+                                                               niz
+                                                              ) [DesignatorName]
+                                                            ) [Designator_Var]
+                                                            Expr_Term(
+                                                              Term_Factor(
+                                                                Factor_Number(
+                                                                 2
+                                                                ) [Factor_Number]
+                                                              ) [Term_Factor]
+                                                            ) [Expr_Term]
+                                                          ) [Designator_Array]
+                                                        ) [DesignatorTemp]
+                                                      ) [Factor_Designator]
+                                                    ) [Term_Factor]
+                                                  ) [Expr_Term]
+                                                ) [SingleStatement_PrintExpr]
+                                              ) [Statement_SingleStatement]
+                                            ) [StatementList_MultipleStatements]
+                                            Statement_SingleStatement(
+                                              SingleStatement_DesignatorStatement(
+                                                DesignatorStatement_Assignop(
+                                                  DesignatorTemp(
+                                                    Designator_Var(
+                                                      DesignatorName(
+                                                       nizch
+                                                      ) [DesignatorName]
+                                                    ) [Designator_Var]
+                                                  ) [DesignatorTemp]
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  Assignment_Expr(
+                                                    Expr_Term(
+                                                      Term_Factor(
+                                                        Factor_NewExpr(
+                                                          FactorArray_Dimension(
+                                                            FactorArray_New(
+                                                              Type(
+                                                               char
+                                                              ) [Type]
+                                                            ) [FactorArray_New]
+                                                            Expr_Term(
+                                                              Term_Factor(
+                                                                Factor_Number(
+                                                                 3
+                                                                ) [Factor_Number]
+                                                              ) [Term_Factor]
+                                                            ) [Expr_Term]
+                                                          ) [FactorArray_Dimension]
+                                                        ) [Factor_NewExpr]
+                                                      ) [Term_Factor]
+                                                    ) [Expr_Term]
+                                                  ) [Assignment_Expr]
+                                                ) [DesignatorStatement_Assignop]
+                                              ) [SingleStatement_DesignatorStatement]
+                                            ) [Statement_SingleStatement]
+                                          ) [StatementList_MultipleStatements]
+                                          Statement_SingleStatement(
+                                            SingleStatement_DesignatorStatement(
+                                              DesignatorStatement_Assignop(
+                                                DesignatorTemp(
+                                                  Designator_Array(
+                                                    Designator_Var(
+                                                      DesignatorName(
+                                                       nizch
+                                                      ) [DesignatorName]
+                                                    ) [Designator_Var]
+                                                    Expr_Term(
+                                                      Term_Factor(
+                                                        Factor_Number(
+                                                         0
+                                                        ) [Factor_Number]
+                                                      ) [Term_Factor]
+                                                    ) [Expr_Term]
+                                                  ) [Designator_Array]
+                                                ) [DesignatorTemp]
+                                                Assignop(
+                                                ) [Assignop]
+                                                Assignment_Expr(
+                                                  Expr_Term(
+                                                    Term_Factor(
+                                                      Factor_CharConst(
+                                                       a
+                                                      ) [Factor_CharConst]
+                                                    ) [Term_Factor]
+                                                  ) [Expr_Term]
+                                                ) [Assignment_Expr]
+                                              ) [DesignatorStatement_Assignop]
+                                            ) [SingleStatement_DesignatorStatement]
+                                          ) [Statement_SingleStatement]
+                                        ) [StatementList_MultipleStatements]
+                                        Statement_SingleStatement(
+                                          SingleStatement_DesignatorStatement(
+                                            DesignatorStatement_Assignop(
+                                              DesignatorTemp(
+                                                Designator_Array(
+                                                  Designator_Var(
+                                                    DesignatorName(
+                                                     nizch
+                                                    ) [DesignatorName]
+                                                  ) [Designator_Var]
+                                                  Expr_Term(
+                                                    Term_Factor(
+                                                      Factor_Designator(
+                                                        DesignatorTemp(
+                                                          Designator_Var(
+                                                            DesignatorName(
+                                                             jedan
+                                                            ) [DesignatorName]
+                                                          ) [Designator_Var]
+                                                        ) [DesignatorTemp]
+                                                      ) [Factor_Designator]
+                                                    ) [Term_Factor]
+                                                  ) [Expr_Term]
+                                                ) [Designator_Array]
+                                              ) [DesignatorTemp]
+                                              Assignop(
+                                              ) [Assignop]
+                                              Assignment_Expr(
+                                                Expr_Term(
+                                                  Term_Factor(
+                                                    Factor_CharConst(
+                                                     b
+                                                    ) [Factor_CharConst]
+                                                  ) [Term_Factor]
+                                                ) [Expr_Term]
+                                              ) [Assignment_Expr]
+                                            ) [DesignatorStatement_Assignop]
+                                          ) [SingleStatement_DesignatorStatement]
+                                        ) [Statement_SingleStatement]
+                                      ) [StatementList_MultipleStatements]
+                                      Statement_SingleStatement(
+                                        SingleStatement_DesignatorStatement(
+                                          DesignatorStatement_Assignop(
+                                            DesignatorTemp(
+                                              Designator_Array(
+                                                Designator_Var(
+                                                  DesignatorName(
+                                                   nizch
+                                                  ) [DesignatorName]
+                                                ) [Designator_Var]
+                                                Expr_AddopTerm(
+                                                  Expr_Term(
+                                                    Term_Factor(
+                                                      Factor_Designator(
+                                                        DesignatorTemp(
+                                                          Designator_Var(
+                                                            DesignatorName(
+                                                             pet
+                                                            ) [DesignatorName]
+                                                          ) [Designator_Var]
+                                                        ) [DesignatorTemp]
+                                                      ) [Factor_Designator]
+                                                    ) [Term_Factor]
+                                                  ) [Expr_Term]
+                                                  Addop_Minus(
+                                                  ) [Addop_Minus]
+                                                  Term_Factor(
+                                                    Factor_Number(
+                                                     3
+                                                    ) [Factor_Number]
+                                                  ) [Term_Factor]
+                                                ) [Expr_AddopTerm]
+                                              ) [Designator_Array]
+                                            ) [DesignatorTemp]
+                                            Assignop(
+                                            ) [Assignop]
+                                            Assignment_Expr(
+                                              Expr_Term(
+                                                Term_Factor(
+                                                  Factor_CharConst(
+                                                   c
+                                                  ) [Factor_CharConst]
+                                                ) [Term_Factor]
+                                              ) [Expr_Term]
+                                            ) [Assignment_Expr]
+                                          ) [DesignatorStatement_Assignop]
+                                        ) [SingleStatement_DesignatorStatement]
+                                      ) [Statement_SingleStatement]
+                                    ) [StatementList_MultipleStatements]
+                                    Statement_SingleStatement(
+                                      SingleStatement_PrintExpr(
+                                        Expr_Term(
+                                          Term_Factor(
+                                            Factor_Designator(
+                                              DesignatorTemp(
+                                                Designator_Array(
+                                                  Designator_Var(
+                                                    DesignatorName(
+                                                     nizch
+                                                    ) [DesignatorName]
+                                                  ) [Designator_Var]
+                                                  Expr_Term(
+                                                    Term_Factor(
+                                                      Factor_Number(
+                                                       1
+                                                      ) [Factor_Number]
+                                                    ) [Term_Factor]
+                                                  ) [Expr_Term]
+                                                ) [Designator_Array]
+                                              ) [DesignatorTemp]
+                                            ) [Factor_Designator]
+                                          ) [Term_Factor]
+                                        ) [Expr_Term]
+                                      ) [SingleStatement_PrintExpr]
+                                    ) [Statement_SingleStatement]
+                                  ) [StatementList_MultipleStatements]
+                                  Statement_SingleStatement(
+                                    SingleStatement_PrintExpr(
+                                      Expr_Term(
+                                        Term_Factor(
+                                          Factor_Designator(
+                                            DesignatorTemp(
+                                              Designator_Array(
+                                                Designator_Var(
+                                                  DesignatorName(
+                                                   nizch
+                                                  ) [DesignatorName]
+                                                ) [Designator_Var]
+                                                Expr_Term(
+                                                  Term_MulopFactor(
+                                                    Term_Factor(
+                                                      Factor_Designator(
+                                                        DesignatorTemp(
+                                                          Designator_Var(
+                                                            DesignatorName(
+                                                             jedan
+                                                            ) [DesignatorName]
+                                                          ) [Designator_Var]
+                                                        ) [DesignatorTemp]
+                                                      ) [Factor_Designator]
+                                                    ) [Term_Factor]
+                                                    Mulop_Mul(
+                                                    ) [Mulop_Mul]
+                                                    Factor_Number(
+                                                     2
+                                                    ) [Factor_Number]
+                                                  ) [Term_MulopFactor]
+                                                ) [Expr_Term]
+                                              ) [Designator_Array]
+                                            ) [DesignatorTemp]
+                                          ) [Factor_Designator]
+                                        ) [Term_Factor]
+                                      ) [Expr_Term]
+                                    ) [SingleStatement_PrintExpr]
+                                  ) [Statement_SingleStatement]
+                                ) [StatementList_MultipleStatements]
+                                Statement_SingleStatement(
+                                  SingleStatement_DesignatorStatement(
+                                    DesignatorStatement_Assignop(
+                                      DesignatorTemp(
+                                        Designator_Var(
+                                          DesignatorName(
+                                           bodovi
+                                          ) [DesignatorName]
+                                        ) [Designator_Var]
+                                      ) [DesignatorTemp]
+                                      Assignop(
+                                      ) [Assignop]
+                                      Assignment_Expr(
+                                        Expr_AddopTerm(
+                                          Expr_AddopTerm(
+                                            Expr_Term(
+                                              Term_Factor(
+                                                Factor_Designator(
+                                                  DesignatorTemp(
+                                                    Designator_Var(
+                                                      DesignatorName(
+                                                       bodovi
+                                                      ) [DesignatorName]
+                                                    ) [Designator_Var]
+                                                  ) [DesignatorTemp]
+                                                ) [Factor_Designator]
+                                              ) [Term_Factor]
+                                            ) [Expr_Term]
+                                            Addop_Plus(
+                                            ) [Addop_Plus]
+                                            Term_MulopFactor(
+                                              Term_Factor(
+                                                Factor_Expr(
+                                                  Expr_AddopTerm(
+                                                    Expr_Term(
+                                                      Term_MulopFactor(
+                                                        Term_Factor(
+                                                          Factor_Designator(
+                                                            DesignatorTemp(
+                                                              Designator_Var(
+                                                                DesignatorName(
+                                                                 pet
+                                                                ) [DesignatorName]
+                                                              ) [Designator_Var]
+                                                            ) [DesignatorTemp]
+                                                          ) [Factor_Designator]
+                                                        ) [Term_Factor]
+                                                        Mulop_Mul(
+                                                        ) [Mulop_Mul]
+                                                        Factor_Designator(
+                                                          DesignatorTemp(
+                                                            Designator_Var(
+                                                              DesignatorName(
+                                                               jedan
+                                                              ) [DesignatorName]
+                                                            ) [Designator_Var]
+                                                          ) [DesignatorTemp]
+                                                        ) [Factor_Designator]
+                                                      ) [Term_MulopFactor]
+                                                    ) [Expr_Term]
+                                                    Addop_Minus(
+                                                    ) [Addop_Minus]
+                                                    Term_Factor(
+                                                      Factor_Number(
+                                                       1
+                                                      ) [Factor_Number]
+                                                    ) [Term_Factor]
+                                                  ) [Expr_AddopTerm]
+                                                ) [Factor_Expr]
+                                              ) [Term_Factor]
+                                              Mulop_Mul(
+                                              ) [Mulop_Mul]
+                                              Factor_Designator(
+                                                DesignatorTemp(
+                                                  Designator_Var(
+                                                    DesignatorName(
+                                                     bodovi
+                                                    ) [DesignatorName]
+                                                  ) [Designator_Var]
+                                                ) [DesignatorTemp]
+                                              ) [Factor_Designator]
+                                            ) [Term_MulopFactor]
+                                          ) [Expr_AddopTerm]
+                                          Addop_Minus(
+                                          ) [Addop_Minus]
+                                          Term_Factor(
+                                            Factor_Expr(
+                                              Expr_AddopTerm(
+                                                Expr_AddopTerm(
+                                                  Expr_Term(
+                                                    Term_MulopFactor(
+                                                      Term_Factor(
+                                                        Factor_Number(
+                                                         3
+                                                        ) [Factor_Number]
+                                                      ) [Term_Factor]
+                                                      Mulop_Mod(
+                                                      ) [Mulop_Mod]
+                                                      Factor_Number(
+                                                       2
+                                                      ) [Factor_Number]
+                                                    ) [Term_MulopFactor]
+                                                  ) [Expr_Term]
+                                                  Addop_Plus(
+                                                  ) [Addop_Plus]
+                                                  Term_MulopFactor(
+                                                    Term_Factor(
+                                                      Factor_Number(
+                                                       3
+                                                      ) [Factor_Number]
+                                                    ) [Term_Factor]
+                                                    Mulop_Mul(
+                                                    ) [Mulop_Mul]
+                                                    Factor_Number(
+                                                     2
+                                                    ) [Factor_Number]
+                                                  ) [Term_MulopFactor]
+                                                ) [Expr_AddopTerm]
+                                                Addop_Minus(
+                                                ) [Addop_Minus]
+                                                Term_Factor(
+                                                  Factor_Number(
+                                                   3
+                                                  ) [Factor_Number]
+                                                ) [Term_Factor]
+                                              ) [Expr_AddopTerm]
+                                            ) [Factor_Expr]
+                                          ) [Term_Factor]
+                                        ) [Expr_AddopTerm]
+                                      ) [Assignment_Expr]
+                                    ) [DesignatorStatement_Assignop]
+                                  ) [SingleStatement_DesignatorStatement]
+                                ) [Statement_SingleStatement]
+                              ) [StatementList_MultipleStatements]
+                              Statement_SingleStatement(
+                                SingleStatement_PrintExpr(
+                                  Expr_Term(
+                                    Term_Factor(
+                                      Factor_Designator(
+                                        DesignatorTemp(
+                                          Designator_Var(
+                                            DesignatorName(
+                                             bodovi
+                                            ) [DesignatorName]
+                                          ) [Designator_Var]
+                                        ) [DesignatorTemp]
+                                      ) [Factor_Designator]
+                                    ) [Term_Factor]
+                                  ) [Expr_Term]
+                                ) [SingleStatement_PrintExpr]
+                              ) [Statement_SingleStatement]
+                            ) [StatementList_MultipleStatements]
+                            Statement_SingleStatement(
+                              SingleStatement_ReadStatement(
+                                DesignatorTemp(
+                                  Designator_Var(
+                                    DesignatorName(
+                                     bodovi
+                                    ) [DesignatorName]
+                                  ) [Designator_Var]
+                                ) [DesignatorTemp]
+                              ) [SingleStatement_ReadStatement]
+                            ) [Statement_SingleStatement]
+                          ) [StatementList_MultipleStatements]
+                          Statement_SingleStatement(
+                            SingleStatement_PrintExpr(
+                              Expr_Term(
+                                Term_Factor(
+                                  Factor_Designator(
+                                    DesignatorTemp(
+                                      Designator_Var(
+                                        DesignatorName(
+                                         bodovi
+                                        ) [DesignatorName]
+                                      ) [Designator_Var]
+                                    ) [DesignatorTemp]
+                                  ) [Factor_Designator]
+                                ) [Term_Factor]
+                              ) [Expr_Term]
+                            ) [SingleStatement_PrintExpr]
+                          ) [Statement_SingleStatement]
+                        ) [StatementList_MultipleStatements]
+                        Statement_SingleStatement(
+                          SingleStatement_DesignatorStatement(
+                            DesignatorStatement_Inc(
+                              DesignatorTemp(
+                                Designator_Var(
+                                  DesignatorName(
+                                   bodovi
+                                  ) [DesignatorName]
+                                ) [Designator_Var]
+                              ) [DesignatorTemp]
+                            ) [DesignatorStatement_Inc]
+                          ) [SingleStatement_DesignatorStatement]
+                        ) [Statement_SingleStatement]
+                      ) [StatementList_MultipleStatements]
+                      Statement_SingleStatement(
+                        SingleStatement_GotoLabel(
+                          Label(
+                           labela1
+                          ) [Label]
+                        ) [SingleStatement_GotoLabel]
+                      ) [Statement_SingleStatement]
+                    ) [StatementList_MultipleStatements]
+                    Statement_SingleStatement(
+                      SingleStatement_DesignatorStatement(
+                        DesignatorStatement_Assignop(
+                          DesignatorTemp(
+                            Designator_Var(
+                              DesignatorName(
+                               bodovi
+                              ) [DesignatorName]
+                            ) [Designator_Var]
+                          ) [DesignatorTemp]
+                          Assignop(
+                          ) [Assignop]
+                          Assignment_Expr(
+                            Expr_Term(
+                              Term_MulopFactor(
+                                Term_Factor(
+                                  Factor_Designator(
+                                    DesignatorTemp(
+                                      Designator_Var(
+                                        DesignatorName(
+                                         bodovi
+                                        ) [DesignatorName]
+                                      ) [Designator_Var]
+                                    ) [DesignatorTemp]
+                                  ) [Factor_Designator]
+                                ) [Term_Factor]
+                                Mulop_Mul(
+                                ) [Mulop_Mul]
+                                Factor_Number(
+                                 2
+                                ) [Factor_Number]
+                              ) [Term_MulopFactor]
+                            ) [Expr_Term]
+                          ) [Assignment_Expr]
+                        ) [DesignatorStatement_Assignop]
+                      ) [SingleStatement_DesignatorStatement]
+                    ) [Statement_SingleStatement]
+                  ) [StatementList_MultipleStatements]
+                  Statement_SingleStatement(
+                    SingleStatement_DesignatorStatement(
+                      DesignatorStatement_Dec(
+                        DesignatorTemp(
+                          Designator_Var(
+                            DesignatorName(
+                             bodovi
+                            ) [DesignatorName]
+                          ) [Designator_Var]
+                        ) [DesignatorTemp]
+                      ) [DesignatorStatement_Dec]
+                    ) [SingleStatement_DesignatorStatement]
+                  ) [Statement_SingleStatement]
+                ) [StatementList_MultipleStatements]
+                Statement_LabelSingleStatement(
+                  Label(
+                   labela1
+                  ) [Label]
+                  SingleStatement_DesignatorStatement(
+                    DesignatorStatement_Assignop(
+                      DesignatorTemp(
+                        Designator_Var(
+                          DesignatorName(
+                           bodovi
+                          ) [DesignatorName]
+                        ) [Designator_Var]
+                      ) [DesignatorTemp]
+                      Assignop(
+                      ) [Assignop]
+                      Assignment_Expr(
+                        Expr_AddopTerm(
+                          Expr_Term(
+                            Term_Factor(
+                              Factor_Designator(
+                                DesignatorTemp(
+                                  Designator_Var(
+                                    DesignatorName(
+                                     bodovi
+                                    ) [DesignatorName]
+                                  ) [Designator_Var]
+                                ) [DesignatorTemp]
+                              ) [Factor_Designator]
+                            ) [Term_Factor]
+                          ) [Expr_Term]
+                          Addop_Plus(
+                          ) [Addop_Plus]
+                          Term_Factor(
+                            Factor_Number(
+                             3
+                            ) [Factor_Number]
+                          ) [Term_Factor]
+                        ) [Expr_AddopTerm]
+                      ) [Assignment_Expr]
+                    ) [DesignatorStatement_Assignop]
+                  ) [SingleStatement_DesignatorStatement]
+                ) [Statement_LabelSingleStatement]
+              ) [StatementList_MultipleStatements]
+              Statement_SingleStatement(
+                SingleStatement_PrintExpr(
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_Designator(
+                        DesignatorTemp(
+                          Designator_Var(
+                            DesignatorName(
+                             bodovi
+                            ) [DesignatorName]
+                          ) [Designator_Var]
+                        ) [DesignatorTemp]
+                      ) [Factor_Designator]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                ) [SingleStatement_PrintExpr]
+              ) [Statement_SingleStatement]
+            ) [StatementList_MultipleStatements]
+            Statement_SingleStatement(
+              SingleStatement_GotoLabel(
+                Label(
+                 labelaminus
+                ) [Label]
+              ) [SingleStatement_GotoLabel]
+            ) [Statement_SingleStatement]
+          ) [StatementList_MultipleStatements]
+          Statement_SingleStatement(
+            SingleStatement_PrintExpr(
+              Expr_Term(
+                Term_Factor(
+                  Factor_CharConst(
+                   +
+                  ) [Factor_CharConst]
+                ) [Term_Factor]
+              ) [Expr_Term]
+            ) [SingleStatement_PrintExpr]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_LabelSingleStatement(
+          Label(
+           labelaminus
+          ) [Label]
+          SingleStatement_PrintExpr(
+            Expr_Term(
+              Term_Factor(
+                Factor_CharConst(
+                 -
+                ) [Factor_CharConst]
+              ) [Term_Factor]
+            ) [Expr_Term]
+          ) [SingleStatement_PrintExpr]
+        ) [Statement_LabelSingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  10:36:28,472 - ===================================
+INFO  10:36:28,477 - 
+ INFO: Assignment: 1 na liniji 16
+
+INFO  10:36:28,477 - 
+ INFO: Left Side: 1 na liniji 16
+
+INFO  10:36:28,477 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 16
+
+INFO  10:36:28,478 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 16
+
+INFO  10:36:28,478 - 
+ INFO: Assignment: 1 na liniji 18
+
+INFO  10:36:28,478 - 
+ INFO: Left Side: 1 na liniji 18
+
+INFO  10:36:28,478 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 18
+
+INFO  10:36:28,479 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 18
+
+INFO  10:36:28,479 - 
+ INFO: Assignment: 1 na liniji 19
+
+INFO  10:36:28,479 - 
+ INFO: Left Side: 1 na liniji 19
+
+INFO  10:36:28,479 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 19
+
+INFO  10:36:28,479 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 19
+
+INFO  10:36:28,479 - 
+ INFO: Assignment: 3 na liniji 24
+
+INFO  10:36:28,479 - 
+ INFO: Left Side: 3 na liniji 24
+
+INFO  10:36:28,479 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 24
+
+INFO  10:36:28,479 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 24
+
+INFO  10:36:28,479 - 
+ INFO: Assignment: 1 na liniji 25
+
+INFO  10:36:28,479 - 
+ INFO: Left Side: 3 na liniji 25
+
+INFO  10:36:28,479 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 25
+
+INFO  10:36:28,479 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 25
+
+INFO  10:36:28,479 - 
+ INFO: Assignment: 1 na liniji 26
+
+INFO  10:36:28,480 - 
+ INFO: Left Side: 3 na liniji 26
+
+INFO  10:36:28,480 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 26
+
+INFO  10:36:28,480 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 26
+
+INFO  10:36:28,480 - 
+ INFO: Assignment: 1 na liniji 27
+
+INFO  10:36:28,480 - 
+ INFO: Left Side: 3 na liniji 27
+
+INFO  10:36:28,480 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 27
+
+INFO  10:36:28,481 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 27
+
+INFO  10:36:28,481 - 
+ INFO: Assignment: 1 na liniji 28
+
+INFO  10:36:28,481 - 
+ INFO: Left Side: 1 na liniji 28
+
+INFO  10:36:28,481 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 28
+
+INFO  10:36:28,481 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 28
+
+INFO  10:36:28,481 - 
+ INFO: Assignment: 3 na liniji 33
+
+INFO  10:36:28,481 - 
+ INFO: Left Side: 3 na liniji 33
+
+INFO  10:36:28,481 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@79fc0f2f na liniji 33
+
+INFO  10:36:28,481 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@79fc0f2f na liniji 33
+
+INFO  10:36:28,481 - 
+ INFO: Assignment: 2 na liniji 34
+
+INFO  10:36:28,481 - 
+ INFO: Left Side: 3 na liniji 34
+
+INFO  10:36:28,482 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@79fc0f2f na liniji 34
+
+INFO  10:36:28,482 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@79fc0f2f na liniji 34
+
+INFO  10:36:28,482 - 
+ INFO: Assignment: 2 na liniji 35
+
+INFO  10:36:28,482 - 
+ INFO: Left Side: 3 na liniji 35
+
+INFO  10:36:28,482 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@79fc0f2f na liniji 35
+
+INFO  10:36:28,482 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@79fc0f2f na liniji 35
+
+INFO  10:36:28,482 - 
+ INFO: Assignment: 2 na liniji 36
+
+INFO  10:36:28,482 - 
+ INFO: Left Side: 3 na liniji 36
+
+INFO  10:36:28,482 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@79fc0f2f na liniji 36
+
+INFO  10:36:28,482 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@79fc0f2f na liniji 36
+
+INFO  10:36:28,482 - 
+ INFO: Assignment: 1 na liniji 41
+
+INFO  10:36:28,482 - 
+ INFO: Left Side: 1 na liniji 41
+
+INFO  10:36:28,482 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 41
+
+INFO  10:36:28,482 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 41
+
+INFO  10:36:28,482 - 
+ INFO: Assignment: 1 na liniji 49
+
+INFO  10:36:28,482 - 
+ INFO: Left Side: 1 na liniji 49
+
+INFO  10:36:28,482 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 49
+
+INFO  10:36:28,482 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 49
+
+INFO  10:36:28,482 - 
+ INFO: Assignment: 1 na liniji 52
+
+INFO  10:36:28,482 - 
+ INFO: Left Side: 1 na liniji 52
+
+INFO  10:36:28,483 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 52
+
+INFO  10:36:28,483 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 52
+
+INFO  10:36:28,483 - ===================================
+INFO  10:36:28,494 - Parsiranje uspesno zavrseno!

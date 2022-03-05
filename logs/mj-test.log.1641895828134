@@ -1,0 +1,140 @@
+INFO  11:37:02,422 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:37:02,444 - #31 MJProgram
+INFO  11:37:02,444 - #31 int
+INFO  11:37:02,444 - #31 x
+INFO  11:37:02,445 - #31 int
+INFO  11:37:02,446 - #31 y
+INFO  11:37:02,446 - #31 int
+INFO  11:37:02,446 - #31 main
+INFO  11:37:02,447 - #30 1
+INFO  11:37:02,448 - #31 x
+INFO  11:37:02,448 - #30 5
+INFO  11:37:02,448 - #30 3
+INFO  11:37:02,449 - #30 2
+INFO  11:37:02,449 - #31 k
+INFO  11:37:02,451 - Program(
+  ProgramName(
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_VarDecl(
+        VarDeclaration(
+          Type(
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Variable(
+            ) [VarDeclaration_Variable]
+          ) [SingleVarDeclaration]
+        ) [VarDeclaration]
+      ) [DeclarationItem_VarDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclaration(
+        Type(
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclaration]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_MultipleStatements(
+            StatementList_MultipleStatements(
+              StatementList_NoStatements(
+              ) [StatementList_NoStatements]
+              Statement_SingleStatement(
+                SingleStatement_PrintExpr(
+                  Expr_TermList(
+                    TermList_SingleTerm(
+                      Term(
+                        FactorList_SingleFactor(
+                          Factor_Number(
+                          ) [Factor_Number]
+                        ) [FactorList_SingleFactor]
+                      ) [Term]
+                    ) [TermList_SingleTerm]
+                  ) [Expr_TermList]
+                ) [SingleStatement_PrintExpr]
+              ) [Statement_SingleStatement]
+            ) [StatementList_MultipleStatements]
+            Statement_SingleStatement(
+              SingleStatement_DesignatorStatement(
+                DesignatorStatement_Assignop(
+                  Designator_Ident(
+                  ) [Designator_Ident]
+                  Assignop(
+                  ) [Assignop]
+                  Expr_TermList(
+                    TermList_MultipleTerm(
+                      TermList_SingleTerm(
+                        Term(
+                          FactorList_SingleFactor(
+                            Factor_Number(
+                            ) [Factor_Number]
+                          ) [FactorList_SingleFactor]
+                        ) [Term]
+                      ) [TermList_SingleTerm]
+                      Addop_Plus(
+                      ) [Addop_Plus]
+                      Term(
+                        FactorList_SingleFactor(
+                          Factor_Number(
+                          ) [Factor_Number]
+                        ) [FactorList_SingleFactor]
+                      ) [Term]
+                    ) [TermList_MultipleTerm]
+                  ) [Expr_TermList]
+                ) [DesignatorStatement_Assignop]
+              ) [SingleStatement_DesignatorStatement]
+            ) [Statement_SingleStatement]
+          ) [StatementList_MultipleStatements]
+          Statement_SingleStatement(
+            SingleStatement_PrintExpr(
+              Expr_TermList(
+                TermList_SingleTerm(
+                  Term(
+                    FactorList_SingleFactor(
+                      Factor_Number(
+                      ) [Factor_Number]
+                    ) [FactorList_SingleFactor]
+                  ) [Term]
+                ) [TermList_SingleTerm]
+              ) [Expr_TermList]
+            ) [SingleStatement_PrintExpr]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_ActPars(
+              Designator_Ident(
+              ) [Designator_Ident]
+              ActPars_NoPars(
+              ) [ActPars_NoPars]
+            ) [DesignatorStatement_ActPars]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:37:02,452 - ===================================
+INFO  11:37:02,453 -  Print count calls = 2
+INFO  11:37:02,453 -  Deklarisanih promenljivih ima = 0
+INFO  11:37:02,453 - ===================================

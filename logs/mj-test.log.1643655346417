@@ -1,0 +1,15 @@
+INFO  19:53:11,069 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  19:53:11,099 - ===================================
+ERROR 19:53:11,102 - ERROR: Designator y je niz! na liniji 7
+INFO  19:53:11,102 - 
+ INFO: Assignment: 3 na liniji 7
+
+INFO  19:53:11,102 - 
+ INFO: Left Side: 3 na liniji 7
+
+INFO  19:53:11,102 - 
+ INFO: Assignment2: null na liniji 7
+
+INFO  19:53:11,102 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 7
+

@@ -1,0 +1,36 @@
+INFO  11:59:16,878 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:59:16,900 - #31 MJProgram
+INFO  11:59:16,900 - #31 int
+INFO  11:59:16,901 - #31 x
+ERROR 11:59:16,901 - 
+Sintaksna greska na liniji 2
+INFO  11:59:16,901 - #31 y
+INFO  11:59:16,901 - #30 10
+INFO  11:59:16,901 - #31 int
+INFO  11:59:16,901 - #31 z
+ERROR 11:59:16,902 - Greska: neispravno definisana globalna promenljiva na liniji 2. Izvrsen oporavak do narednog ;
+ERROR 11:59:16,903 - 
+Sintaksna greska na liniji 3
+INFO  11:59:16,903 - #31 bool
+INFO  11:59:16,903 - #31 k
+ERROR 11:59:16,903 - Greska: neispravno definisana globalna promenljiva na liniji 3. Izvrsen oporavak do narednog ;
+INFO  11:59:16,903 - #31 int
+INFO  11:59:16,909 - #31 x
+INFO  11:59:16,909 - #31 int
+INFO  11:59:16,909 - #31 y
+INFO  11:59:16,909 - #31 int
+INFO  11:59:16,910 - #31 v
+INFO  11:59:16,910 - #31 g
+INFO  11:59:16,911 - #31 int
+INFO  11:59:16,911 - #31 main
+INFO  11:59:16,912 - #31 char
+INFO  11:59:16,912 - #31 s
+INFO  11:59:16,912 - #31 labela
+INFO  11:59:16,912 - #31 s
+ERROR 11:59:16,912 - 
+Sintaksna greska na liniji 11
+INFO  11:59:16,912 - #31 s
+INFO  11:59:16,912 - #30 5
+INFO  11:59:16,912 - #30 4
+INFO  11:59:16,912 - #30 5
+ERROR 11:59:16,913 - Fatalna greska, parsiranje ne moze da se nastavi na liniji 19

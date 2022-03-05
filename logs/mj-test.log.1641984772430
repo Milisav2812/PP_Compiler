@@ -1,0 +1,66 @@
+INFO  11:46:14,034 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:46:14,057 - #31 MJProgram
+INFO  11:46:14,058 - #31 int
+INFO  11:46:14,058 - #31 x
+INFO  11:46:14,059 - #30 5
+INFO  11:46:14,059 - #31 z
+ERROR 11:46:14,059 - 
+Sintaksna greska na liniji 2
+INFO  11:46:14,060 - #31 y
+INFO  11:46:14,060 - #30 5
+ERROR 11:46:14,060 - Greska: neispravno definisana globalna promenljiva na liniji 2. Neispravna definicija jedne od konstanti. Izvrsen oporavak do narednog COMMA
+INFO  11:46:14,060 - #31 int
+INFO  11:46:14,060 - #31 k
+INFO  11:46:14,060 - #30 100
+INFO  11:46:14,061 - #31 int
+INFO  11:46:14,061 - #31 main
+INFO  11:46:14,063 - Program(
+  ProgramName(
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclarations(
+          Type(
+          ) [Type]
+          ConstDeclaration_CommaError(
+            ConstNumber(
+            ) [ConstNumber]
+          ) [ConstDeclaration_CommaError]
+        ) [ConstDeclarations]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_ConstDecl(
+      ConstDeclarations(
+        Type(
+        ) [Type]
+        SingleConstDeclaration(
+          ConstNumber(
+          ) [ConstNumber]
+        ) [SingleConstDeclaration]
+      ) [ConstDeclarations]
+    ) [DeclarationItem_ConstDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_NoStatements(
+      ) [StatementList_NoStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:46:14,064 - ===================================
+INFO  11:46:14,065 -  Print count calls = 0
+INFO  11:46:14,065 -  Deklarisanih const promenljivih ima = 0
+INFO  11:46:14,065 - ===================================

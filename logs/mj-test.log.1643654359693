@@ -1,0 +1,14 @@
+INFO  11:02:20,920 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+ERROR 11:02:20,950 - 
+Sintaksna greska na liniji 7
+ERROR 11:02:20,950 - Oporavak od greske: Iskaz za dodelu na liniji 7
+INFO  11:02:20,956 - ===================================
+INFO  11:02:20,959 - 
+ INFO: Pristupa se Globalnoj promenljivoj y: 
+Designator_Var(
+ y
+) [Designator_Var] na liniji 7
+
+ERROR 11:02:20,959 - ERROR: Vrednost sa desne strane iskaza nije korektna! na liniji 7
+INFO  11:02:20,959 - ===================================
+ERROR 11:02:20,959 - Parsiranje NIJE uspesno zavrseno!

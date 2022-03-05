@@ -1,0 +1,146 @@
+INFO  11:21:45,475 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:21:45,498 - #31 MJProgram
+INFO  11:21:45,498 - #31 int
+INFO  11:21:45,498 - #31 x
+INFO  11:21:45,499 - #30 5
+INFO  11:21:45,499 - #31 y
+INFO  11:21:45,499 - #30 10
+INFO  11:21:45,499 - #31 int
+INFO  11:21:45,500 - #31 z
+INFO  11:21:45,501 - #31 g
+INFO  11:21:45,502 - #31 int
+INFO  11:21:45,502 - #31 main
+INFO  11:21:45,503 - #31 labela
+INFO  11:21:45,503 - #31 z
+INFO  11:21:45,504 - #30 10
+INFO  11:21:45,505 - #31 bool
+INFO  11:21:45,505 - #31 k
+INFO  11:21:45,505 - #31 int
+INFO  11:21:45,505 - #31 x
+INFO  11:21:45,506 - #31 int
+INFO  11:21:45,506 - #31 y
+INFO  11:21:45,506 - #31 int
+INFO  11:21:45,512 - #31 v
+INFO  11:21:45,512 - #31 g
+INFO  11:21:45,513 - Program(
+  ProgramName(
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclaration(
+          Type(
+          ) [Type]
+          MultipleConstDeclaration(
+            SingleConstDeclaration(
+              ConstNumber(
+              ) [ConstNumber]
+            ) [SingleConstDeclaration]
+            ConstNumber(
+            ) [ConstNumber]
+          ) [MultipleConstDeclaration]
+        ) [ConstDeclaration]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclaration(
+        Type(
+        ) [Type]
+        MultipleVarDeclaration(
+          SingleVarDeclaration(
+            VarDeclaration_Variable(
+            ) [VarDeclaration_Variable]
+          ) [SingleVarDeclaration]
+          VarDeclaration_Variable(
+          ) [VarDeclaration_Variable]
+        ) [MultipleVarDeclaration]
+      ) [VarDeclaration]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    MultipleMethod(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclaration(
+        MethReturnType(
+          Type(
+          ) [Type]
+        ) [MethReturnType]
+        NoFormParams(
+        ) [NoFormParams]
+        NoLocalParam(
+        ) [NoLocalParam]
+        StatementList_MultipleStatements(
+          StatementList_NoStatements(
+          ) [StatementList_NoStatements]
+          Statement_LabelSingleStatement(
+            Label(
+            ) [Label]
+            SingleStatement_DesignatorStatement(
+              DesignatorStatement_Assignop(
+                Designator_Ident(
+                ) [Designator_Ident]
+                Assignop(
+                ) [Assignop]
+                Expr_TermList(
+                  TermList_SingleTerm(
+                    Term(
+                      FactorList_SingleFactor(
+                        Factor_Number(
+                        ) [Factor_Number]
+                      ) [FactorList_SingleFactor]
+                    ) [Term]
+                  ) [TermList_SingleTerm]
+                ) [Expr_TermList]
+              ) [DesignatorStatement_Assignop]
+            ) [SingleStatement_DesignatorStatement]
+          ) [Statement_LabelSingleStatement]
+        ) [StatementList_MultipleStatements]
+      ) [MethodDeclaration]
+    ) [MultipleMethod]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      FormParams(
+        MultipleFormParameter(
+          SingleFormParameter(
+            FormParam_Array(
+              Type(
+              ) [Type]
+            ) [FormParam_Array]
+          ) [SingleFormParameter]
+          FormParam_Variable(
+            Type(
+            ) [Type]
+          ) [FormParam_Variable]
+        ) [MultipleFormParameter]
+      ) [FormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclaration(
+          Type(
+          ) [Type]
+          MultipleVarDeclaration(
+            SingleVarDeclaration(
+              VarDeclaration_Variable(
+              ) [VarDeclaration_Variable]
+            ) [SingleVarDeclaration]
+            VarDeclaration_Variable(
+            ) [VarDeclaration_Variable]
+          ) [MultipleVarDeclaration]
+        ) [VarDeclaration]
+      ) [MultipleLocalParam]
+      StatementList_NoStatements(
+      ) [StatementList_NoStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:21:45,514 - ===================================
+INFO  11:21:45,516 -  Print count calls = 0
+INFO  11:21:45,516 -  Deklarisanih promenljivih ima = 0
+INFO  11:21:45,516 - ===================================

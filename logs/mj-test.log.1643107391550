@@ -1,0 +1,545 @@
+INFO  11:40:45,804 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\semantic.mj
+INFO  11:40:45,843 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_VarDecl(
+        VarDeclarations(
+          Type(
+           randomType
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Item(
+              VarDeclaration_Variable(
+               a
+              ) [VarDeclaration_Variable]
+            ) [VarDeclaration_Item]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [DeclarationItem_VarDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_ConstDecl(
+      ConstDeclaration(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclaration(
+          ConstNumber(
+           x
+           1
+          ) [ConstNumber]
+        ) [SingleConstDeclaration]
+      ) [ConstDeclaration]
+    ) [DeclarationItem_ConstDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      VoidMethReturnType(
+       main
+      ) [VoidMethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        MultipleLocalParam(
+          MultipleLocalParam(
+            MultipleLocalParam(
+              MultipleLocalParam(
+                MultipleLocalParam(
+                  NoLocalParam(
+                  ) [NoLocalParam]
+                  VarDeclarations(
+                    Type(
+                     int
+                    ) [Type]
+                    SingleVarDeclaration(
+                      VarDeclaration_Item(
+                        VarDeclaration_Variable(
+                         b
+                        ) [VarDeclaration_Variable]
+                      ) [VarDeclaration_Item]
+                    ) [SingleVarDeclaration]
+                  ) [VarDeclarations]
+                ) [MultipleLocalParam]
+                VarDeclarations(
+                  Type(
+                   char
+                  ) [Type]
+                  SingleVarDeclaration(
+                    VarDeclaration_Item(
+                      VarDeclaration_Variable(
+                       x
+                      ) [VarDeclaration_Variable]
+                    ) [VarDeclaration_Item]
+                  ) [SingleVarDeclaration]
+                ) [VarDeclarations]
+              ) [MultipleLocalParam]
+              VarDeclarations(
+                Type(
+                 int
+                ) [Type]
+                SingleVarDeclaration(
+                  VarDeclaration_Item(
+                    VarDeclaration_Variable(
+                     num
+                    ) [VarDeclaration_Variable]
+                  ) [VarDeclaration_Item]
+                ) [SingleVarDeclaration]
+              ) [VarDeclarations]
+            ) [MultipleLocalParam]
+            VarDeclarations(
+              Type(
+               char
+              ) [Type]
+              SingleVarDeclaration(
+                VarDeclaration_Item(
+                  VarDeclaration_Variable(
+                   character
+                  ) [VarDeclaration_Variable]
+                ) [VarDeclaration_Item]
+              ) [SingleVarDeclaration]
+            ) [VarDeclarations]
+          ) [MultipleLocalParam]
+          VarDeclarations(
+            Type(
+             bool
+            ) [Type]
+            SingleVarDeclaration(
+              VarDeclaration_Item(
+                VarDeclaration_Variable(
+                 boolean
+                ) [VarDeclaration_Variable]
+              ) [VarDeclaration_Item]
+            ) [SingleVarDeclaration]
+          ) [VarDeclarations]
+        ) [MultipleLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          MultipleVarDeclaration(
+            SingleVarDeclaration(
+              VarDeclaration_Item(
+                VarDeclaration_Array(
+                 niz
+                ) [VarDeclaration_Array]
+              ) [VarDeclaration_Item]
+            ) [SingleVarDeclaration]
+            VarDeclaration_Item(
+              VarDeclaration_Array(
+               niz1
+              ) [VarDeclaration_Array]
+            ) [VarDeclaration_Item]
+          ) [MultipleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_MultipleStatements(
+            StatementList_MultipleStatements(
+              StatementList_MultipleStatements(
+                StatementList_MultipleStatements(
+                  StatementList_MultipleStatements(
+                    StatementList_MultipleStatements(
+                      StatementList_MultipleStatements(
+                        StatementList_MultipleStatements(
+                          StatementList_MultipleStatements(
+                            StatementList_MultipleStatements(
+                              StatementList_MultipleStatements(
+                                StatementList_NoStatements(
+                                ) [StatementList_NoStatements]
+                                Statement_SingleStatement(
+                                  SingleStatement_DesignatorStatement(
+                                    DesignatorStatement_Assignop(
+                                      Designator_Var(
+                                       num
+                                      ) [Designator_Var]
+                                      Assignop(
+                                      ) [Assignop]
+                                      Assignment_Expr(
+                                        Expr_Term(
+                                          Term_Factor(
+                                            Factor_CharConst(
+                                             a
+                                            ) [Factor_CharConst]
+                                          ) [Term_Factor]
+                                        ) [Expr_Term]
+                                      ) [Assignment_Expr]
+                                    ) [DesignatorStatement_Assignop]
+                                  ) [SingleStatement_DesignatorStatement]
+                                ) [Statement_SingleStatement]
+                              ) [StatementList_MultipleStatements]
+                              Statement_SingleStatement(
+                                SingleStatement_DesignatorStatement(
+                                  DesignatorStatement_Assignop(
+                                    Designator_Var(
+                                     num
+                                    ) [Designator_Var]
+                                    Assignop(
+                                    ) [Assignop]
+                                    Assignment_Expr(
+                                      Expr_Term(
+                                        Term_Factor(
+                                          Factor_BoolConst(
+                                           1
+                                          ) [Factor_BoolConst]
+                                        ) [Term_Factor]
+                                      ) [Expr_Term]
+                                    ) [Assignment_Expr]
+                                  ) [DesignatorStatement_Assignop]
+                                ) [SingleStatement_DesignatorStatement]
+                              ) [Statement_SingleStatement]
+                            ) [StatementList_MultipleStatements]
+                            Statement_SingleStatement(
+                              SingleStatement_DesignatorStatement(
+                                DesignatorStatement_Assignop(
+                                  Designator_Var(
+                                   character
+                                  ) [Designator_Var]
+                                  Assignop(
+                                  ) [Assignop]
+                                  Assignment_Expr(
+                                    Expr_Term(
+                                      Term_Factor(
+                                        Factor_Number(
+                                         1
+                                        ) [Factor_Number]
+                                      ) [Term_Factor]
+                                    ) [Expr_Term]
+                                  ) [Assignment_Expr]
+                                ) [DesignatorStatement_Assignop]
+                              ) [SingleStatement_DesignatorStatement]
+                            ) [Statement_SingleStatement]
+                          ) [StatementList_MultipleStatements]
+                          Statement_SingleStatement(
+                            SingleStatement_DesignatorStatement(
+                              DesignatorStatement_Assignop(
+                                Designator_Var(
+                                 character
+                                ) [Designator_Var]
+                                Assignop(
+                                ) [Assignop]
+                                Assignment_Expr(
+                                  Expr_Term(
+                                    Term_Factor(
+                                      Factor_BoolConst(
+                                       1
+                                      ) [Factor_BoolConst]
+                                    ) [Term_Factor]
+                                  ) [Expr_Term]
+                                ) [Assignment_Expr]
+                              ) [DesignatorStatement_Assignop]
+                            ) [SingleStatement_DesignatorStatement]
+                          ) [Statement_SingleStatement]
+                        ) [StatementList_MultipleStatements]
+                        Statement_SingleStatement(
+                          SingleStatement_DesignatorStatement(
+                            DesignatorStatement_Assignop(
+                              Designator_Var(
+                               boolean
+                              ) [Designator_Var]
+                              Assignop(
+                              ) [Assignop]
+                              Assignment_Expr(
+                                Expr_Term(
+                                  Term_Factor(
+                                    Factor_Number(
+                                     1
+                                    ) [Factor_Number]
+                                  ) [Term_Factor]
+                                ) [Expr_Term]
+                              ) [Assignment_Expr]
+                            ) [DesignatorStatement_Assignop]
+                          ) [SingleStatement_DesignatorStatement]
+                        ) [Statement_SingleStatement]
+                      ) [StatementList_MultipleStatements]
+                      Statement_SingleStatement(
+                        SingleStatement_DesignatorStatement(
+                          DesignatorStatement_Assignop(
+                            Designator_Var(
+                             boolean
+                            ) [Designator_Var]
+                            Assignop(
+                            ) [Assignop]
+                            Assignment_Expr(
+                              Expr_Term(
+                                Term_Factor(
+                                  Factor_CharConst(
+                                   a
+                                  ) [Factor_CharConst]
+                                ) [Term_Factor]
+                              ) [Expr_Term]
+                            ) [Assignment_Expr]
+                          ) [DesignatorStatement_Assignop]
+                        ) [SingleStatement_DesignatorStatement]
+                      ) [Statement_SingleStatement]
+                    ) [StatementList_MultipleStatements]
+                    Statement_SingleStatement(
+                      SingleStatement_DesignatorStatement(
+                        DesignatorStatement_Assignop(
+                          Designator_Var(
+                           cnst
+                          ) [Designator_Var]
+                          Assignop(
+                          ) [Assignop]
+                          Assignment_Expr(
+                            Expr_Term(
+                              Term_Factor(
+                                Factor_Number(
+                                 2
+                                ) [Factor_Number]
+                              ) [Term_Factor]
+                            ) [Expr_Term]
+                          ) [Assignment_Expr]
+                        ) [DesignatorStatement_Assignop]
+                      ) [SingleStatement_DesignatorStatement]
+                    ) [Statement_SingleStatement]
+                  ) [StatementList_MultipleStatements]
+                  Statement_SingleStatement(
+                    SingleStatement_DesignatorStatement(
+                      DesignatorStatement_Inc(
+                        Designator_Var(
+                         character
+                        ) [Designator_Var]
+                      ) [DesignatorStatement_Inc]
+                    ) [SingleStatement_DesignatorStatement]
+                  ) [Statement_SingleStatement]
+                ) [StatementList_MultipleStatements]
+                Statement_SingleStatement(
+                  SingleStatement_DesignatorStatement(
+                    DesignatorStatement_Dec(
+                      Designator_Var(
+                       boolean
+                      ) [Designator_Var]
+                    ) [DesignatorStatement_Dec]
+                  ) [SingleStatement_DesignatorStatement]
+                ) [Statement_SingleStatement]
+              ) [StatementList_MultipleStatements]
+              Statement_SingleStatement(
+                SingleStatement_DesignatorStatement(
+                  DesignatorStatement_Assignop(
+                    Designator_Var(
+                     character
+                    ) [Designator_Var]
+                    Assignop(
+                    ) [Assignop]
+                    Assignment_Expr(
+                      Expr_MinusTerm(
+                        Term_Factor(
+                          Factor_CharConst(
+                           a
+                          ) [Factor_CharConst]
+                        ) [Term_Factor]
+                      ) [Expr_MinusTerm]
+                    ) [Assignment_Expr]
+                  ) [DesignatorStatement_Assignop]
+                ) [SingleStatement_DesignatorStatement]
+              ) [Statement_SingleStatement]
+            ) [StatementList_MultipleStatements]
+            Statement_SingleStatement(
+              SingleStatement_DesignatorStatement(
+                DesignatorStatement_Assignop(
+                  Designator_Var(
+                   niz
+                  ) [Designator_Var]
+                  Assignop(
+                  ) [Assignop]
+                  Assignment_Expr(
+                    Expr_Term(
+                      Term_Factor(
+                        Factor_NewExpr(
+                          Type(
+                           int
+                          ) [Type]
+                          Expr_Term(
+                            Term_Factor(
+                              Factor_CharConst(
+                               a
+                              ) [Factor_CharConst]
+                            ) [Term_Factor]
+                          ) [Expr_Term]
+                        ) [Factor_NewExpr]
+                      ) [Term_Factor]
+                    ) [Expr_Term]
+                  ) [Assignment_Expr]
+                ) [DesignatorStatement_Assignop]
+              ) [SingleStatement_DesignatorStatement]
+            ) [Statement_SingleStatement]
+          ) [StatementList_MultipleStatements]
+          Statement_SingleStatement(
+            SingleStatement_DesignatorStatement(
+              DesignatorStatement_Assignop(
+                Designator_Var(
+                 num
+                ) [Designator_Var]
+                Assignop(
+                ) [Assignop]
+                Assignment_Expr(
+                  Expr_AddopTerm(
+                    Expr_Term(
+                      Term_Factor(
+                        Factor_Designator(
+                          Designator_Var(
+                           num
+                          ) [Designator_Var]
+                        ) [Factor_Designator]
+                      ) [Term_Factor]
+                    ) [Expr_Term]
+                    Addop_Plus(
+                    ) [Addop_Plus]
+                    Term_Factor(
+                      Factor_CharConst(
+                       a
+                      ) [Factor_CharConst]
+                    ) [Term_Factor]
+                  ) [Expr_AddopTerm]
+                ) [Assignment_Expr]
+              ) [DesignatorStatement_Assignop]
+            ) [SingleStatement_DesignatorStatement]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Assignop(
+              Designator_Var(
+               num
+              ) [Designator_Var]
+              Assignop(
+              ) [Assignop]
+              Assignment_Expr(
+                Expr_Term(
+                  Term_MulopFactor(
+                    Term_Factor(
+                      Factor_Designator(
+                        Designator_Var(
+                         num
+                        ) [Designator_Var]
+                      ) [Factor_Designator]
+                    ) [Term_Factor]
+                    Mulop_Mul(
+                    ) [Mulop_Mul]
+                    Factor_CharConst(
+                     a
+                    ) [Factor_CharConst]
+                  ) [Term_MulopFactor]
+                ) [Expr_Term]
+              ) [Assignment_Expr]
+            ) [DesignatorStatement_Assignop]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:40:45,846 - ===================================
+ERROR 11:40:45,848 - ERROR: Greska: Tip randomType nije pronadjen u tabeli simbola!
+ERROR 11:40:45,849 - ERROR: Vec postoji promenljiva sa imenom x na liniji 6
+INFO  11:40:45,849 - 
+ INFO: Pristupa se Lokalnoj promenljivoj num: 
+Designator_Var(
+ num
+) [Designator_Var] na liniji 13
+
+ERROR 11:40:45,849 - ERROR: Nekompatibilni tipovi! na liniji 13
+INFO  11:40:45,849 - 
+ INFO: Pristupa se Lokalnoj promenljivoj num: 
+Designator_Var(
+ num
+) [Designator_Var] na liniji 14
+
+ERROR 11:40:45,850 - ERROR: Nekompatibilni tipovi! na liniji 14
+INFO  11:40:45,850 - 
+ INFO: Pristupa se Lokalnoj promenljivoj character: 
+Designator_Var(
+ character
+) [Designator_Var] na liniji 15
+
+ERROR 11:40:45,850 - ERROR: Nekompatibilni tipovi! na liniji 15
+INFO  11:40:45,850 - 
+ INFO: Pristupa se Lokalnoj promenljivoj character: 
+Designator_Var(
+ character
+) [Designator_Var] na liniji 16
+
+ERROR 11:40:45,850 - ERROR: Nekompatibilni tipovi! na liniji 16
+INFO  11:40:45,850 - 
+ INFO: Pristupa se Lokalnoj promenljivoj boolean: 
+Designator_Var(
+ boolean
+) [Designator_Var] na liniji 17
+
+ERROR 11:40:45,850 - ERROR: Nekompatibilni tipovi! na liniji 17
+INFO  11:40:45,850 - 
+ INFO: Pristupa se Lokalnoj promenljivoj boolean: 
+Designator_Var(
+ boolean
+) [Designator_Var] na liniji 18
+
+ERROR 11:40:45,850 - ERROR: Nekompatibilni tipovi! na liniji 18
+ERROR 11:40:45,850 - ERROR: Semanticka greska: Objekat pod imenom cnst nije pronadjen u tabeli simbola! na liniji 21
+ERROR 11:40:45,850 - ERROR: Nekompatibilni tipovi! na liniji 21
+INFO  11:40:45,850 - 
+ INFO: Pristupa se Lokalnoj promenljivoj character: 
+Designator_Var(
+ character
+) [Designator_Var] na liniji 24
+
+ERROR 11:40:45,851 - ERROR: Semanticka greska: Designator nije tipa Integer! na liniji 24
+INFO  11:40:45,851 - 
+ INFO: Pristupa se Lokalnoj promenljivoj boolean: 
+Designator_Var(
+ boolean
+) [Designator_Var] na liniji 25
+
+ERROR 11:40:45,851 - ERROR: Semanticka greska: Designator nije tipa Integer! na liniji 25
+INFO  11:40:45,851 - 
+ INFO: Pristupa se Lokalnoj promenljivoj character: 
+Designator_Var(
+ character
+) [Designator_Var] na liniji 28
+
+ERROR 11:40:45,851 - ERROR: Term nije tipa int! na liniji 28
+ERROR 11:40:45,851 - ERROR: Vrednost sa desne strane iskaza nije korektna! na liniji 28
+INFO  11:40:45,851 - 
+ INFO: Pristupa se Lokalnoj promenljivoj niz: 
+Designator_Var(
+ niz
+) [Designator_Var] na liniji 31
+
+ERROR 11:40:45,852 - ERROR: Expr nije tipa int! na liniji 31
+ERROR 11:40:45,852 - ERROR: Vrednost sa desne strane iskaza nije korektna! na liniji 31
+INFO  11:40:45,852 - 
+ INFO: Pristupa se Lokalnoj promenljivoj num: 
+Designator_Var(
+ num
+) [Designator_Var] na liniji 33
+
+INFO  11:40:45,852 - 
+ INFO: Pristupa se Lokalnoj promenljivoj num: 
+Designator_Var(
+ num
+) [Designator_Var] na liniji 33
+
+ERROR 11:40:45,852 - ERROR: Expr i Term nisu kompatibilni na liniji 33
+ERROR 11:40:45,852 - ERROR: Vrednost sa desne strane iskaza nije korektna! na liniji 33
+INFO  11:40:45,852 - 
+ INFO: Pristupa se Lokalnoj promenljivoj num: 
+Designator_Var(
+ num
+) [Designator_Var] na liniji 34
+
+INFO  11:40:45,852 - 
+ INFO: Pristupa se Lokalnoj promenljivoj num: 
+Designator_Var(
+ num
+) [Designator_Var] na liniji 34
+
+ERROR 11:40:45,852 - ERROR: Term ili Factor nisu tipa int! na liniji 34
+ERROR 11:40:45,853 - ERROR: Vrednost sa desne strane iskaza nije korektna! na liniji 34
+INFO  11:40:45,853 - ===================================
+ERROR 11:40:45,853 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,126 @@
+INFO  19:31:58,965 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  19:31:59,016 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Array(
+           y
+          ) [VarDeclaration_Array]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_NoStatements(
+          ) [StatementList_NoStatements]
+          Statement_SingleStatement(
+            SingleStatement_DesignatorStatement(
+              DesignatorStatement_Assignop(
+                Designator_Array(
+                 y
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_Number(
+                       2
+                      ) [Factor_Number]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                ) [Designator_Array]
+                Assignop(
+                ) [Assignop]
+                Assignment_Expr(
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_Number(
+                       3
+                      ) [Factor_Number]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                ) [Assignment_Expr]
+              ) [DesignatorStatement_Assignop]
+            ) [SingleStatement_DesignatorStatement]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Assignop(
+              Designator_Array(
+               y
+                Expr_Term(
+                  Term_Factor(
+                    Factor_Number(
+                     3
+                    ) [Factor_Number]
+                  ) [Term_Factor]
+                ) [Expr_Term]
+              ) [Designator_Array]
+              Assignop(
+              ) [Assignop]
+              Assignment_Expr(
+                Expr_AddopTerm(
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_Designator(
+                        Designator_Array(
+                         y
+                          Expr_Term(
+                            Term_Factor(
+                              Factor_Number(
+                               2
+                              ) [Factor_Number]
+                            ) [Term_Factor]
+                          ) [Expr_Term]
+                        ) [Designator_Array]
+                      ) [Factor_Designator]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                  Addop_Plus(
+                  ) [Addop_Plus]
+                  Term_Factor(
+                    Factor_Number(
+                     1
+                    ) [Factor_Number]
+                  ) [Term_Factor]
+                ) [Expr_AddopTerm]
+              ) [Assignment_Expr]
+            ) [DesignatorStatement_Assignop]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  19:31:59,023 - ===================================
+INFO  19:31:59,026 - INFO: Kind 8 na liniji 6
+INFO  19:31:59,026 - INFO: Uspesna dodela niza na liniji 6
+INFO  19:31:59,026 - INFO: Kind 8 na liniji 7
+INFO  19:31:59,026 - INFO: Uspesna dodela niza na liniji 7
+INFO  19:31:59,026 - INFO: Kind 8 na liniji 7
+INFO  19:31:59,026 - INFO: Uspesna dodela niza na liniji 7
+ERROR 19:31:59,027 - ERROR: Expr i Term nisu kompatibilni na liniji 7
+INFO  19:31:59,027 - INFO: Zavrseno obradjivanje funkcije main
+INFO  19:31:59,027 - ===================================

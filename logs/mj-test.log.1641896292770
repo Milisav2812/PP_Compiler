@@ -1,0 +1,86 @@
+INFO  11:17:41,622 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:17:41,644 - #31 MJProgram
+INFO  11:17:41,644 - #31 int
+INFO  11:17:41,645 - #31 x
+INFO  11:17:41,645 - #30 5
+INFO  11:17:41,645 - #31 y
+INFO  11:17:41,645 - #30 10
+INFO  11:17:41,645 - #31 int
+INFO  11:17:41,646 - #31 z
+INFO  11:17:41,647 - #31 g
+INFO  11:17:41,647 - #31 int
+INFO  11:17:41,648 - #31 main
+INFO  11:17:41,648 - #31 bool
+INFO  11:17:41,649 - #31 k
+INFO  11:17:41,650 - Program(
+  ProgramName(
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclaration(
+          Type(
+          ) [Type]
+          MultipleConstDeclaration(
+            SingleConstDeclaration(
+              ConstNumber(
+              ) [ConstNumber]
+            ) [SingleConstDeclaration]
+            ConstNumber(
+            ) [ConstNumber]
+          ) [MultipleConstDeclaration]
+        ) [ConstDeclaration]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclaration(
+        Type(
+        ) [Type]
+        MultipleVarDeclaration(
+          SingleVarDeclaration(
+            VarDeclaration_Variable(
+            ) [VarDeclaration_Variable]
+          ) [SingleVarDeclaration]
+          VarDeclaration_Variable(
+          ) [VarDeclaration_Variable]
+        ) [MultipleVarDeclaration]
+      ) [VarDeclaration]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    MultipleMethod(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclaration(
+        MethReturnType(
+          Type(
+          ) [Type]
+        ) [MethReturnType]
+        NoFormParams(
+        ) [NoFormParams]
+        NoLocalParam(
+        ) [NoLocalParam]
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+      ) [MethodDeclaration]
+    ) [MultipleMethod]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_NoStatements(
+      ) [StatementList_NoStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:17:41,651 - ===================================
+INFO  11:17:41,652 -  Print count calls = 0
+INFO  11:17:41,652 -  Deklarisanih promenljivih ima = 0
+INFO  11:17:41,652 - ===================================

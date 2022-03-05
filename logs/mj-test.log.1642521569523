@@ -1,0 +1,76 @@
+INFO  16:58:58,905 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+ERROR 16:58:58,950 - 
+Sintaksna greska na liniji 6
+ERROR 16:58:58,951 - Oporavak od greske: Iskaz za dodelu. Izvrsen oporavak do narednog SEMI
+INFO  16:58:58,961 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Array(
+           y
+          ) [VarDeclaration_Array]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Assignop(
+              Designator_Var(
+               y
+              ) [Designator_Var]
+              Assignop(
+              ) [Assignop]
+              Assignment_Error(
+              ) [Assignment_Error]
+            ) [DesignatorStatement_Assignop]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  16:58:58,962 - ===================================
+INFO  16:58:58,966 - INFO: Niz y dodat u Tabelu Simbola! na liniji 2
+INFO  16:58:58,967 - INFO: Niz z dodat u Tabelu Simbola! na liniji 4
+ERROR 16:58:58,967 - ERROR: Semanticka greska: Vrednost sa desne strane iskaza nije korektna! na liniji 6
+INFO  16:58:58,967 - INFO: Zavrseno obradjivanje funkcije main
+INFO  16:58:58,968 - ===================================

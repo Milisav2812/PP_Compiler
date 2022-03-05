@@ -1,0 +1,235 @@
+INFO  09:28:48,184 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  09:28:48,220 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  NoDeclarationList(
+  ) [NoDeclarationList]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      VoidMethReturnType(
+       main
+      ) [VoidMethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        MultipleLocalParam(
+          NoLocalParam(
+          ) [NoLocalParam]
+          VarDeclarations(
+            Type(
+             char
+            ) [Type]
+            SingleVarDeclaration(
+              VarDeclaration_Item(
+                VarDeclaration_Array(
+                  VarDeclaration_Variable(
+                   g
+                  ) [VarDeclaration_Variable]
+                ) [VarDeclaration_Array]
+              ) [VarDeclaration_Item]
+            ) [SingleVarDeclaration]
+          ) [VarDeclarations]
+        ) [MultipleLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Item(
+              VarDeclaration_Variable(
+               x
+              ) [VarDeclaration_Variable]
+            ) [VarDeclaration_Item]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_MultipleStatements(
+            StatementList_MultipleStatements(
+              StatementList_NoStatements(
+              ) [StatementList_NoStatements]
+              Statement_SingleStatement(
+                SingleStatement_DesignatorStatement(
+                  DesignatorStatement_Assignop(
+                    DesignatorTemp(
+                      Designator_Var(
+                        DesignatorName(
+                         x
+                        ) [DesignatorName]
+                      ) [Designator_Var]
+                    ) [DesignatorTemp]
+                    Assignop(
+                    ) [Assignop]
+                    Assignment_Expr(
+                      Expr_Term(
+                        Term_Factor(
+                          Factor_Number(
+                           2
+                          ) [Factor_Number]
+                        ) [Term_Factor]
+                      ) [Expr_Term]
+                    ) [Assignment_Expr]
+                  ) [DesignatorStatement_Assignop]
+                ) [SingleStatement_DesignatorStatement]
+              ) [Statement_SingleStatement]
+            ) [StatementList_MultipleStatements]
+            Statement_SingleStatement(
+              SingleStatement_DesignatorStatement(
+                DesignatorStatement_Assignop(
+                  DesignatorTemp(
+                    Designator_Var(
+                      DesignatorName(
+                       g
+                      ) [DesignatorName]
+                    ) [Designator_Var]
+                  ) [DesignatorTemp]
+                  Assignop(
+                  ) [Assignop]
+                  Assignment_Expr(
+                    Expr_Term(
+                      Term_Factor(
+                        Factor_NewExpr(
+                          FactorArray_Dimension(
+                            FactorArray_New(
+                              Type(
+                               char
+                              ) [Type]
+                            ) [FactorArray_New]
+                            Expr_Term(
+                              Term_Factor(
+                                Factor_Number(
+                                 4
+                                ) [Factor_Number]
+                              ) [Term_Factor]
+                            ) [Expr_Term]
+                          ) [FactorArray_Dimension]
+                        ) [Factor_NewExpr]
+                      ) [Term_Factor]
+                    ) [Expr_Term]
+                  ) [Assignment_Expr]
+                ) [DesignatorStatement_Assignop]
+              ) [SingleStatement_DesignatorStatement]
+            ) [Statement_SingleStatement]
+          ) [StatementList_MultipleStatements]
+          Statement_SingleStatement(
+            SingleStatement_DesignatorStatement(
+              DesignatorStatement_Assignop(
+                DesignatorTemp(
+                  Designator_Array(
+                    Designator_Var(
+                      DesignatorName(
+                       g
+                      ) [DesignatorName]
+                    ) [Designator_Var]
+                    Expr_Term(
+                      Term_Factor(
+                        Factor_Designator(
+                          DesignatorTemp(
+                            Designator_Var(
+                              DesignatorName(
+                               x
+                              ) [DesignatorName]
+                            ) [Designator_Var]
+                          ) [DesignatorTemp]
+                        ) [Factor_Designator]
+                      ) [Term_Factor]
+                    ) [Expr_Term]
+                  ) [Designator_Array]
+                ) [DesignatorTemp]
+                Assignop(
+                ) [Assignop]
+                Assignment_Expr(
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_CharConst(
+                       g
+                      ) [Factor_CharConst]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                ) [Assignment_Expr]
+              ) [DesignatorStatement_Assignop]
+            ) [SingleStatement_DesignatorStatement]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_PrintExpr(
+            Expr_Term(
+              Term_Factor(
+                Factor_Designator(
+                  DesignatorTemp(
+                    Designator_Array(
+                      Designator_Var(
+                        DesignatorName(
+                         g
+                        ) [DesignatorName]
+                      ) [Designator_Var]
+                      Expr_Term(
+                        Term_Factor(
+                          Factor_Designator(
+                            DesignatorTemp(
+                              Designator_Var(
+                                DesignatorName(
+                                 x
+                                ) [DesignatorName]
+                              ) [Designator_Var]
+                            ) [DesignatorTemp]
+                          ) [Factor_Designator]
+                        ) [Term_Factor]
+                      ) [Expr_Term]
+                    ) [Designator_Array]
+                  ) [DesignatorTemp]
+                ) [Factor_Designator]
+              ) [Term_Factor]
+            ) [Expr_Term]
+          ) [SingleStatement_PrintExpr]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  09:28:48,228 - ===================================
+INFO  09:28:48,230 - 
+ INFO: Assignment: 1 na liniji 5
+
+INFO  09:28:48,231 - 
+ INFO: Left Side: 1 na liniji 5
+
+INFO  09:28:48,231 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 5
+
+INFO  09:28:48,231 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 5
+
+INFO  09:28:48,231 - 
+ INFO: Assignment: 3 na liniji 7
+
+INFO  09:28:48,231 - 
+ INFO: Left Side: 3 na liniji 7
+
+INFO  09:28:48,231 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@79fc0f2f na liniji 7
+
+INFO  09:28:48,231 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@79fc0f2f na liniji 7
+
+ERROR 09:28:48,231 - ERROR: Designator x nije niz! na liniji 9
+INFO  09:28:48,231 - 
+ INFO: Assignment: 2 na liniji 9
+
+INFO  09:28:48,231 - 
+ INFO: Left Side: 1 na liniji 9
+
+INFO  09:28:48,232 - 
+ INFO: Assignment2: rs.etf.pp1.symboltable.concepts.Struct@79fc0f2f na liniji 9
+
+INFO  09:28:48,232 - 
+ INFO: Left Side2: rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 9
+
+ERROR 09:28:48,232 - ERROR: Nekompatibilni tipovi! na liniji 9
+ERROR 09:28:48,232 - ERROR: Designator x nije niz! na liniji 11
+INFO  09:28:48,232 - ===================================
+ERROR 09:28:48,233 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,129 @@
+INFO  11:45:03,179 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:45:03,209 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclaration(
+          Type(
+           bool
+          ) [Type]
+          SingleConstDeclaration(
+            ConstBool(
+             x
+             1
+            ) [ConstBool]
+          ) [SingleConstDeclaration]
+        ) [ConstDeclaration]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         char
+        ) [Type]
+        MultipleVarDeclaration(
+          MultipleVarDeclaration(
+            SingleVarDeclaration(
+              VarDeclaration_Variable(
+               y
+              ) [VarDeclaration_Variable]
+            ) [SingleVarDeclaration]
+            VarDeclaration_Variable(
+             x
+            ) [VarDeclaration_Variable]
+          ) [MultipleVarDeclaration]
+          VarDeclaration_Variable(
+           c
+          ) [VarDeclaration_Variable]
+        ) [MultipleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_MultipleStatements(
+            StatementList_NoStatements(
+            ) [StatementList_NoStatements]
+            Statement_SingleStatement(
+              SingleStatement_DesignatorStatement(
+                DesignatorStatement_Assignop(
+                  Designator_Var(
+                   y
+                  ) [Designator_Var]
+                  Assignop(
+                  ) [Assignop]
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_Number(
+                       3
+                      ) [Factor_Number]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                ) [DesignatorStatement_Assignop]
+              ) [SingleStatement_DesignatorStatement]
+            ) [Statement_SingleStatement]
+          ) [StatementList_MultipleStatements]
+          Statement_SingleStatement(
+            SingleStatement_DesignatorStatement(
+              DesignatorStatement_Inc(
+                Designator_Var(
+                 y
+                ) [Designator_Var]
+              ) [DesignatorStatement_Inc]
+            ) [SingleStatement_DesignatorStatement]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Dec(
+              Designator_Var(
+               y
+              ) [Designator_Var]
+            ) [DesignatorStatement_Dec]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:45:03,211 - ===================================
+INFO  11:45:03,211 - Konstanta x dodata u Tabelu Simbola! na liniji 2
+INFO  11:45:03,211 - Promenljiva y dodata u Tabelu Simbola! na liniji 3
+INFO  11:45:03,211 - Promenljiva x dodata u Tabelu Simbola! na liniji 3
+INFO  11:45:03,211 - Promenljiva c dodata u Tabelu Simbola! na liniji 3
+INFO  11:45:03,212 - Niz z dodat u Tabelu Simbola! na liniji 6
+ERROR 11:45:03,212 - Semanticka greska: Nekompatibilni tipovi! na liniji 8
+ERROR 11:45:03,212 - Semanticka greska: Designator nije tipa Integer! na liniji 9
+ERROR 11:45:03,212 - Semanticka greska: Designator nije tipa Integer! na liniji 10
+INFO  11:45:03,212 - ===================================

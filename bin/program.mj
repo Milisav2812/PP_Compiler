@@ -1,0 +1,16 @@
+program MJProgram 
+{
+	void main() char g[]; int x; char h; {
+		
+		x = 2;
+		
+		g = new char[4];
+		
+		g[x] = 'g';
+		
+		h = g[x];
+		
+		print(h);
+		print(g[x]);
+	}
+}

@@ -1,0 +1,1505 @@
+INFO  13:39:12,360 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\test301_A.mj
+INFO  13:39:12,414 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      MultipleDeclaration(
+        MultipleDeclaration(
+          MultipleDeclaration(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            DeclarationItem_ConstDecl(
+              ConstDeclaration(
+                Type(
+                 int
+                ) [Type]
+                SingleConstDeclaration(
+                  ConstNumber(
+                   nula
+                   0
+                  ) [ConstNumber]
+                ) [SingleConstDeclaration]
+              ) [ConstDeclaration]
+            ) [DeclarationItem_ConstDecl]
+          ) [MultipleDeclaration]
+          DeclarationItem_ConstDecl(
+            ConstDeclaration(
+              Type(
+               int
+              ) [Type]
+              SingleConstDeclaration(
+                ConstNumber(
+                 jedan
+                 1
+                ) [ConstNumber]
+              ) [SingleConstDeclaration]
+            ) [ConstDeclaration]
+          ) [DeclarationItem_ConstDecl]
+        ) [MultipleDeclaration]
+        DeclarationItem_ConstDecl(
+          ConstDeclaration(
+            Type(
+             int
+            ) [Type]
+            SingleConstDeclaration(
+              ConstNumber(
+               pet
+               5
+              ) [ConstNumber]
+            ) [SingleConstDeclaration]
+          ) [ConstDeclaration]
+        ) [DeclarationItem_ConstDecl]
+      ) [MultipleDeclaration]
+      DeclarationItem_VarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Item(
+              VarDeclaration_Array(
+                VarDeclaration_Variable(
+                 niz
+                ) [VarDeclaration_Variable]
+              ) [VarDeclaration_Array]
+            ) [VarDeclaration_Item]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [DeclarationItem_VarDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         char
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Item(
+            VarDeclaration_Array(
+              VarDeclaration_Variable(
+               nizch
+              ) [VarDeclaration_Variable]
+            ) [VarDeclaration_Array]
+          ) [VarDeclaration_Item]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      VoidMethReturnType(
+       main
+      ) [VoidMethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Item(
+              VarDeclaration_Variable(
+               bodovi
+              ) [VarDeclaration_Variable]
+            ) [VarDeclaration_Item]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_MultipleStatements(
+            StatementList_MultipleStatements(
+              StatementList_MultipleStatements(
+                StatementList_MultipleStatements(
+                  StatementList_MultipleStatements(
+                    StatementList_MultipleStatements(
+                      StatementList_MultipleStatements(
+                        StatementList_MultipleStatements(
+                          StatementList_MultipleStatements(
+                            StatementList_MultipleStatements(
+                              StatementList_MultipleStatements(
+                                StatementList_MultipleStatements(
+                                  StatementList_MultipleStatements(
+                                    StatementList_MultipleStatements(
+                                      StatementList_MultipleStatements(
+                                        StatementList_MultipleStatements(
+                                          StatementList_MultipleStatements(
+                                            StatementList_MultipleStatements(
+                                              StatementList_MultipleStatements(
+                                                StatementList_MultipleStatements(
+                                                  StatementList_MultipleStatements(
+                                                    StatementList_MultipleStatements(
+                                                      StatementList_MultipleStatements(
+                                                        StatementList_MultipleStatements(
+                                                          StatementList_MultipleStatements(
+                                                            StatementList_MultipleStatements(
+                                                              StatementList_MultipleStatements(
+                                                                StatementList_MultipleStatements(
+                                                                  StatementList_MultipleStatements(
+                                                                    StatementList_MultipleStatements(
+                                                                      StatementList_NoStatements(
+                                                                      ) [StatementList_NoStatements]
+                                                                      Statement_SingleStatement(
+                                                                        SingleStatement_DesignatorStatement(
+                                                                          DesignatorStatement_Assignop(
+                                                                            DesignatorTemp(
+                                                                              Designator_Var(
+                                                                                DesignatorName(
+                                                                                 bodovi
+                                                                                ) [DesignatorName]
+                                                                              ) [Designator_Var]
+                                                                            ) [DesignatorTemp]
+                                                                            Assignop(
+                                                                            ) [Assignop]
+                                                                            Assignment_Expr(
+                                                                              Expr_Term(
+                                                                                Term_Factor(
+                                                                                  Factor_Number(
+                                                                                   0
+                                                                                  ) [Factor_Number]
+                                                                                ) [Term_Factor]
+                                                                              ) [Expr_Term]
+                                                                            ) [Assignment_Expr]
+                                                                          ) [DesignatorStatement_Assignop]
+                                                                        ) [SingleStatement_DesignatorStatement]
+                                                                      ) [Statement_SingleStatement]
+                                                                    ) [StatementList_MultipleStatements]
+                                                                    Statement_SingleStatement(
+                                                                      SingleStatement_DesignatorStatement(
+                                                                        DesignatorStatement_Inc(
+                                                                          DesignatorTemp(
+                                                                            Designator_Var(
+                                                                              DesignatorName(
+                                                                               bodovi
+                                                                              ) [DesignatorName]
+                                                                            ) [Designator_Var]
+                                                                          ) [DesignatorTemp]
+                                                                        ) [DesignatorStatement_Inc]
+                                                                      ) [SingleStatement_DesignatorStatement]
+                                                                    ) [Statement_SingleStatement]
+                                                                  ) [StatementList_MultipleStatements]
+                                                                  Statement_SingleStatement(
+                                                                    SingleStatement_DesignatorStatement(
+                                                                      DesignatorStatement_Assignop(
+                                                                        DesignatorTemp(
+                                                                          Designator_Var(
+                                                                            DesignatorName(
+                                                                             bodovi
+                                                                            ) [DesignatorName]
+                                                                          ) [Designator_Var]
+                                                                        ) [DesignatorTemp]
+                                                                        Assignop(
+                                                                        ) [Assignop]
+                                                                        Assignment_Expr(
+                                                                          Expr_AddopTerm(
+                                                                            Expr_Term(
+                                                                              Term_Factor(
+                                                                                Factor_Designator(
+                                                                                  DesignatorTemp(
+                                                                                    Designator_Var(
+                                                                                      DesignatorName(
+                                                                                       bodovi
+                                                                                      ) [DesignatorName]
+                                                                                    ) [Designator_Var]
+                                                                                  ) [DesignatorTemp]
+                                                                                ) [Factor_Designator]
+                                                                              ) [Term_Factor]
+                                                                            ) [Expr_Term]
+                                                                            Addop_Plus(
+                                                                            ) [Addop_Plus]
+                                                                            Term_Factor(
+                                                                              Factor_Designator(
+                                                                                DesignatorTemp(
+                                                                                  Designator_Var(
+                                                                                    DesignatorName(
+                                                                                     jedan
+                                                                                    ) [DesignatorName]
+                                                                                  ) [Designator_Var]
+                                                                                ) [DesignatorTemp]
+                                                                              ) [Factor_Designator]
+                                                                            ) [Term_Factor]
+                                                                          ) [Expr_AddopTerm]
+                                                                        ) [Assignment_Expr]
+                                                                      ) [DesignatorStatement_Assignop]
+                                                                    ) [SingleStatement_DesignatorStatement]
+                                                                  ) [Statement_SingleStatement]
+                                                                ) [StatementList_MultipleStatements]
+                                                                Statement_SingleStatement(
+                                                                  SingleStatement_DesignatorStatement(
+                                                                    DesignatorStatement_Assignop(
+                                                                      DesignatorTemp(
+                                                                        Designator_Var(
+                                                                          DesignatorName(
+                                                                           bodovi
+                                                                          ) [DesignatorName]
+                                                                        ) [Designator_Var]
+                                                                      ) [DesignatorTemp]
+                                                                      Assignop(
+                                                                      ) [Assignop]
+                                                                      Assignment_Expr(
+                                                                        Expr_Term(
+                                                                          Term_MulopFactor(
+                                                                            Term_Factor(
+                                                                              Factor_Designator(
+                                                                                DesignatorTemp(
+                                                                                  Designator_Var(
+                                                                                    DesignatorName(
+                                                                                     bodovi
+                                                                                    ) [DesignatorName]
+                                                                                  ) [Designator_Var]
+                                                                                ) [DesignatorTemp]
+                                                                              ) [Factor_Designator]
+                                                                            ) [Term_Factor]
+                                                                            Mulop_Mul(
+                                                                            ) [Mulop_Mul]
+                                                                            Factor_Designator(
+                                                                              DesignatorTemp(
+                                                                                Designator_Var(
+                                                                                  DesignatorName(
+                                                                                   pet
+                                                                                  ) [DesignatorName]
+                                                                                ) [Designator_Var]
+                                                                              ) [DesignatorTemp]
+                                                                            ) [Factor_Designator]
+                                                                          ) [Term_MulopFactor]
+                                                                        ) [Expr_Term]
+                                                                      ) [Assignment_Expr]
+                                                                    ) [DesignatorStatement_Assignop]
+                                                                  ) [SingleStatement_DesignatorStatement]
+                                                                ) [Statement_SingleStatement]
+                                                              ) [StatementList_MultipleStatements]
+                                                              Statement_SingleStatement(
+                                                                SingleStatement_DesignatorStatement(
+                                                                  DesignatorStatement_Dec(
+                                                                    DesignatorTemp(
+                                                                      Designator_Var(
+                                                                        DesignatorName(
+                                                                         bodovi
+                                                                        ) [DesignatorName]
+                                                                      ) [Designator_Var]
+                                                                    ) [DesignatorTemp]
+                                                                  ) [DesignatorStatement_Dec]
+                                                                ) [SingleStatement_DesignatorStatement]
+                                                              ) [Statement_SingleStatement]
+                                                            ) [StatementList_MultipleStatements]
+                                                            Statement_SingleStatement(
+                                                              SingleStatement_PrintExpr(
+                                                                Expr_Term(
+                                                                  Term_Factor(
+                                                                    Factor_Designator(
+                                                                      DesignatorTemp(
+                                                                        Designator_Var(
+                                                                          DesignatorName(
+                                                                           bodovi
+                                                                          ) [DesignatorName]
+                                                                        ) [Designator_Var]
+                                                                      ) [DesignatorTemp]
+                                                                    ) [Factor_Designator]
+                                                                  ) [Term_Factor]
+                                                                ) [Expr_Term]
+                                                              ) [SingleStatement_PrintExpr]
+                                                            ) [Statement_SingleStatement]
+                                                          ) [StatementList_MultipleStatements]
+                                                          Statement_SingleStatement(
+                                                            SingleStatement_DesignatorStatement(
+                                                              DesignatorStatement_Assignop(
+                                                                DesignatorTemp(
+                                                                  Designator_Var(
+                                                                    DesignatorName(
+                                                                     niz
+                                                                    ) [DesignatorName]
+                                                                  ) [Designator_Var]
+                                                                ) [DesignatorTemp]
+                                                                Assignop(
+                                                                ) [Assignop]
+                                                                Assignment_Expr(
+                                                                  Expr_Term(
+                                                                    Term_Factor(
+                                                                      Factor_NewExpr(
+                                                                        FactorArray_Dimension(
+                                                                          FactorArray_New(
+                                                                            Type(
+                                                                             int
+                                                                            ) [Type]
+                                                                          ) [FactorArray_New]
+                                                                          Expr_Term(
+                                                                            Term_Factor(
+                                                                              Factor_Number(
+                                                                               3
+                                                                              ) [Factor_Number]
+                                                                            ) [Term_Factor]
+                                                                          ) [Expr_Term]
+                                                                        ) [FactorArray_Dimension]
+                                                                      ) [Factor_NewExpr]
+                                                                    ) [Term_Factor]
+                                                                  ) [Expr_Term]
+                                                                ) [Assignment_Expr]
+                                                              ) [DesignatorStatement_Assignop]
+                                                            ) [SingleStatement_DesignatorStatement]
+                                                          ) [Statement_SingleStatement]
+                                                        ) [StatementList_MultipleStatements]
+                                                        Statement_SingleStatement(
+                                                          SingleStatement_DesignatorStatement(
+                                                            DesignatorStatement_Assignop(
+                                                              DesignatorTemp(
+                                                                Designator_Array(
+                                                                  Designator_Var(
+                                                                    DesignatorName(
+                                                                     niz
+                                                                    ) [DesignatorName]
+                                                                  ) [Designator_Var]
+                                                                  Expr_Term(
+                                                                    Term_Factor(
+                                                                      Factor_Designator(
+                                                                        DesignatorTemp(
+                                                                          Designator_Var(
+                                                                            DesignatorName(
+                                                                             nula
+                                                                            ) [DesignatorName]
+                                                                          ) [Designator_Var]
+                                                                        ) [DesignatorTemp]
+                                                                      ) [Factor_Designator]
+                                                                    ) [Term_Factor]
+                                                                  ) [Expr_Term]
+                                                                ) [Designator_Array]
+                                                              ) [DesignatorTemp]
+                                                              Assignop(
+                                                              ) [Assignop]
+                                                              Assignment_Expr(
+                                                                Expr_Term(
+                                                                  Term_Factor(
+                                                                    Factor_Designator(
+                                                                      DesignatorTemp(
+                                                                        Designator_Var(
+                                                                          DesignatorName(
+                                                                           jedan
+                                                                          ) [DesignatorName]
+                                                                        ) [Designator_Var]
+                                                                      ) [DesignatorTemp]
+                                                                    ) [Factor_Designator]
+                                                                  ) [Term_Factor]
+                                                                ) [Expr_Term]
+                                                              ) [Assignment_Expr]
+                                                            ) [DesignatorStatement_Assignop]
+                                                          ) [SingleStatement_DesignatorStatement]
+                                                        ) [Statement_SingleStatement]
+                                                      ) [StatementList_MultipleStatements]
+                                                      Statement_SingleStatement(
+                                                        SingleStatement_DesignatorStatement(
+                                                          DesignatorStatement_Assignop(
+                                                            DesignatorTemp(
+                                                              Designator_Array(
+                                                                Designator_Var(
+                                                                  DesignatorName(
+                                                                   niz
+                                                                  ) [DesignatorName]
+                                                                ) [Designator_Var]
+                                                                Expr_Term(
+                                                                  Term_Factor(
+                                                                    Factor_Number(
+                                                                     1
+                                                                    ) [Factor_Number]
+                                                                  ) [Term_Factor]
+                                                                ) [Expr_Term]
+                                                              ) [Designator_Array]
+                                                            ) [DesignatorTemp]
+                                                            Assignop(
+                                                            ) [Assignop]
+                                                            Assignment_Expr(
+                                                              Expr_Term(
+                                                                Term_Factor(
+                                                                  Factor_Number(
+                                                                   2
+                                                                  ) [Factor_Number]
+                                                                ) [Term_Factor]
+                                                              ) [Expr_Term]
+                                                            ) [Assignment_Expr]
+                                                          ) [DesignatorStatement_Assignop]
+                                                        ) [SingleStatement_DesignatorStatement]
+                                                      ) [Statement_SingleStatement]
+                                                    ) [StatementList_MultipleStatements]
+                                                    Statement_SingleStatement(
+                                                      SingleStatement_DesignatorStatement(
+                                                        DesignatorStatement_Assignop(
+                                                          DesignatorTemp(
+                                                            Designator_Array(
+                                                              Designator_Var(
+                                                                DesignatorName(
+                                                                 niz
+                                                                ) [DesignatorName]
+                                                              ) [Designator_Var]
+                                                              Expr_Term(
+                                                                Term_Factor(
+                                                                  Factor_Designator(
+                                                                    DesignatorTemp(
+                                                                      Designator_Array(
+                                                                        Designator_Var(
+                                                                          DesignatorName(
+                                                                           niz
+                                                                          ) [DesignatorName]
+                                                                        ) [Designator_Var]
+                                                                        Expr_Term(
+                                                                          Term_Factor(
+                                                                            Factor_Designator(
+                                                                              DesignatorTemp(
+                                                                                Designator_Var(
+                                                                                  DesignatorName(
+                                                                                   jedan
+                                                                                  ) [DesignatorName]
+                                                                                ) [Designator_Var]
+                                                                              ) [DesignatorTemp]
+                                                                            ) [Factor_Designator]
+                                                                          ) [Term_Factor]
+                                                                        ) [Expr_Term]
+                                                                      ) [Designator_Array]
+                                                                    ) [DesignatorTemp]
+                                                                  ) [Factor_Designator]
+                                                                ) [Term_Factor]
+                                                              ) [Expr_Term]
+                                                            ) [Designator_Array]
+                                                          ) [DesignatorTemp]
+                                                          Assignop(
+                                                          ) [Assignop]
+                                                          Assignment_Expr(
+                                                            Expr_Term(
+                                                              Term_MulopFactor(
+                                                                Term_Factor(
+                                                                  Factor_Designator(
+                                                                    DesignatorTemp(
+                                                                      Designator_Array(
+                                                                        Designator_Var(
+                                                                          DesignatorName(
+                                                                           niz
+                                                                          ) [DesignatorName]
+                                                                        ) [Designator_Var]
+                                                                        Expr_Term(
+                                                                          Term_Factor(
+                                                                            Factor_Designator(
+                                                                              DesignatorTemp(
+                                                                                Designator_Array(
+                                                                                  Designator_Var(
+                                                                                    DesignatorName(
+                                                                                     niz
+                                                                                    ) [DesignatorName]
+                                                                                  ) [Designator_Var]
+                                                                                  Expr_Term(
+                                                                                    Term_Factor(
+                                                                                      Factor_Number(
+                                                                                       0
+                                                                                      ) [Factor_Number]
+                                                                                    ) [Term_Factor]
+                                                                                  ) [Expr_Term]
+                                                                                ) [Designator_Array]
+                                                                              ) [DesignatorTemp]
+                                                                            ) [Factor_Designator]
+                                                                          ) [Term_Factor]
+                                                                        ) [Expr_Term]
+                                                                      ) [Designator_Array]
+                                                                    ) [DesignatorTemp]
+                                                                  ) [Factor_Designator]
+                                                                ) [Term_Factor]
+                                                                Mulop_Mul(
+                                                                ) [Mulop_Mul]
+                                                                Factor_Number(
+                                                                 3
+                                                                ) [Factor_Number]
+                                                              ) [Term_MulopFactor]
+                                                            ) [Expr_Term]
+                                                          ) [Assignment_Expr]
+                                                        ) [DesignatorStatement_Assignop]
+                                                      ) [SingleStatement_DesignatorStatement]
+                                                    ) [Statement_SingleStatement]
+                                                  ) [StatementList_MultipleStatements]
+                                                  Statement_SingleStatement(
+                                                    SingleStatement_DesignatorStatement(
+                                                      DesignatorStatement_Assignop(
+                                                        DesignatorTemp(
+                                                          Designator_Var(
+                                                            DesignatorName(
+                                                             bodovi
+                                                            ) [DesignatorName]
+                                                          ) [Designator_Var]
+                                                        ) [DesignatorTemp]
+                                                        Assignop(
+                                                        ) [Assignop]
+                                                        Assignment_Expr(
+                                                          Expr_Term(
+                                                            Term_MulopFactor(
+                                                              Term_Factor(
+                                                                Factor_Designator(
+                                                                  DesignatorTemp(
+                                                                    Designator_Array(
+                                                                      Designator_Var(
+                                                                        DesignatorName(
+                                                                         niz
+                                                                        ) [DesignatorName]
+                                                                      ) [Designator_Var]
+                                                                      Expr_Term(
+                                                                        Term_Factor(
+                                                                          Factor_Number(
+                                                                           2
+                                                                          ) [Factor_Number]
+                                                                        ) [Term_Factor]
+                                                                      ) [Expr_Term]
+                                                                    ) [Designator_Array]
+                                                                  ) [DesignatorTemp]
+                                                                ) [Factor_Designator]
+                                                              ) [Term_Factor]
+                                                              Mulop_Div(
+                                                              ) [Mulop_Div]
+                                                              Factor_Designator(
+                                                                DesignatorTemp(
+                                                                  Designator_Array(
+                                                                    Designator_Var(
+                                                                      DesignatorName(
+                                                                       niz
+                                                                      ) [DesignatorName]
+                                                                    ) [Designator_Var]
+                                                                    Expr_Term(
+                                                                      Term_Factor(
+                                                                        Factor_Number(
+                                                                         0
+                                                                        ) [Factor_Number]
+                                                                      ) [Term_Factor]
+                                                                    ) [Expr_Term]
+                                                                  ) [Designator_Array]
+                                                                ) [DesignatorTemp]
+                                                              ) [Factor_Designator]
+                                                            ) [Term_MulopFactor]
+                                                          ) [Expr_Term]
+                                                        ) [Assignment_Expr]
+                                                      ) [DesignatorStatement_Assignop]
+                                                    ) [SingleStatement_DesignatorStatement]
+                                                  ) [Statement_SingleStatement]
+                                                ) [StatementList_MultipleStatements]
+                                                Statement_SingleStatement(
+                                                  SingleStatement_PrintExpr(
+                                                    Expr_Term(
+                                                      Term_Factor(
+                                                        Factor_Designator(
+                                                          DesignatorTemp(
+                                                            Designator_Var(
+                                                              DesignatorName(
+                                                               bodovi
+                                                              ) [DesignatorName]
+                                                            ) [Designator_Var]
+                                                          ) [DesignatorTemp]
+                                                        ) [Factor_Designator]
+                                                      ) [Term_Factor]
+                                                    ) [Expr_Term]
+                                                  ) [SingleStatement_PrintExpr]
+                                                ) [Statement_SingleStatement]
+                                              ) [StatementList_MultipleStatements]
+                                              Statement_SingleStatement(
+                                                SingleStatement_PrintExpr(
+                                                  Expr_Term(
+                                                    Term_Factor(
+                                                      Factor_Designator(
+                                                        DesignatorTemp(
+                                                          Designator_Array(
+                                                            Designator_Var(
+                                                              DesignatorName(
+                                                               niz
+                                                              ) [DesignatorName]
+                                                            ) [Designator_Var]
+                                                            Expr_Term(
+                                                              Term_Factor(
+                                                                Factor_Number(
+                                                                 2
+                                                                ) [Factor_Number]
+                                                              ) [Term_Factor]
+                                                            ) [Expr_Term]
+                                                          ) [Designator_Array]
+                                                        ) [DesignatorTemp]
+                                                      ) [Factor_Designator]
+                                                    ) [Term_Factor]
+                                                  ) [Expr_Term]
+                                                ) [SingleStatement_PrintExpr]
+                                              ) [Statement_SingleStatement]
+                                            ) [StatementList_MultipleStatements]
+                                            Statement_SingleStatement(
+                                              SingleStatement_DesignatorStatement(
+                                                DesignatorStatement_Assignop(
+                                                  DesignatorTemp(
+                                                    Designator_Var(
+                                                      DesignatorName(
+                                                       nizch
+                                                      ) [DesignatorName]
+                                                    ) [Designator_Var]
+                                                  ) [DesignatorTemp]
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  Assignment_Expr(
+                                                    Expr_Term(
+                                                      Term_Factor(
+                                                        Factor_NewExpr(
+                                                          FactorArray_Dimension(
+                                                            FactorArray_New(
+                                                              Type(
+                                                               char
+                                                              ) [Type]
+                                                            ) [FactorArray_New]
+                                                            Expr_Term(
+                                                              Term_Factor(
+                                                                Factor_Number(
+                                                                 3
+                                                                ) [Factor_Number]
+                                                              ) [Term_Factor]
+                                                            ) [Expr_Term]
+                                                          ) [FactorArray_Dimension]
+                                                        ) [Factor_NewExpr]
+                                                      ) [Term_Factor]
+                                                    ) [Expr_Term]
+                                                  ) [Assignment_Expr]
+                                                ) [DesignatorStatement_Assignop]
+                                              ) [SingleStatement_DesignatorStatement]
+                                            ) [Statement_SingleStatement]
+                                          ) [StatementList_MultipleStatements]
+                                          Statement_SingleStatement(
+                                            SingleStatement_DesignatorStatement(
+                                              DesignatorStatement_Assignop(
+                                                DesignatorTemp(
+                                                  Designator_Array(
+                                                    Designator_Var(
+                                                      DesignatorName(
+                                                       nizch
+                                                      ) [DesignatorName]
+                                                    ) [Designator_Var]
+                                                    Expr_Term(
+                                                      Term_Factor(
+                                                        Factor_Number(
+                                                         0
+                                                        ) [Factor_Number]
+                                                      ) [Term_Factor]
+                                                    ) [Expr_Term]
+                                                  ) [Designator_Array]
+                                                ) [DesignatorTemp]
+                                                Assignop(
+                                                ) [Assignop]
+                                                Assignment_Expr(
+                                                  Expr_Term(
+                                                    Term_Factor(
+                                                      Factor_CharConst(
+                                                       a
+                                                      ) [Factor_CharConst]
+                                                    ) [Term_Factor]
+                                                  ) [Expr_Term]
+                                                ) [Assignment_Expr]
+                                              ) [DesignatorStatement_Assignop]
+                                            ) [SingleStatement_DesignatorStatement]
+                                          ) [Statement_SingleStatement]
+                                        ) [StatementList_MultipleStatements]
+                                        Statement_SingleStatement(
+                                          SingleStatement_DesignatorStatement(
+                                            DesignatorStatement_Assignop(
+                                              DesignatorTemp(
+                                                Designator_Array(
+                                                  Designator_Var(
+                                                    DesignatorName(
+                                                     nizch
+                                                    ) [DesignatorName]
+                                                  ) [Designator_Var]
+                                                  Expr_Term(
+                                                    Term_Factor(
+                                                      Factor_Designator(
+                                                        DesignatorTemp(
+                                                          Designator_Var(
+                                                            DesignatorName(
+                                                             jedan
+                                                            ) [DesignatorName]
+                                                          ) [Designator_Var]
+                                                        ) [DesignatorTemp]
+                                                      ) [Factor_Designator]
+                                                    ) [Term_Factor]
+                                                  ) [Expr_Term]
+                                                ) [Designator_Array]
+                                              ) [DesignatorTemp]
+                                              Assignop(
+                                              ) [Assignop]
+                                              Assignment_Expr(
+                                                Expr_Term(
+                                                  Term_Factor(
+                                                    Factor_CharConst(
+                                                     b
+                                                    ) [Factor_CharConst]
+                                                  ) [Term_Factor]
+                                                ) [Expr_Term]
+                                              ) [Assignment_Expr]
+                                            ) [DesignatorStatement_Assignop]
+                                          ) [SingleStatement_DesignatorStatement]
+                                        ) [Statement_SingleStatement]
+                                      ) [StatementList_MultipleStatements]
+                                      Statement_SingleStatement(
+                                        SingleStatement_DesignatorStatement(
+                                          DesignatorStatement_Assignop(
+                                            DesignatorTemp(
+                                              Designator_Array(
+                                                Designator_Var(
+                                                  DesignatorName(
+                                                   nizch
+                                                  ) [DesignatorName]
+                                                ) [Designator_Var]
+                                                Expr_AddopTerm(
+                                                  Expr_Term(
+                                                    Term_Factor(
+                                                      Factor_Designator(
+                                                        DesignatorTemp(
+                                                          Designator_Var(
+                                                            DesignatorName(
+                                                             pet
+                                                            ) [DesignatorName]
+                                                          ) [Designator_Var]
+                                                        ) [DesignatorTemp]
+                                                      ) [Factor_Designator]
+                                                    ) [Term_Factor]
+                                                  ) [Expr_Term]
+                                                  Addop_Minus(
+                                                  ) [Addop_Minus]
+                                                  Term_Factor(
+                                                    Factor_Number(
+                                                     3
+                                                    ) [Factor_Number]
+                                                  ) [Term_Factor]
+                                                ) [Expr_AddopTerm]
+                                              ) [Designator_Array]
+                                            ) [DesignatorTemp]
+                                            Assignop(
+                                            ) [Assignop]
+                                            Assignment_Expr(
+                                              Expr_Term(
+                                                Term_Factor(
+                                                  Factor_CharConst(
+                                                   c
+                                                  ) [Factor_CharConst]
+                                                ) [Term_Factor]
+                                              ) [Expr_Term]
+                                            ) [Assignment_Expr]
+                                          ) [DesignatorStatement_Assignop]
+                                        ) [SingleStatement_DesignatorStatement]
+                                      ) [Statement_SingleStatement]
+                                    ) [StatementList_MultipleStatements]
+                                    Statement_SingleStatement(
+                                      SingleStatement_PrintExpr(
+                                        Expr_Term(
+                                          Term_Factor(
+                                            Factor_Designator(
+                                              DesignatorTemp(
+                                                Designator_Array(
+                                                  Designator_Var(
+                                                    DesignatorName(
+                                                     nizch
+                                                    ) [DesignatorName]
+                                                  ) [Designator_Var]
+                                                  Expr_Term(
+                                                    Term_Factor(
+                                                      Factor_Number(
+                                                       1
+                                                      ) [Factor_Number]
+                                                    ) [Term_Factor]
+                                                  ) [Expr_Term]
+                                                ) [Designator_Array]
+                                              ) [DesignatorTemp]
+                                            ) [Factor_Designator]
+                                          ) [Term_Factor]
+                                        ) [Expr_Term]
+                                      ) [SingleStatement_PrintExpr]
+                                    ) [Statement_SingleStatement]
+                                  ) [StatementList_MultipleStatements]
+                                  Statement_SingleStatement(
+                                    SingleStatement_PrintExpr(
+                                      Expr_Term(
+                                        Term_Factor(
+                                          Factor_Designator(
+                                            DesignatorTemp(
+                                              Designator_Array(
+                                                Designator_Var(
+                                                  DesignatorName(
+                                                   nizch
+                                                  ) [DesignatorName]
+                                                ) [Designator_Var]
+                                                Expr_Term(
+                                                  Term_MulopFactor(
+                                                    Term_Factor(
+                                                      Factor_Designator(
+                                                        DesignatorTemp(
+                                                          Designator_Var(
+                                                            DesignatorName(
+                                                             jedan
+                                                            ) [DesignatorName]
+                                                          ) [Designator_Var]
+                                                        ) [DesignatorTemp]
+                                                      ) [Factor_Designator]
+                                                    ) [Term_Factor]
+                                                    Mulop_Mul(
+                                                    ) [Mulop_Mul]
+                                                    Factor_Number(
+                                                     2
+                                                    ) [Factor_Number]
+                                                  ) [Term_MulopFactor]
+                                                ) [Expr_Term]
+                                              ) [Designator_Array]
+                                            ) [DesignatorTemp]
+                                          ) [Factor_Designator]
+                                        ) [Term_Factor]
+                                      ) [Expr_Term]
+                                    ) [SingleStatement_PrintExpr]
+                                  ) [Statement_SingleStatement]
+                                ) [StatementList_MultipleStatements]
+                                Statement_SingleStatement(
+                                  SingleStatement_DesignatorStatement(
+                                    DesignatorStatement_Assignop(
+                                      DesignatorTemp(
+                                        Designator_Var(
+                                          DesignatorName(
+                                           bodovi
+                                          ) [DesignatorName]
+                                        ) [Designator_Var]
+                                      ) [DesignatorTemp]
+                                      Assignop(
+                                      ) [Assignop]
+                                      Assignment_Expr(
+                                        Expr_AddopTerm(
+                                          Expr_AddopTerm(
+                                            Expr_Term(
+                                              Term_Factor(
+                                                Factor_Designator(
+                                                  DesignatorTemp(
+                                                    Designator_Var(
+                                                      DesignatorName(
+                                                       bodovi
+                                                      ) [DesignatorName]
+                                                    ) [Designator_Var]
+                                                  ) [DesignatorTemp]
+                                                ) [Factor_Designator]
+                                              ) [Term_Factor]
+                                            ) [Expr_Term]
+                                            Addop_Plus(
+                                            ) [Addop_Plus]
+                                            Term_MulopFactor(
+                                              Term_Factor(
+                                                Factor_Expr(
+                                                  Expr_AddopTerm(
+                                                    Expr_Term(
+                                                      Term_MulopFactor(
+                                                        Term_Factor(
+                                                          Factor_Designator(
+                                                            DesignatorTemp(
+                                                              Designator_Var(
+                                                                DesignatorName(
+                                                                 pet
+                                                                ) [DesignatorName]
+                                                              ) [Designator_Var]
+                                                            ) [DesignatorTemp]
+                                                          ) [Factor_Designator]
+                                                        ) [Term_Factor]
+                                                        Mulop_Mul(
+                                                        ) [Mulop_Mul]
+                                                        Factor_Designator(
+                                                          DesignatorTemp(
+                                                            Designator_Var(
+                                                              DesignatorName(
+                                                               jedan
+                                                              ) [DesignatorName]
+                                                            ) [Designator_Var]
+                                                          ) [DesignatorTemp]
+                                                        ) [Factor_Designator]
+                                                      ) [Term_MulopFactor]
+                                                    ) [Expr_Term]
+                                                    Addop_Minus(
+                                                    ) [Addop_Minus]
+                                                    Term_Factor(
+                                                      Factor_Number(
+                                                       1
+                                                      ) [Factor_Number]
+                                                    ) [Term_Factor]
+                                                  ) [Expr_AddopTerm]
+                                                ) [Factor_Expr]
+                                              ) [Term_Factor]
+                                              Mulop_Mul(
+                                              ) [Mulop_Mul]
+                                              Factor_Designator(
+                                                DesignatorTemp(
+                                                  Designator_Var(
+                                                    DesignatorName(
+                                                     bodovi
+                                                    ) [DesignatorName]
+                                                  ) [Designator_Var]
+                                                ) [DesignatorTemp]
+                                              ) [Factor_Designator]
+                                            ) [Term_MulopFactor]
+                                          ) [Expr_AddopTerm]
+                                          Addop_Minus(
+                                          ) [Addop_Minus]
+                                          Term_Factor(
+                                            Factor_Expr(
+                                              Expr_AddopTerm(
+                                                Expr_AddopTerm(
+                                                  Expr_Term(
+                                                    Term_MulopFactor(
+                                                      Term_Factor(
+                                                        Factor_Number(
+                                                         3
+                                                        ) [Factor_Number]
+                                                      ) [Term_Factor]
+                                                      Mulop_Mod(
+                                                      ) [Mulop_Mod]
+                                                      Factor_Number(
+                                                       2
+                                                      ) [Factor_Number]
+                                                    ) [Term_MulopFactor]
+                                                  ) [Expr_Term]
+                                                  Addop_Plus(
+                                                  ) [Addop_Plus]
+                                                  Term_MulopFactor(
+                                                    Term_Factor(
+                                                      Factor_Number(
+                                                       3
+                                                      ) [Factor_Number]
+                                                    ) [Term_Factor]
+                                                    Mulop_Mul(
+                                                    ) [Mulop_Mul]
+                                                    Factor_Number(
+                                                     2
+                                                    ) [Factor_Number]
+                                                  ) [Term_MulopFactor]
+                                                ) [Expr_AddopTerm]
+                                                Addop_Minus(
+                                                ) [Addop_Minus]
+                                                Term_Factor(
+                                                  Factor_Number(
+                                                   3
+                                                  ) [Factor_Number]
+                                                ) [Term_Factor]
+                                              ) [Expr_AddopTerm]
+                                            ) [Factor_Expr]
+                                          ) [Term_Factor]
+                                        ) [Expr_AddopTerm]
+                                      ) [Assignment_Expr]
+                                    ) [DesignatorStatement_Assignop]
+                                  ) [SingleStatement_DesignatorStatement]
+                                ) [Statement_SingleStatement]
+                              ) [StatementList_MultipleStatements]
+                              Statement_SingleStatement(
+                                SingleStatement_PrintExpr(
+                                  Expr_Term(
+                                    Term_Factor(
+                                      Factor_Designator(
+                                        DesignatorTemp(
+                                          Designator_Var(
+                                            DesignatorName(
+                                             bodovi
+                                            ) [DesignatorName]
+                                          ) [Designator_Var]
+                                        ) [DesignatorTemp]
+                                      ) [Factor_Designator]
+                                    ) [Term_Factor]
+                                  ) [Expr_Term]
+                                ) [SingleStatement_PrintExpr]
+                              ) [Statement_SingleStatement]
+                            ) [StatementList_MultipleStatements]
+                            Statement_SingleStatement(
+                              SingleStatement_ReadStatement(
+                                DesignatorTemp(
+                                  Designator_Var(
+                                    DesignatorName(
+                                     bodovi
+                                    ) [DesignatorName]
+                                  ) [Designator_Var]
+                                ) [DesignatorTemp]
+                              ) [SingleStatement_ReadStatement]
+                            ) [Statement_SingleStatement]
+                          ) [StatementList_MultipleStatements]
+                          Statement_SingleStatement(
+                            SingleStatement_PrintExpr(
+                              Expr_Term(
+                                Term_Factor(
+                                  Factor_Designator(
+                                    DesignatorTemp(
+                                      Designator_Var(
+                                        DesignatorName(
+                                         bodovi
+                                        ) [DesignatorName]
+                                      ) [Designator_Var]
+                                    ) [DesignatorTemp]
+                                  ) [Factor_Designator]
+                                ) [Term_Factor]
+                              ) [Expr_Term]
+                            ) [SingleStatement_PrintExpr]
+                          ) [Statement_SingleStatement]
+                        ) [StatementList_MultipleStatements]
+                        Statement_SingleStatement(
+                          SingleStatement_DesignatorStatement(
+                            DesignatorStatement_Inc(
+                              DesignatorTemp(
+                                Designator_Var(
+                                  DesignatorName(
+                                   bodovi
+                                  ) [DesignatorName]
+                                ) [Designator_Var]
+                              ) [DesignatorTemp]
+                            ) [DesignatorStatement_Inc]
+                          ) [SingleStatement_DesignatorStatement]
+                        ) [Statement_SingleStatement]
+                      ) [StatementList_MultipleStatements]
+                      Statement_SingleStatement(
+                        SingleStatement_GotoLabel(
+                          Label(
+                           labela1
+                          ) [Label]
+                        ) [SingleStatement_GotoLabel]
+                      ) [Statement_SingleStatement]
+                    ) [StatementList_MultipleStatements]
+                    Statement_SingleStatement(
+                      SingleStatement_DesignatorStatement(
+                        DesignatorStatement_Assignop(
+                          DesignatorTemp(
+                            Designator_Var(
+                              DesignatorName(
+                               bodovi
+                              ) [DesignatorName]
+                            ) [Designator_Var]
+                          ) [DesignatorTemp]
+                          Assignop(
+                          ) [Assignop]
+                          Assignment_Expr(
+                            Expr_Term(
+                              Term_MulopFactor(
+                                Term_Factor(
+                                  Factor_Designator(
+                                    DesignatorTemp(
+                                      Designator_Var(
+                                        DesignatorName(
+                                         bodovi
+                                        ) [DesignatorName]
+                                      ) [Designator_Var]
+                                    ) [DesignatorTemp]
+                                  ) [Factor_Designator]
+                                ) [Term_Factor]
+                                Mulop_Mul(
+                                ) [Mulop_Mul]
+                                Factor_Number(
+                                 2
+                                ) [Factor_Number]
+                              ) [Term_MulopFactor]
+                            ) [Expr_Term]
+                          ) [Assignment_Expr]
+                        ) [DesignatorStatement_Assignop]
+                      ) [SingleStatement_DesignatorStatement]
+                    ) [Statement_SingleStatement]
+                  ) [StatementList_MultipleStatements]
+                  Statement_SingleStatement(
+                    SingleStatement_DesignatorStatement(
+                      DesignatorStatement_Dec(
+                        DesignatorTemp(
+                          Designator_Var(
+                            DesignatorName(
+                             bodovi
+                            ) [DesignatorName]
+                          ) [Designator_Var]
+                        ) [DesignatorTemp]
+                      ) [DesignatorStatement_Dec]
+                    ) [SingleStatement_DesignatorStatement]
+                  ) [Statement_SingleStatement]
+                ) [StatementList_MultipleStatements]
+                Statement_LabelSingleStatement(
+                  Label(
+                   labela1
+                  ) [Label]
+                  SingleStatement_DesignatorStatement(
+                    DesignatorStatement_Assignop(
+                      DesignatorTemp(
+                        Designator_Var(
+                          DesignatorName(
+                           bodovi
+                          ) [DesignatorName]
+                        ) [Designator_Var]
+                      ) [DesignatorTemp]
+                      Assignop(
+                      ) [Assignop]
+                      Assignment_Expr(
+                        Expr_AddopTerm(
+                          Expr_Term(
+                            Term_Factor(
+                              Factor_Designator(
+                                DesignatorTemp(
+                                  Designator_Var(
+                                    DesignatorName(
+                                     bodovi
+                                    ) [DesignatorName]
+                                  ) [Designator_Var]
+                                ) [DesignatorTemp]
+                              ) [Factor_Designator]
+                            ) [Term_Factor]
+                          ) [Expr_Term]
+                          Addop_Plus(
+                          ) [Addop_Plus]
+                          Term_Factor(
+                            Factor_Number(
+                             3
+                            ) [Factor_Number]
+                          ) [Term_Factor]
+                        ) [Expr_AddopTerm]
+                      ) [Assignment_Expr]
+                    ) [DesignatorStatement_Assignop]
+                  ) [SingleStatement_DesignatorStatement]
+                ) [Statement_LabelSingleStatement]
+              ) [StatementList_MultipleStatements]
+              Statement_SingleStatement(
+                SingleStatement_PrintExpr(
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_Designator(
+                        DesignatorTemp(
+                          Designator_Var(
+                            DesignatorName(
+                             bodovi
+                            ) [DesignatorName]
+                          ) [Designator_Var]
+                        ) [DesignatorTemp]
+                      ) [Factor_Designator]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                ) [SingleStatement_PrintExpr]
+              ) [Statement_SingleStatement]
+            ) [StatementList_MultipleStatements]
+            Statement_SingleStatement(
+              SingleStatement_GotoLabel(
+                Label(
+                 labelaminus
+                ) [Label]
+              ) [SingleStatement_GotoLabel]
+            ) [Statement_SingleStatement]
+          ) [StatementList_MultipleStatements]
+          Statement_SingleStatement(
+            SingleStatement_PrintExpr(
+              Expr_Term(
+                Term_Factor(
+                  Factor_CharConst(
+                   +
+                  ) [Factor_CharConst]
+                ) [Term_Factor]
+              ) [Expr_Term]
+            ) [SingleStatement_PrintExpr]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_LabelSingleStatement(
+          Label(
+           labelaminus
+          ) [Label]
+          SingleStatement_PrintExpr(
+            Expr_Term(
+              Term_Factor(
+                Factor_CharConst(
+                 -
+                ) [Factor_CharConst]
+              ) [Term_Factor]
+            ) [Expr_Term]
+          ) [SingleStatement_PrintExpr]
+        ) [Statement_LabelSingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  13:39:12,427 - ===================================
+INFO  13:39:12,430 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 16
+
+INFO  13:39:12,431 - 
+ INFO: Var bodovi: int, 0, 1 
+
+INFO  13:39:12,431 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 17
+
+INFO  13:39:12,431 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,431 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 18
+
+INFO  13:39:12,431 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,431 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 18
+
+INFO  13:39:12,431 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,431 - 
+ INFO: Pristupa se globalnoj promenljivoj jedan na liniji 18
+
+INFO  13:39:12,431 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 
+
+INFO  13:39:12,431 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 19
+
+INFO  13:39:12,432 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,432 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 19
+
+INFO  13:39:12,432 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,432 - 
+ INFO: Pristupa se globalnoj promenljivoj pet na liniji 19
+
+INFO  13:39:12,432 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 
+
+INFO  13:39:12,432 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 20
+
+INFO  13:39:12,432 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,432 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 21
+
+INFO  13:39:12,432 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,432 - 
+ INFO: Pristupa se globalnoj promenljivoj niz na liniji 24
+
+INFO  13:39:12,432 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 
+
+INFO  13:39:12,432 - 
+ INFO: Pristupa se globalnoj promenljivoj nula na liniji 25
+
+INFO  13:39:12,432 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 
+
+INFO  13:39:12,432 - 
+ INFO: Pristupa se globalnom nizu niz na liniji 25
+
+INFO  13:39:12,432 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 
+
+INFO  13:39:12,432 - 
+ INFO: Pristupa se globalnoj promenljivoj jedan na liniji 25
+
+INFO  13:39:12,432 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 
+
+INFO  13:39:12,433 - 
+ INFO: Pristupa se globalnom nizu niz na liniji 26
+
+INFO  13:39:12,433 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 
+
+INFO  13:39:12,433 - 
+ INFO: Pristupa se globalnoj promenljivoj jedan na liniji 27
+
+INFO  13:39:12,433 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 
+
+INFO  13:39:12,433 - 
+ INFO: Pristupa se globalnom nizu niz na liniji 27
+
+INFO  13:39:12,433 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 
+
+INFO  13:39:12,433 - 
+ INFO: Pristupa se globalnom nizu niz na liniji 27
+
+INFO  13:39:12,433 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 
+
+INFO  13:39:12,433 - 
+ INFO: Pristupa se globalnom nizu niz na liniji 27
+
+INFO  13:39:12,433 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 
+
+INFO  13:39:12,433 - 
+ INFO: Pristupa se globalnom nizu niz na liniji 27
+
+INFO  13:39:12,433 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 
+
+INFO  13:39:12,433 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 28
+
+INFO  13:39:12,433 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,433 - 
+ INFO: Pristupa se globalnom nizu niz na liniji 28
+
+INFO  13:39:12,434 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 
+
+INFO  13:39:12,434 - 
+ INFO: Pristupa se globalnom nizu niz na liniji 28
+
+INFO  13:39:12,434 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 
+
+INFO  13:39:12,434 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 29
+
+INFO  13:39:12,434 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,434 - 
+ INFO: Pristupa se globalnom nizu niz na liniji 30
+
+INFO  13:39:12,434 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 
+
+INFO  13:39:12,434 - 
+ INFO: Pristupa se globalnoj promenljivoj nizch na liniji 33
+
+INFO  13:39:12,434 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 
+
+INFO  13:39:12,434 - 
+ INFO: Pristupa se globalnom nizu nizch na liniji 34
+
+INFO  13:39:12,434 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 
+
+INFO  13:39:12,435 - 
+ INFO: Pristupa se globalnoj promenljivoj jedan na liniji 35
+
+INFO  13:39:12,435 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 
+
+INFO  13:39:12,435 - 
+ INFO: Pristupa se globalnom nizu nizch na liniji 35
+
+INFO  13:39:12,435 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 
+
+INFO  13:39:12,435 - 
+ INFO: Pristupa se globalnoj promenljivoj pet na liniji 36
+
+INFO  13:39:12,435 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 
+
+INFO  13:39:12,435 - 
+ INFO: Pristupa se globalnom nizu nizch na liniji 36
+
+INFO  13:39:12,435 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 
+
+INFO  13:39:12,435 - 
+ INFO: Pristupa se globalnom nizu nizch na liniji 37
+
+INFO  13:39:12,435 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 
+
+INFO  13:39:12,435 - 
+ INFO: Pristupa se globalnoj promenljivoj jedan na liniji 38
+
+INFO  13:39:12,437 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 
+
+INFO  13:39:12,437 - 
+ INFO: Pristupa se globalnom nizu nizch na liniji 38
+
+INFO  13:39:12,437 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 
+
+INFO  13:39:12,437 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 41
+
+INFO  13:39:12,438 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,438 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 41
+
+INFO  13:39:12,438 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,438 - 
+ INFO: Pristupa se globalnoj promenljivoj pet na liniji 41
+
+INFO  13:39:12,438 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 
+
+INFO  13:39:12,438 - 
+ INFO: Pristupa se globalnoj promenljivoj jedan na liniji 41
+
+INFO  13:39:12,438 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Con jedan: int, 0, 0 
+
+INFO  13:39:12,439 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 41
+
+INFO  13:39:12,439 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,439 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 42
+
+INFO  13:39:12,439 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,439 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 44
+
+INFO  13:39:12,439 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,441 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 45
+
+INFO  13:39:12,441 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,441 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 47
+
+INFO  13:39:12,441 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,441 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 49
+
+INFO  13:39:12,441 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,441 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 49
+
+INFO  13:39:12,442 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,442 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 50
+
+INFO  13:39:12,442 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,442 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 52
+
+INFO  13:39:12,442 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,442 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 52
+
+INFO  13:39:12,442 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,442 - 
+ INFO: Pristupa se lokalnoj promenljivoj bodovi na liniji 53
+
+INFO  13:39:12,442 - 
+ INFO: Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Con nula: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Con jedan: int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var niz: Arr of int, 0, 0 Var bodovi: int, 0, 1 Var niz: Arr of int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Con pet: int, 0, 0 Var nizch: Arr of char, 1, 0 Var nizch: Arr of char, 1, 0 Con jedan: int, 0, 0 Var nizch: Arr of char, 1, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Con pet: int, 0, 0 Con jedan: int, 0, 0 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 Var bodovi: int, 0, 1 
+
+INFO  13:39:12,443 - ===================================
+INFO  13:39:12,452 - Parsiranje uspesno zavrseno!

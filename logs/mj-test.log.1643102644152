@@ -1,0 +1,6 @@
+INFO  10:12:33,337 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\syntax.mj
+ERROR 10:12:33,391 - 
+Sintaksna greska na liniji 2
+ERROR 10:12:33,391 - Greska: Globalna Promenljiva na liniji 2. Nije definisan tip. Izvrsen oporavak do narednog SEMI
+ERROR 10:12:33,399 - 
+Sintaksna greska na liniji 4

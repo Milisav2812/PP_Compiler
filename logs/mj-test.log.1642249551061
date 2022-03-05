@@ -1,0 +1,67 @@
+INFO  13:25:40,344 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+ERROR 13:25:40,372 - 
+Sintaksna greska na liniji 5
+ERROR 13:25:40,372 - Oporavak od greske: Iskaz dodele. Izvrsen oporavak do narednog ;
+INFO  13:25:40,377 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+           y
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          DesignatorStatement_Error(
+          ) [DesignatorStatement_Error]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  13:25:40,384 - ===================================
+INFO  13:25:40,389 - Promenljiva y dodata u Tabelu Simbola! na liniji 2
+INFO  13:25:40,389 - Obradjuje se funkcija main na liniji 4
+INFO  13:25:40,389 - Niz z dodat u Tabelu Simbola! na liniji 4
+INFO  13:25:40,390 - Zavrseno obradjivanje funkcije main
+INFO  13:25:40,390 - ===================================

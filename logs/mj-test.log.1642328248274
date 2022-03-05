@@ -1,0 +1,76 @@
+INFO  11:13:16,521 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:13:16,568 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+           y
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_NoStatements(
+          ) [StatementList_NoStatements]
+          Statement_SingleStatement(
+            SingleStatement_GotoLabel(
+              Label(
+               label
+              ) [Label]
+            ) [SingleStatement_GotoLabel]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_LabelSingleStatement(
+          Label(
+           label
+          ) [Label]
+        ) [Statement_LabelSingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:13:16,569 - ===================================
+INFO  11:13:16,571 - Promenljiva y dodata u Tabelu Simbola! na liniji 2
+INFO  11:13:16,571 - Obradjuje se funkcija main na liniji 4
+INFO  11:13:16,572 - Niz z dodat u Tabelu Simbola! na liniji 4
+INFO  11:13:16,572 - Labela label uspesno dodata! na liniji 10
+INFO  11:13:16,572 - Uspesno procitana labela label
+INFO  11:13:16,572 - Zavrseno obradjivanje funkcije main
+INFO  11:13:16,572 - ===================================

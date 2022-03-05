@@ -1,0 +1,181 @@
+INFO  11:46:07,671 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  11:46:07,706 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    MultipleDeclaration(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      DeclarationItem_ConstDecl(
+        ConstDeclaration(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstNumber(
+             x
+             100
+            ) [ConstNumber]
+          ) [SingleConstDeclaration]
+        ) [ConstDeclaration]
+      ) [DeclarationItem_ConstDecl]
+    ) [MultipleDeclaration]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+           y
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_MultipleStatements(
+          StatementList_MultipleStatements(
+            StatementList_MultipleStatements(
+              StatementList_MultipleStatements(
+                StatementList_MultipleStatements(
+                  StatementList_NoStatements(
+                  ) [StatementList_NoStatements]
+                  Statement_LabelSingleStatement(
+                    Label(
+                     label1
+                    ) [Label]
+                    SingleStatement_DesignatorStatement(
+                      DesignatorStatement_Assignop(
+                        Designator_Var(
+                         y
+                        ) [Designator_Var]
+                        Assignop(
+                        ) [Assignop]
+                        Assignment_Expr(
+                          Expr_Term(
+                            Term_Factor(
+                              Factor_Number(
+                               3
+                              ) [Factor_Number]
+                            ) [Term_Factor]
+                          ) [Expr_Term]
+                        ) [Assignment_Expr]
+                      ) [DesignatorStatement_Assignop]
+                    ) [SingleStatement_DesignatorStatement]
+                  ) [Statement_LabelSingleStatement]
+                ) [StatementList_MultipleStatements]
+                Statement_SingleStatement(
+                  SingleStatement_GotoLabel(
+                    Label(
+                     label
+                    ) [Label]
+                  ) [SingleStatement_GotoLabel]
+                ) [Statement_SingleStatement]
+              ) [StatementList_MultipleStatements]
+              Statement_SingleStatement(
+                SingleStatement_GotoLabel(
+                  Label(
+                   label1
+                  ) [Label]
+                ) [SingleStatement_GotoLabel]
+              ) [Statement_SingleStatement]
+            ) [StatementList_MultipleStatements]
+            Statement_LabelSingleStatement(
+              Label(
+               label
+              ) [Label]
+              SingleStatement_DesignatorStatement(
+                DesignatorStatement_Assignop(
+                  Designator_Var(
+                   y
+                  ) [Designator_Var]
+                  Assignop(
+                  ) [Assignop]
+                  Assignment_Expr(
+                    Expr_Term(
+                      Term_Factor(
+                        Factor_Number(
+                         5
+                        ) [Factor_Number]
+                      ) [Term_Factor]
+                    ) [Expr_Term]
+                  ) [Assignment_Expr]
+                ) [DesignatorStatement_Assignop]
+              ) [SingleStatement_DesignatorStatement]
+            ) [Statement_LabelSingleStatement]
+          ) [StatementList_MultipleStatements]
+          Statement_SingleStatement(
+            SingleStatement_DesignatorStatement(
+              DesignatorStatement_Assignop(
+                Designator_Var(
+                 y
+                ) [Designator_Var]
+                Assignop(
+                ) [Assignop]
+                Assignment_Expr(
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_Number(
+                       1
+                      ) [Factor_Number]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                ) [Assignment_Expr]
+              ) [DesignatorStatement_Assignop]
+            ) [SingleStatement_DesignatorStatement]
+          ) [Statement_SingleStatement]
+        ) [StatementList_MultipleStatements]
+        Statement_SingleStatement(
+          SingleStatement_ReadStatement(
+            Designator_Var(
+             x
+            ) [Designator_Var]
+          ) [SingleStatement_ReadStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  11:46:07,712 - ===================================
+INFO  11:46:07,714 - Konstanta x dodata u Tabelu Simbola! na liniji 2
+INFO  11:46:07,714 - Promenljiva y dodata u Tabelu Simbola! na liniji 3
+INFO  11:46:07,714 - Obradjuje se funkcija main na liniji 5
+INFO  11:46:07,714 - Niz z dodat u Tabelu Simbola! na liniji 5
+INFO  11:46:07,714 - Uspesno dodeljena vrednost promenljivoj y
+INFO  11:46:07,714 - Labela label1 uspesno dodata! na liniji 6
+INFO  11:46:07,714 - Labela label1 uspesno procitana!
+INFO  11:46:07,714 - Uspesno dodeljena vrednost promenljivoj y
+INFO  11:46:07,714 - Labela label uspesno dodata! na liniji 13
+INFO  11:46:07,714 - Uspesno dodeljena vrednost promenljivoj y
+ERROR 11:46:07,714 - Designator x nije odgovarajuce vrste! na liniji 17
+INFO  11:46:07,715 - Labela label uspesno procitana!
+INFO  11:46:07,715 - Zavrseno obradjivanje funkcije main
+INFO  11:46:07,715 - ===================================

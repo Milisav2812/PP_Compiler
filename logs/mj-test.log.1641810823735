@@ -1,0 +1,14 @@
+INFO  10:42:53,654 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  10:42:53,691 - #31 MJProgram
+INFO  10:42:53,691 - #31 int
+INFO  10:42:53,695 - #31 x
+INFO  10:42:53,698 - #31 int
+INFO  10:42:53,699 - #31 y
+INFO  10:42:53,699 - #31 int
+INFO  10:42:53,700 - #31 k
+INFO  10:42:53,702 - #31 int
+INFO  10:42:53,702 - #31 c
+INFO  10:42:53,703 - #31 c
+ERROR 10:42:53,704 - 
+Sintaksna greška na liniji 6
+ERROR 10:42:53,704 - Fatalna greška, parsiranje ne može da se nastavi na liniji 6

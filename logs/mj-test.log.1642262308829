@@ -1,0 +1,82 @@
+INFO  16:57:30,418 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  16:57:30,445 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+           y
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Assignop(
+              Designator_Var(
+               y
+              ) [Designator_Var]
+              Assignment_Expr(
+                Assignop(
+                ) [Assignop]
+                Expr_Term(
+                  Term_Factor(
+                    Factor_Number(
+                     5
+                    ) [Factor_Number]
+                  ) [Term_Factor]
+                ) [Expr_Term]
+              ) [Assignment_Expr]
+            ) [DesignatorStatement_Assignop]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  16:57:30,451 - ===================================
+INFO  16:57:30,452 - Promenljiva y dodata u Tabelu Simbola! na liniji 2
+INFO  16:57:30,452 - Obradjuje se funkcija main na liniji 4
+INFO  16:57:30,453 - Niz z dodat u Tabelu Simbola! na liniji 4
+INFO  16:57:30,453 - Kind: 1 na liniji 5
+ERROR 16:57:30,453 - Semanticka greska: Nekompatibilni tipovi! na liniji 5
+INFO  16:57:30,453 - Zavrseno obradjivanje funkcije main
+INFO  16:57:30,453 - ===================================

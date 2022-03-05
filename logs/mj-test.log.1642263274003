@@ -1,0 +1,90 @@
+INFO  17:14:15,286 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  17:14:15,335 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  MultipleDeclaration(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    DeclarationItem_VarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleVarDeclaration(
+          VarDeclaration_Variable(
+           y
+          ) [VarDeclaration_Variable]
+        ) [SingleVarDeclaration]
+      ) [VarDeclarations]
+    ) [DeclarationItem_VarDecl]
+  ) [MultipleDeclaration]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleLocalParam(
+        NoLocalParam(
+        ) [NoLocalParam]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration_Array(
+             z
+            ) [VarDeclaration_Array]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MultipleLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          SingleStatement_DesignatorStatement(
+            DesignatorStatement_Assignop(
+              Designator_Var(
+               y
+              ) [Designator_Var]
+              Assignop(
+              ) [Assignop]
+              Assignment_Expr(
+                Expr_AddopTerm(
+                  Expr_Term(
+                    Term_Factor(
+                      Factor_Number(
+                       5
+                      ) [Factor_Number]
+                    ) [Term_Factor]
+                  ) [Expr_Term]
+                  Addop_Plus(
+                  ) [Addop_Plus]
+                  Term_Factor(
+                    Factor_Number(
+                     4
+                    ) [Factor_Number]
+                  ) [Term_Factor]
+                ) [Expr_AddopTerm]
+              ) [Assignment_Expr]
+            ) [DesignatorStatement_Assignop]
+          ) [SingleStatement_DesignatorStatement]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  17:14:15,341 - ===================================
+INFO  17:14:15,343 - Promenljiva y dodata u Tabelu Simbola! na liniji 2
+INFO  17:14:15,343 - Obradjuje se funkcija main na liniji 4
+INFO  17:14:15,343 - Niz z dodat u Tabelu Simbola! na liniji 4
+INFO  17:14:15,343 - Uspesno dodeljena vrednost promenljivoj y
+INFO  17:14:15,343 - Zavrseno obradjivanje funkcije main
+INFO  17:14:15,343 - ===================================

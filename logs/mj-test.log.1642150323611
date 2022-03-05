@@ -1,0 +1,39 @@
+INFO  09:50:46,703 - Compiling source file: D:\Programming\College\pp1Domaci-Demo\mm150588d\test\program.mj
+INFO  09:50:46,730 - #31 MJProgram
+INFO  09:50:46,731 - #31 int
+INFO  09:50:46,731 - #31 main
+INFO  09:50:46,733 - #31 asd
+ERROR 09:50:46,734 - 
+Sintaksna greska na liniji 6
+ERROR 09:50:46,734 - Oporavak od greske: Iskaz dodele. Izvrsen oporavak do narednog ;
+INFO  09:50:46,735 - Program(
+  ProgramName(
+  ) [ProgramName]
+  NoDeclarationList(
+  ) [NoDeclarationList]
+  MultipleMethod(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclaration(
+      MethReturnType(
+        Type(
+        ) [Type]
+      ) [MethReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalParam(
+      ) [NoLocalParam]
+      StatementList_MultipleStatements(
+        StatementList_NoStatements(
+        ) [StatementList_NoStatements]
+        Statement_SingleStatement(
+          DesignatorStatement_Error(
+          ) [DesignatorStatement_Error]
+        ) [Statement_SingleStatement]
+      ) [StatementList_MultipleStatements]
+    ) [MethodDeclaration]
+  ) [MultipleMethod]
+) [Program]
+INFO  09:50:46,737 - ===================================
+INFO  09:50:46,738 - Number of array elem access: 0
+INFO  09:50:46,738 - ===================================

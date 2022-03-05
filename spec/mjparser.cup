@@ -1,0 +1,255 @@
+ /* Import section */
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code{:
+
+	Logger log = Logger.getLogger(getClass());
+    boolean errorOccured;
+    Symbol errorSym;
+
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje ne moze da se nastavi", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    errorOccured = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol){
+            errorSym = (Symbol) info;
+            msg.append (" na liniji ").append(errorSym.left);
+        }
+        log.error(msg.toString());
+    }
+
+    public Symbol getErrorSym(){
+        return errorSym;
+    }
+
+:}
+
+init with {:
+    errorOccured = false;
+:}
+
+/* Used Terminal symbols */
+
+terminal PROGRAM,
+         CONST,
+         NEW,
+         PRINT,
+         READ,
+         RETURN,
+         VOID,
+         GOTO,
+ 
+         PLUS,
+         MINUS,
+         MUL,
+         DIV,
+         MOD,
+ 
+         EQUAL,
+         INC,
+         DEC,
+ 
+         COLON,
+         SEMI,
+         COMMA,
+         DOT,
+
+         LPAREN,
+         RPAREN,
+         LBRACE,
+         RBRACE,
+         LSQUARE,
+         RSQUARE;
+
+terminal Integer NUMBER;
+terminal String IDENT;
+terminal char CHARCONST;
+terminal Integer BOOLEAN;
+
+
+nonterminal Program,
+            DeclarationList,
+            MethodDeclarationList,
+            DeclarationItem,
+            ConstDeclaration,
+            VarDeclaration,
+            ConstDeclarationList,
+            ConstDeclarationItem,
+            VarDeclarationList,
+            VarDeclarationItem,
+            FormParamList,
+            Statements,
+            LocalParamList,
+            ParameterList,
+            SingleStatement,
+            StatementList,
+            DesignatorStatement,
+            Label,
+            Statement,
+            Assignop,
+            ActPars,
+            Addop,
+            Mulop,
+            ExprList, CalledFunctionName, VarDeclarationError
+            ;  
+
+nonterminal rs.etf.pp1.symboltable.concepts.Struct 	Type, Expr, Term, Factor, Assignment, ParameterItem, FactorArray;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj     ProgramName, Designator, MethodDeclaration, MethodReturnType, DesignatorName, DesignatorTemp;
+
+Program ::= (Program) PROGRAM ProgramName DeclarationList LBRACE MethodDeclarationList RBRACE;
+
+ProgramName ::= (ProgramName) IDENT: progName;
+
+/* ========================================= DECLARATION LIST ========================================= */
+
+DeclarationList ::= (MultipleDeclaration) DeclarationList DeclarationItem
+                |   (NoDeclarationList) /* epsilon */;
+
+DeclarationItem ::= (DeclarationItem_ConstDecl) ConstDeclaration
+                |   (DeclarationItem_VarDecl) VarDeclaration;
+
+        /* Const Declaration ============================================================================ */
+        ConstDeclaration ::= (ConstDeclaration) CONST Type:constType ConstDeclarationList SEMI;
+        
+        ConstDeclarationList ::= (SingleConstDeclaration) ConstDeclarationItem
+                            |    (MultipleConstDeclaration) ConstDeclarationList COMMA ConstDeclarationItem;
+
+        ConstDeclarationItem ::= (ConstNumber) IDENT:constName EQUAL NUMBER:value
+                            |   (ConstChar) IDENT:constName EQUAL CHARCONST:value
+                            |   (ConstBool) IDENT:constName EQUAL BOOLEAN:value;
+
+        /* Var Declaration ============================================================================ */
+        VarDeclaration ::= (VarDeclarations) Type:varType VarDeclarationList SEMI
+                        |   (VarDeclaration_CommaError2) error
+                            {: parser.report_error("Oporavak od greske: Globalna Promenljiva", parser.getErrorSym()); :};
+
+        VarDeclarationList ::= (MultipleVarDeclaration) VarDeclarationList COMMA VarDeclarationError
+                            |  (SingleVarDeclaration) VarDeclarationError;
+                            
+
+        VarDeclarationError ::= (VarDeclaration_Item) VarDeclarationItem
+                            |   (VarDeclaration_CommaError) error
+                                {: parser.report_error("Oporavak od greske: Globalna Promenljiva", parser.getErrorSym()); :};
+
+        VarDeclarationItem ::= (VarDeclaration_Variable) IDENT:varName    
+                            |  (VarDeclaration_Array) VarDeclarationItem LSQUARE RSQUARE;
+                            
+
+Type ::= (Type) IDENT:typeName;
+
+/* ========================================= METHOD DECLARATION LIST ========================================= */
+
+MethodDeclarationList ::= (MultipleMethod) MethodDeclarationList MethodDeclaration
+                        | (NoMethodList) /* epsilon */;
+
+MethodDeclaration ::= (MethodDeclaration) MethodReturnType:returnType LPAREN FormParamList RPAREN LocalParamList LBRACE StatementList RBRACE;
+
+LocalParamList ::= (MultipleLocalParam) LocalParamList VarDeclaration
+                | (NoLocalParam) /* epsilon */;
+
+MethodReturnType ::= (MethReturnType) Type:returnType IDENT:methodName
+                    | (VoidMethReturnType) VOID IDENT:methodName;
+
+FormParamList ::= (FormParams) ParameterList
+                | (NoFormParams) /* epsilon */;
+
+ParameterList ::= (MultipleFormParameter) ParameterList COMMA ParameterItem
+                | (SingleFormParameter) ParameterItem;
+
+ParameterItem ::= (FormParam_Variable) Type:formParamType IDENT:formParamName 
+                | (FormParam_Array) Type:formParamType IDENT:formParamName LSQUARE RSQUARE;
+
+/* ========================================= METHOD STATEMENTS ========================================= */
+
+StatementList ::= (StatementList_MultipleStatements) StatementList Statement
+                | (StatementList_NoStatements) /* epsilon */;
+
+Statement ::= (Statement_LabelSingleStatement) Label COLON SingleStatement
+            | (Statement_SingleStatement) SingleStatement
+            | (Statement_MultipleStatements) Statements;
+
+SingleStatement ::= (SingleStatement_DesignatorStatement) DesignatorStatement SEMI
+                |   (SingleStatement_ReadStatement) READ LPAREN DesignatorTemp RPAREN SEMI
+                |   (SingleStatement_PrintExpr) PRINT LPAREN Expr RPAREN SEMI
+                |   (SingleStatement_PrintExprNumber) PRINT LPAREN Expr COMMA NUMBER RPAREN SEMI
+                |   (SingleStatement_GotoLabel) GOTO Label SEMI;
+
+Label ::= (Label) IDENT:labelName;
+
+Statements ::= LBRACE StatementList RBRACE;
+
+/* ========================================= DESIGNATOR STATEMENT ========================================= */
+
+DesignatorStatement ::= (DesignatorStatement_Assignop) DesignatorTemp Assignop Assignment
+                    |   (DesignatorStatement_ActPars) CalledFunctionName LPAREN ActPars RPAREN
+                    |   (DesignatorStatement_Inc) DesignatorTemp INC
+                    |   (DesignatorStatement_Dec) DesignatorTemp DEC;
+
+CalledFunctionName ::= (CalledFunctionName) Designator;
+
+DesignatorTemp ::= (DesignatorTemp) Designator;
+
+Designator ::= (Designator_Array) Designator LSQUARE Expr:e RSQUARE
+            |  (Designator_Var) DesignatorName;
+
+DesignatorName ::= (DesignatorName) IDENT:name;
+
+Assignment ::= (Assignment_Expr) Expr
+            |  (Assignment_Error) error 
+                {: parser.report_error("Oporavak od greske: Iskaz za dodelu", parser.getErrorSym()); :};
+
+Assignop ::= (Assignop) EQUAL;
+
+ActPars ::= (ActPars_List) ExprList
+        |   (ActPars_NoPars)  /* epsilon */;
+
+ExprList ::= (ExprList_MultipleExpr) ExprList COMMA Expr
+         |   (ExprList_SingleExpr) Expr;
+
+/* ========================================= EXPRESSION ========================================= */
+
+Expr ::= (Expr_MinusTerm) MINUS Term
+      |  (Expr_AddopTerm) Expr Addop Term
+      |  (Expr_Term) Term;
+
+Term ::= (Term_MulopFactor) Term Mulop Factor
+      |  (Term_Factor) Factor;
+
+Factor ::= (Factor_Number) NUMBER:num
+        |  (Factor_CharConst) CHARCONST:charConst
+        |  (Factor_BoolConst) BOOLEAN:boolConst
+        |  (Factor_Designator) DesignatorTemp
+        |  (Factor_NewExpr) FactorArray
+        |  (Factor_Expr) LPAREN Expr RPAREN;
+
+FactorArray ::= (FactorArray_Dimension) FactorArray LSQUARE Expr RSQUARE
+            |   (FactorArray_New) NEW Type;
+
+Addop ::= (Addop_Plus) PLUS      
+        | (Addop_Minus) MINUS;
+
+Mulop ::= (Mulop_Mul) MUL
+        | (Mulop_Div) DIV
+        | (Mulop_Mod) MOD;
+
+
+
+
